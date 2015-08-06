@@ -1,0 +1,327 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:jakub
+LIBS:MicroFLiC_DAC_1_0-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L REF50XX U6
+U 1 1 5573B98F
+P 4100 2300
+F 0 "U6" H 4100 2750 60  0000 C CNN
+F 1 "REF5040" H 4100 1850 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 4050 2300 60  0001 C CNN
+F 3 "" H 4050 2300 60  0000 C CNN
+F 4 "REF5040AIDGKT" H 4100 2300 60  0001 C CNN "Part Number"
+F 5 "Texas Instruments" H 4100 2300 60  0001 C CNN "Manufacturer"
+F 6 "2323788" H 4100 2300 60  0001 C CNN "Order Code"
+	1    4100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C39
+U 1 1 5573B996
+P 4900 2700
+F 0 "C39" H 4950 2800 50  0000 L CNN
+F 1 "1u" H 4950 2600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4938 2550 30  0001 C CNN
+F 3 "" H 4900 2700 60  0000 C CNN
+F 4 "MC0603X105K100CT" H 4900 2700 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 4900 2700 60  0001 C CNN "Manufacturer"
+F 6 "1759399" H 4900 2700 60  0001 C CNN "Order Code"
+	1    4900 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 2000 3500 2000
+Wire Wire Line
+	2900 2000 2900 2500
+$Comp
+L GNDA #PWR047
+U 1 1 5573B9A8
+P 2900 3000
+F 0 "#PWR047" H 2900 2750 60  0001 C CNN
+F 1 "GNDA" H 2900 2850 60  0000 C CNN
+F 2 "" H 2900 3000 60  0000 C CNN
+F 3 "" H 2900 3000 60  0000 C CNN
+	1    2900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR048
+U 1 1 5573B9AE
+P 4900 3000
+F 0 "#PWR048" H 4900 2750 60  0001 C CNN
+F 1 "GNDA" H 4900 2850 60  0000 C CNN
+F 2 "" H 4900 3000 60  0000 C CNN
+F 3 "" H 4900 3000 60  0000 C CNN
+	1    4900 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 2500 5200 2000
+Wire Wire Line
+	4700 2000 5700 2000
+Wire Wire Line
+	5200 2900 5200 3000
+Wire Wire Line
+	4900 3000 4900 2900
+Wire Wire Line
+	2900 3000 2900 2900
+$Comp
+L GNDA #PWR049
+U 1 1 5573B9C2
+P 5200 3000
+F 0 "#PWR049" H 5200 2750 60  0001 C CNN
+F 1 "GNDA" H 5200 2850 60  0000 C CNN
+F 2 "" H 5200 3000 60  0000 C CNN
+F 3 "" H 5200 3000 60  0000 C CNN
+	1    5200 3000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4700 2600
+Wire Wire Line
+	4700 2400 4900 2400
+Wire Wire Line
+	4900 2400 4900 2500
+Connection ~ 2900 2000
+$Comp
+L REF50XX U7
+U 1 1 5573BE47
+P 4100 4400
+F 0 "U7" H 4100 4850 60  0000 C CNN
+F 1 "REF5050" H 4100 3950 60  0000 C CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 4050 4400 60  0001 C CNN
+F 3 "" H 4050 4400 60  0000 C CNN
+F 4 "REF5050AIDGKT" H 4100 4400 60  0001 C CNN "Part Number"
+F 5 "Texas Instruments" H 4100 4400 60  0001 C CNN "Manufacturer"
+F 6 "2323802" H 4100 4400 60  0001 C CNN "Order Code"
+	1    4100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C40
+U 1 1 5573BE4D
+P 4900 4800
+F 0 "C40" H 4950 4900 50  0000 L CNN
+F 1 "1u" H 4950 4700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4938 4650 30  0001 C CNN
+F 3 "" H 4900 4800 60  0000 C CNN
+F 4 "MC0603X105K100CT" H 4900 4800 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 4900 4800 60  0001 C CNN "Manufacturer"
+F 6 "1759399" H 4900 4800 60  0001 C CNN "Order Code"
+	1    4900 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4100 3500 4100
+Wire Wire Line
+	2900 4100 2900 4600
+$Comp
+L GNDA #PWR050
+U 1 1 5573BE5B
+P 2900 5100
+F 0 "#PWR050" H 2900 4850 60  0001 C CNN
+F 1 "GNDA" H 2900 4950 60  0000 C CNN
+F 2 "" H 2900 5100 60  0000 C CNN
+F 3 "" H 2900 5100 60  0000 C CNN
+	1    2900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GNDA #PWR051
+U 1 1 5573BE61
+P 4900 5100
+F 0 "#PWR051" H 4900 4850 60  0001 C CNN
+F 1 "GNDA" H 4900 4950 60  0000 C CNN
+F 2 "" H 4900 5100 60  0000 C CNN
+F 3 "" H 4900 5100 60  0000 C CNN
+	1    4900 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4600 5200 4100
+Wire Wire Line
+	4700 4100 5700 4100
+Wire Wire Line
+	5200 5000 5200 5100
+Wire Wire Line
+	4900 5100 4900 5000
+Wire Wire Line
+	2900 5100 2900 5000
+$Comp
+L GNDA #PWR052
+U 1 1 5573BE72
+P 5200 5100
+F 0 "#PWR052" H 5200 4850 60  0001 C CNN
+F 1 "GNDA" H 5200 4950 60  0000 C CNN
+F 2 "" H 5200 5100 60  0000 C CNN
+F 3 "" H 5200 5100 60  0000 C CNN
+	1    5200 5100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4700 4700
+Wire Wire Line
+	4700 4500 4900 4500
+Wire Wire Line
+	4900 4500 4900 4600
+Connection ~ 2900 4100
+Wire Wire Line
+	2700 2000 2700 4100
+Connection ~ 2700 2000
+Connection ~ 5200 2000
+Connection ~ 5200 4100
+Text HLabel 5700 2000 2    60   Output ~ 0
+4.096V
+Text HLabel 5700 4100 2    60   Output ~ 0
+5.000V
+Text HLabel 2200 2000 0    60   Input ~ 0
+VREF
+Text Label 4700 4500 0    60   ~ 0
+TRIM5
+Text Label 4700 2400 0    60   ~ 0
+TRIM4
+Text Label 2350 2000 0    60   ~ 0
+VREF
+Text Label 5300 2000 0    60   ~ 0
+4.096V
+Text Label 5300 4100 0    60   ~ 0
+5.000V
+Wire Wire Line
+	3500 2600 3400 2600
+Wire Wire Line
+	3400 2600 3400 3400
+$Comp
+L GNDA #PWR053
+U 1 1 5573C48B
+P 3400 3400
+F 0 "#PWR053" H 3400 3150 60  0001 C CNN
+F 1 "GNDA" H 3400 3250 60  0000 C CNN
+F 2 "" H 3400 3400 60  0000 C CNN
+F 3 "" H 3400 3400 60  0000 C CNN
+	1    3400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3300 5700 3300
+Connection ~ 3400 3300
+Text HLabel 5700 3300 2    60   Output ~ 0
+GND4
+Wire Wire Line
+	3500 4700 3400 4700
+Wire Wire Line
+	3400 4700 3400 5500
+$Comp
+L GNDA #PWR054
+U 1 1 5573C579
+P 3400 5500
+F 0 "#PWR054" H 3400 5250 60  0001 C CNN
+F 1 "GNDA" H 3400 5350 60  0000 C CNN
+F 2 "" H 3400 5500 60  0000 C CNN
+F 3 "" H 3400 5500 60  0000 C CNN
+	1    3400 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 5400 5500 5400
+Connection ~ 3400 5400
+Text HLabel 5500 5400 2    60   Output ~ 0
+GND5
+$Comp
+L CP2 C37
+U 1 1 5574CCB3
+P 2900 2700
+F 0 "C37" H 2950 2800 50  0000 L CNN
+F 1 "4u7/25V" H 2950 2600 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 2938 2550 30  0001 C CNN
+F 3 "" H 2900 2700 60  0000 C CNN
+F 4 "TR3B475K025C0700" H 2900 2700 60  0001 C CNN "Part Number"
+F 5 "Vishay" H 2900 2700 60  0001 C CNN "Manufacturer"
+F 6 "2353145" H 2900 2700 60  0001 C CNN "Order Code"
+	1    2900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP2 C38
+U 1 1 5574D13E
+P 2900 4800
+F 0 "C38" H 2950 4900 50  0000 L CNN
+F 1 "4u7/25V" H 2950 4700 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 2938 4650 30  0001 C CNN
+F 3 "" H 2900 4800 60  0000 C CNN
+F 4 "TR3B475K025C0700" H 2900 4800 60  0001 C CNN "Part Number"
+F 5 "Vishay" H 2900 4800 60  0001 C CNN "Manufacturer"
+F 6 "2353145" H 2900 4800 60  0001 C CNN "Order Code"
+	1    2900 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP2 C42
+U 1 1 5574D196
+P 5200 4800
+F 0 "C42" H 5250 4900 50  0000 L CNN
+F 1 "4u7/25V" H 5250 4700 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 5238 4650 30  0001 C CNN
+F 3 "" H 5200 4800 60  0000 C CNN
+F 4 "TR3B475K025C0700" H 5200 4800 60  0001 C CNN "Part Number"
+F 5 "Vishay" H 5200 4800 60  0001 C CNN "Manufacturer"
+F 6 "2353145" H 5200 4800 60  0001 C CNN "Order Code"
+	1    5200 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP2 C41
+U 1 1 5574D236
+P 5200 2700
+F 0 "C41" H 5250 2800 50  0000 L CNN
+F 1 "4u7/25V" H 5250 2600 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 5238 2550 30  0001 C CNN
+F 3 "" H 5200 2700 60  0000 C CNN
+F 4 "TR3B475K025C0700" H 5200 2700 60  0001 C CNN "Part Number"
+F 5 "Vishay" H 5200 2700 60  0001 C CNN "Manufacturer"
+F 6 "2353145" H 5200 2700 60  0001 C CNN "Order Code"
+	1    5200 2700
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

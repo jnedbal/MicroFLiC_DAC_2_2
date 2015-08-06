@@ -1,0 +1,2392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jakub/KiCAD/MicroFLiC_DAC_1_0/MicroFLiC_DAC_1_0.sch</source>
+    <date>Sun 26 Jul 2015 18:33:38 BST</date>
+    <tool>Eeschema (2015-03-02 BZR 5466)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MicroFLiC_DAC_1_0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/highVoltageAmp/" tstamps="/5573337B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>highVoltageAmp_1_0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/highCurrentAmp/" tstamps="/55736CC2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>highCurrentAmp_1_0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/reference_1_0/" tstamps="/5573B13F/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>reference_1_0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/powerSupply_1_0/" tstamps="/5573DBA6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>powerSupply_1_0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/digitalIsolation_1_0/" tstamps="/5574A638/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>digitalIsolation_1_0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>DAC8734</value>
+      <footprint>Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <fields>
+        <field name="Part Number">DAC8734SPFB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">2082437</field>
+      </fields>
+      <libsource lib="jakub" part="DAC8734"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570951C</tstamp>
+    </comp>
+    <comp ref="JP6">
+      <value>x2_3</value>
+      <footprint>jakub:solder_jumper</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570AB7C</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>x2_2</value>
+      <footprint>jakub:solder_jumper</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570AD64</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>x2_1</value>
+      <footprint>jakub:solder_jumper</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570ADBE</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>x2_0</value>
+      <footprint>jakub:solder_jumper</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570AE02</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1002FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073607</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570B2EB</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1002FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073607</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570B3C3</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>UNI_A</value>
+      <footprint>jakub:solder_jumper</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570B605</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>UNI_B</value>
+      <footprint>jakub:solder_jumper</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570B6EB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1002FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073607</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570BA5B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1002FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073607</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570BF0A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1002FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073607</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5570BF46</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>SMA</value>
+      <footprint>jakub:SMA</footprint>
+      <fields>
+        <field name="Part Number">73251-2200</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Order Code">2293854</field>
+      </fields>
+      <libsource lib="jakub" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557355CB</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>SMA</value>
+      <footprint>jakub:SMA</footprint>
+      <fields>
+        <field name="Part Number">73251-2200</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Order Code">2293854</field>
+      </fields>
+      <libsource lib="jakub" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5573563A</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>SMA</value>
+      <footprint>jakub:SMA</footprint>
+      <fields>
+        <field name="Part Number">73251-2200</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Order Code">2293854</field>
+      </fields>
+      <libsource lib="jakub" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5573712F</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>SMA</value>
+      <footprint>jakub:SMA</footprint>
+      <fields>
+        <field name="Part Number">73251-2200</field>
+        <field name="Manufacturer">Molex</field>
+        <field name="Order Code">2293854</field>
+      </fields>
+      <libsource lib="jakub" part="SMA"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55737135</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>2x4_MicroMaTch</value>
+      <footprint>jakub:7-188275-8</footprint>
+      <fields>
+        <field name="Part Number">7-188275-8</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Order Code">3784733</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5575327D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5575A889</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5575BFB8</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5575CA39</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5575CBE5</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5575F27D</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5575F99B</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55760166</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5576016C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <fields>
+        <field name="Part Number">TR3B475K025C0700</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Order Code">2353145</field>
+      </fields>
+      <libsource lib="device" part="CP2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557456E7</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <fields>
+        <field name="Part Number">TR3B475K025C0700</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Order Code">2353145</field>
+      </fields>
+      <libsource lib="device" part="CP2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55746A90</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <fields>
+        <field name="Part Number">TR3B475K025C0700</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Order Code">2353145</field>
+      </fields>
+      <libsource lib="device" part="CP2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574747A</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <fields>
+        <field name="Part Number">TR3B475K025C0700</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Order Code">2353145</field>
+      </fields>
+      <libsource lib="device" part="CP2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5574C471</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>1x2_SOCKET</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields>
+        <field name="Part Number">SSA-102-S-G</field>
+        <field name="Manufacturer">Samtec</field>
+        <field name="Order Code">1668221</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557EB2F8</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>1x2_HEADER</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <fields>
+        <field name="Part Number">M20-9990245</field>
+        <field name="Manufacturer">Harwin</field>
+        <field name="Order Code">1022245</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557EB578</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>2x4_HEADER</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x04</footprint>
+      <fields>
+        <field name="Part Number">61300421121</field>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Order Code">2356130</field>
+      </fields>
+      <libsource lib="conn" part="CONN_02X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557F17D4</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>shield_can</value>
+      <footprint>jakub:can-MS323-20</footprint>
+      <fields>
+        <field name="Part Number">MS323-20</field>
+        <field name="Manufacturer">Masach</field>
+        <field name="Order Code">826-6788 (RS Components)</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>557F4470</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>shield_can</value>
+      <footprint>jakub:can-MS323-20</footprint>
+      <fields>
+        <field name="Part Number">MS323-20</field>
+        <field name="Manufacturer">Masach</field>
+        <field name="Order Code">826-6788 (RS Components)</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55808F86</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k/0.05%/125mW</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">ERA6ARW102P</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Order Code">1688491</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>557339ED</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k/0.05%/125mW</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">ERA6ARW102P</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Order Code">1688491</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>557339F4</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>(10p)</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55733A0C</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>470p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N471J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759080</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55733A19</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55742E4B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>OPA211</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Part Number">OPA211AIDGKT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">2323341</field>
+      </fields>
+      <libsource lib="linear" part="TL071"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55733A36</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>470p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N471J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759080</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55742E4C</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55733A4F</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55733A6C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k/0.05%/125mW</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">ERA6ARW102P</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Order Code">1688491</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55734235</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k/0.05%/125mW</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">ERA6ARW102P</field>
+        <field name="Manufacturer">Panasonic</field>
+        <field name="Order Code">1688491</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>5573423B</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>(10p)</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55734252</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>470p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N471J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759080</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>5573425E</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55734264</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>OPA211</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Part Number">OPA211AIDGKT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">2323341</field>
+      </fields>
+      <libsource lib="linear" part="TL071"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55734279</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>470p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N471J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759080</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>5573428A</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>55734290</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>557342AC</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>470p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N471J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759080</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55742E4A</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55733A20</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>470p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N471J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759080</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55733A48</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55742E4D</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55742E50</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>470p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N471J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759080</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55742E51</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55742E52</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>470p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N471J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759080</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55742E53</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55742E54</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55742E57</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>AD8021</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Part Number">AD8021ARZ</field>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="Order Code">9426000</field>
+      </fields>
+      <libsource lib="jakub" part="AD8021"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55737E8D</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55738309</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>AD8021</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Part Number">AD8021ARZ</field>
+        <field name="Manufacturer">Analog Devices</field>
+        <field name="Order Code">9426000</field>
+      </fields>
+      <libsource lib="jakub" part="AD8021"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>5573857A</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>10p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>557386CA</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>49R9/0.1%/125mW</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">RP73D2A49R9BTG</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Order Code">1502032</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55AAE3D7</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>49R9/0.1%/125mW</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">RP73D2A49R9BTG</field>
+        <field name="Manufacturer">TE Connectivity</field>
+        <field name="Order Code">1502032</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>55AAFD74</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>REF5040</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Part Number">REF5040AIDGKT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">2323788</field>
+      </fields>
+      <libsource lib="jakub" part="REF50XX"/>
+      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <tstamp>5573B98F</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603X105K100CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759399</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <tstamp>5573B996</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>REF5050</value>
+      <footprint>Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="Part Number">REF5050AIDGKT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">2323802</field>
+      </fields>
+      <libsource lib="jakub" part="REF50XX"/>
+      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <tstamp>5573BE47</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603X105K100CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759399</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <tstamp>5573BE4D</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <fields>
+        <field name="Part Number">TR3B475K025C0700</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Order Code">2353145</field>
+      </fields>
+      <libsource lib="device" part="CP2"/>
+      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <tstamp>5574CCB3</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <fields>
+        <field name="Part Number">TR3B475K025C0700</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Order Code">2353145</field>
+      </fields>
+      <libsource lib="device" part="CP2"/>
+      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <tstamp>5574D13E</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <fields>
+        <field name="Part Number">TR3B475K025C0700</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Order Code">2353145</field>
+      </fields>
+      <libsource lib="device" part="CP2"/>
+      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <tstamp>5574D196</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+      <fields>
+        <field name="Part Number">TR3B475K025C0700</field>
+        <field name="Manufacturer">Vishay</field>
+        <field name="Order Code">2353145</field>
+      </fields>
+      <libsource lib="device" part="CP2"/>
+      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <tstamp>5574D236</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>TPS7A4901</value>
+      <footprint>jakub:SSOP8_powerPAD</footprint>
+      <fields>
+        <field name="Part Number">TPS7A4901DGNT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">1841881</field>
+      </fields>
+      <libsource lib="jakub" part="TPS7A4901"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573DC3D</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61E475KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Order Code">1735529</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573DCAC</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573DD41</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573DE25</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>165k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1653FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073657</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573DEB9</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08X1202FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2447563</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573DFE3</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>TPS7A4901</value>
+      <footprint>jakub:SSOP8_powerPAD</footprint>
+      <fields>
+        <field name="Part Number">TPS7A4901DGNT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">1841881</field>
+      </fields>
+      <libsource lib="jakub" part="TPS7A4901"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EA66</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61A106KE19L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Order Code">1828805</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EA6C</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EA72</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EA8B</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>48k7</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MC01W0805148K7</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2141883</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EA97</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08X1202FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2447563</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EAA1</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>TPS7A4901</value>
+      <footprint>jakub:SSOP8_powerPAD</footprint>
+      <fields>
+        <field name="Part Number">TPS7A4901DGNT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">1841881</field>
+      </fields>
+      <libsource lib="jakub" part="TPS7A4901"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EE38</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61A106KE19L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Order Code">1828805</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EE3E</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EE44</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EE5D</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>48.7k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MC01W0805148K7</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2141883</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EE69</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08X1202FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2447563</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573EE73</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61E475KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Order Code">1735529</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573F5F6</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573F5FC</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573F615</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>165k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCMR08X1653FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2073657</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573F621</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08X1202FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2447563</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573F62B</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61A106KE19L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Order Code">1828805</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573F651</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573F657</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B103K101CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2320786</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573F670</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>48k7</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MC01W0805148K7</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2141883</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573F67C</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08X1202FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2447563</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5573F686</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08X1202FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2447563</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5574013B</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08X1202FTL</field>
+        <field name="Order Code">2447563</field>
+        <field name="Manufacturer">Multicomp</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>55740E12</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>12k</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08X1202FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">2447563</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>55742790</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61E475KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Order Code">1735529</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>55743C63</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>4u7</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61E475KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Order Code">1735529</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>557440E0</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61A106KE19L</field>
+        <field name="Order Code">1828805</field>
+        <field name="Manufacturer">Murata</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>5574418A</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61A106KE19L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Order Code">1828805</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>55744228</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61A106KE19L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Order Code">1828805</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>557442DC</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>LM3880</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23-6</footprint>
+      <fields>
+        <field name="Part Number">LM3880MF-1AB</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">1271399</field>
+      </fields>
+      <libsource lib="jakub" part="LM3880"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>55744A3B</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603X105K100CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759399</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>55744E44</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>TPS7A3001</value>
+      <footprint>jakub:SSOP8_powerPAD</footprint>
+      <fields>
+        <field name="Part Number">TPS7A3001DGNT</field>
+        <field name="Order Code">1855138</field>
+        <field name="Manufacturer">Texas Instruments</field>
+      </fields>
+      <libsource lib="jakub" part="TPS7A3001"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>55767C84</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>TPS7A3001</value>
+      <footprint>jakub:SSOP8_powerPAD</footprint>
+      <fields>
+        <field name="Part Number">TPS7A3001DGNT</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">1855138</field>
+      </fields>
+      <libsource lib="jakub" part="TPS7A3001"/>
+      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <tstamp>55767CFB</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>Si8651</value>
+      <footprint>Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Part Number">SI8651EC-B-IS1</field>
+        <field name="Manufacturer">Silicon Labs</field>
+        <field name="Order Code">2423323</field>
+      </fields>
+      <libsource lib="jakub" part="Si8651"/>
+      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <tstamp>5574AB03</tstamp>
+    </comp>
+    <comp ref="C67">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <tstamp>5574AB6E</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>74AHC1G14</value>
+      <footprint>Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5</footprint>
+      <fields>
+        <field name="Part Number">SN74AHC1G14DCKR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Order Code">1287468</field>
+      </fields>
+      <libsource lib="74xx" part="74AHC1G14"/>
+      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <tstamp>5574ACE6</tstamp>
+    </comp>
+    <comp ref="C66">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <tstamp>5574AE37</tstamp>
+    </comp>
+    <comp ref="C65">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603B104K500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1759122</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <tstamp>5574AD7F</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61A106KE19L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Order Code">1828805</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <tstamp>5574B7E4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_02X04">
+      <footprints>
+        <fp>Pin_Header_Straight_2X04</fp>
+        <fp>Pin_Header_Angled_2X04</fp>
+        <fp>Socket_Strip_Straight_2X04</fp>
+        <fp>Socket_Strip_Angled_2X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="AD8021">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8021</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LOG_REF" type="passive"/>
+        <pin num="2" name="INVERTING" type="input"/>
+        <pin num="3" name="NON" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="BALANCE" type="passive"/>
+        <pin num="6" name="OUTPUT" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="COMP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="DAC8734">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DAC8734</field>
+      </fields>
+      <pins>
+        <pin num="2" name="~CS" type="input"/>
+        <pin num="3" name="SCLK" type="input"/>
+        <pin num="4" name="SDI" type="input"/>
+        <pin num="5" name="SDO" type="output"/>
+        <pin num="6" name="~LDAC" type="input"/>
+        <pin num="7" name="~RST" type="input"/>
+        <pin num="8" name="GPIO-0" type="BiDi"/>
+        <pin num="9" name="GPIO-1" type="BiDi"/>
+        <pin num="10" name="UNI/~BIP~-A" type="input"/>
+        <pin num="11" name="DGND" type="power_in"/>
+        <pin num="13" name="IOVDD" type="power_in"/>
+        <pin num="14" name="DVDD" type="power_in"/>
+        <pin num="15" name="VOUT-0" type="output"/>
+        <pin num="16" name="RFB2-0" type="output"/>
+        <pin num="17" name="RFB1-0" type="output"/>
+        <pin num="18" name="SGND-0" type="input"/>
+        <pin num="20" name="SGND-1" type="input"/>
+        <pin num="21" name="RFB1-1" type="output"/>
+        <pin num="22" name="RFB2-1" type="output"/>
+        <pin num="23" name="VOUT-1" type="output"/>
+        <pin num="26" name="AVDD" type="power_in"/>
+        <pin num="27" name="AGND" type="power_in"/>
+        <pin num="28" name="AVSS" type="power_in"/>
+        <pin num="29" name="REFGND-A" type="input"/>
+        <pin num="30" name="REF-A" type="input"/>
+        <pin num="31" name="REF-B" type="input"/>
+        <pin num="32" name="REFGND-B" type="input"/>
+        <pin num="33" name="AVSS" type="power_in"/>
+        <pin num="34" name="VMON" type="output"/>
+        <pin num="35" name="AVDD" type="power_in"/>
+        <pin num="38" name="VOUT-3" type="output"/>
+        <pin num="39" name="RFB2-3" type="output"/>
+        <pin num="40" name="RFB1-3" type="output"/>
+        <pin num="41" name="SGND-3" type="input"/>
+        <pin num="43" name="SGND-2" type="input"/>
+        <pin num="44" name="RFB1-2" type="output"/>
+        <pin num="45" name="RFB2-2" type="output"/>
+        <pin num="46" name="VOUT-2" type="output"/>
+        <pin num="47" name="AIN" type="input"/>
+        <pin num="48" name="UNI/~BIP~-B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="LM3880">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM3880</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="FLAG3" type="openCol"/>
+        <pin num="5" name="FLAG2" type="openCol"/>
+        <pin num="6" name="FLAG1" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="REF50XX">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">REF50XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DNC" type="NotConnected"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="TEMP" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="TRIM/NR" type="input"/>
+        <pin num="6" name="VOUT" type="power_out"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="DNC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="SMA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SMA</field>
+        <field name="Footprint">SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RF" type="power_in"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="GND2" type="power_in"/>
+        <pin num="4" name="GND3" type="power_in"/>
+        <pin num="5" name="GND4" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="Si8651">
+      <description>LOW POWER SIX-CHANNEL DIGITAL ISOLATOR</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Si8651</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="power_in"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A3" type="input"/>
+        <pin num="5" name="A4" type="input"/>
+        <pin num="6" name="A5" type="output"/>
+        <pin num="7" name="EN1" type="input"/>
+        <pin num="8" name="GND1" type="power_in"/>
+        <pin num="9" name="GND2" type="power_in"/>
+        <pin num="10" name="EN2" type="input"/>
+        <pin num="11" name="B5" type="input"/>
+        <pin num="12" name="B4" type="output"/>
+        <pin num="13" name="B3" type="output"/>
+        <pin num="14" name="B2" type="output"/>
+        <pin num="15" name="B1" type="output"/>
+        <pin num="16" name="VDD2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="TPS7A3001">
+      <description>IC, LDO, NEG, ADJ, 200MA, 8MSOP</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS7A3001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="FB" type="input"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="NR/NS" type="input"/>
+        <pin num="7" name="DNC" type="NotConnected"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="jakub" part="TPS7A4901">
+      <description>IC, LDO, ADJ, 150MA, 8MSOP</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS7A4901</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="FB" type="input"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="NR/NS" type="input"/>
+        <pin num="7" name="DNC" type="NotConnected"/>
+        <pin num="8" name="VIN" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="TL071">
+      <aliases>
+        <alias>TL081</alias>
+      </aliases>
+      <description>Op amp.</description>
+      <docs>op_amps/tl071.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL071</field>
+      </fields>
+      <pins>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="passive"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74AHC1G14">
+      <description>inverting buffer with Schmitt trigger.</description>
+      <docs>74xx/74ahc_ahct1g14.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74AHC1G14</field>
+      </fields>
+      <pins>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="JUMPER">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP2">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/usr/local/share/kicad/library/74xx.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/usr/local/share/kicad/library/linear.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/digitalIsolation_1_0/A_GND">
+      <node ref="P1" pin="8"/>
+      <node ref="U14" pin="3"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C64" pin="2"/>
+      <node ref="U15" pin="8"/>
+      <node ref="C65" pin="2"/>
+      <node ref="C66" pin="2"/>
+    </net>
+    <net code="2" name="/digitalIsolation_1_0/A_IOREF">
+      <node ref="C64" pin="1"/>
+      <node ref="C65" pin="1"/>
+      <node ref="C66" pin="1"/>
+      <node ref="U15" pin="1"/>
+      <node ref="U14" pin="5"/>
+      <node ref="P1" pin="7"/>
+    </net>
+    <net code="3" name="/digitalIsolation_1_0/A_SDO">
+      <node ref="P1" pin="5"/>
+      <node ref="U15" pin="6"/>
+    </net>
+    <net code="4" name="/digitalIsolation_1_0/A_SCLK">
+      <node ref="P1" pin="3"/>
+      <node ref="U15" pin="3"/>
+    </net>
+    <net code="5" name="/digitalIsolation_1_0/A_~LDAC">
+      <node ref="P1" pin="6"/>
+      <node ref="U15" pin="5"/>
+    </net>
+    <net code="6" name="/digitalIsolation_1_0/A_SDI">
+      <node ref="P1" pin="4"/>
+      <node ref="U15" pin="4"/>
+    </net>
+    <net code="7" name="/digitalIsolation_1_0/A_~SS">
+      <node ref="U15" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="U14" pin="2"/>
+    </net>
+    <net code="8" name="/digitalIsolation_1_0/~LDAC">
+      <node ref="U1" pin="6"/>
+      <node ref="U15" pin="12"/>
+    </net>
+    <net code="9" name="/digitalIsolation_1_0/SDO">
+      <node ref="U1" pin="5"/>
+      <node ref="U15" pin="11"/>
+    </net>
+    <net code="10" name="/digitalIsolation_1_0/SDI">
+      <node ref="U15" pin="13"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="11" name="/digitalIsolation_1_0/SCLK">
+      <node ref="U15" pin="14"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="12" name="/digitalIsolation_1_0/~SS">
+      <node ref="U1" pin="2"/>
+      <node ref="U15" pin="15"/>
+    </net>
+    <net code="13" name="VSS">
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C62" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C60" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U1" pin="33"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U1" pin="28"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="14" name="VDD">
+      <node ref="U1" pin="35"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U1" pin="26"/>
+      <node ref="C49" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="15" name="VCC">
+      <node ref="U7" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C51" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C54" pin="1"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="17" name="+5VD">
+      <node ref="U15" pin="10"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U15" pin="16"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C67" pin="1"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U11" pin="1"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="18" name="/PGND">
+      <node ref="P8" pin="2"/>
+      <node ref="P7" pin="2"/>
+    </net>
+    <net code="19" name="/powerSupply_1_0/-7.5V">
+      <node ref="P2" pin="4"/>
+      <node ref="C56" pin="1"/>
+      <node ref="U13" pin="8"/>
+      <node ref="U13" pin="5"/>
+    </net>
+    <net code="20" name="/powerSupply_1_0/-19V">
+      <node ref="P2" pin="3"/>
+      <node ref="U12" pin="8"/>
+      <node ref="C55" pin="1"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="21" name="/P12V">
+      <node ref="P7" pin="1"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="22" name="/powerSupply_1_0/+7.5V">
+      <node ref="U10" pin="8"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U9" pin="8"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="P2" pin="8"/>
+    </net>
+    <net code="23" name="/powerSupply_1_0/+19V">
+      <node ref="C43" pin="1"/>
+      <node ref="P2" pin="7"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="24" name="/highCurrentAmp/VOUT-3">
+      <node ref="JP6" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U1" pin="40"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="25" name="Net-(JP4-Pad1)">
+      <node ref="U1" pin="22"/>
+      <node ref="JP4" pin="1"/>
+    </net>
+    <net code="26" name="/highVoltageAmp/VOUT-1">
+      <node ref="U3" pin="3"/>
+      <node ref="U1" pin="21"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="27" name="Net-(JP5-Pad1)">
+      <node ref="U1" pin="45"/>
+      <node ref="JP5" pin="1"/>
+    </net>
+    <net code="28" name="/highCurrentAmp/VOUT-2">
+      <node ref="U1" pin="44"/>
+      <node ref="U1" pin="46"/>
+      <node ref="JP5" pin="2"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="29" name="Net-(JP6-Pad1)">
+      <node ref="U1" pin="39"/>
+      <node ref="JP6" pin="1"/>
+    </net>
+    <net code="30" name="Net-(JP2-Pad1)">
+      <node ref="U1" pin="48"/>
+      <node ref="R2" pin="1"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="31" name="Net-(JP1-Pad1)">
+      <node ref="U1" pin="10"/>
+      <node ref="R1" pin="1"/>
+      <node ref="JP1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(JP3-Pad1)">
+      <node ref="U1" pin="16"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="33" name="/highVoltageAmp/VOUT-0">
+      <node ref="U1" pin="15"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="17"/>
+      <node ref="JP3" pin="2"/>
+    </net>
+    <net code="34" name="/reference_1_0/5.000V">
+      <node ref="U1" pin="31"/>
+      <node ref="C42" pin="1"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="35" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="36" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="37" name="/reference_1_0/4.096V">
+      <node ref="C41" pin="1"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="38" name="GNDA">
+      <node ref="P3" pin="3"/>
+      <node ref="U12" pin="9"/>
+      <node ref="U11" pin="2"/>
+      <node ref="U13" pin="4"/>
+      <node ref="U13" pin="9"/>
+      <node ref="C62" pin="2"/>
+      <node ref="U12" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="R17" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C63" pin="2"/>
+      <node ref="P5" pin="5"/>
+      <node ref="P5" pin="4"/>
+      <node ref="P5" pin="3"/>
+      <node ref="P5" pin="2"/>
+      <node ref="P4" pin="5"/>
+      <node ref="P4" pin="4"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U1" pin="32"/>
+      <node ref="U1" pin="43"/>
+      <node ref="C40" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U7" pin="4"/>
+      <node ref="P6" pin="5"/>
+      <node ref="P6" pin="4"/>
+      <node ref="P6" pin="2"/>
+      <node ref="U10" pin="9"/>
+      <node ref="C57" pin="2"/>
+      <node ref="P4" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="P4" pin="2"/>
+      <node ref="P3" pin="5"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P2" pin="6"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="S2" pin="1"/>
+      <node ref="C59" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C67" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P2" pin="5"/>
+      <node ref="C10" pin="2"/>
+      <node ref="S2" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="U15" pin="9"/>
+      <node ref="S1" pin="1"/>
+      <node ref="S1" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="U9" pin="9"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="U8" pin="9"/>
+      <node ref="U8" pin="4"/>
+      <node ref="P3" pin="2"/>
+      <node ref="U9" pin="4"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="U1" pin="18"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U1" pin="41"/>
+      <node ref="U1" pin="20"/>
+      <node ref="U1" pin="47"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="C39" pin="2"/>
+      <node ref="P6" pin="3"/>
+      <node ref="U1" pin="27"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C41" pin="2"/>
+    </net>
+    <net code="39" name="/highCurrentAmp/VOUT-D">
+      <node ref="P6" pin="1"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="40" name="/highCurrentAmp/VOUT-C">
+      <node ref="R23" pin="1"/>
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="41" name="/highVoltageAmp/VOUT-A">
+      <node ref="U2" pin="6"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="42" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="43" name="/highVoltageAmp/VOUT-B">
+      <node ref="U3" pin="6"/>
+      <node ref="P4" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="44" name="/highVoltageAmp/INV-0">
+      <node ref="R6" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="45" name="/highVoltageAmp/INV-1">
+      <node ref="R8" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="46" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="47" name="/highCurrentAmp/CMP2">
+      <node ref="C28" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="48" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="49" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="50" name="Net-(U5-Pad1)">
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="51" name="/highCurrentAmp/CMP1">
+      <node ref="C34" pin="1"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="52" name="/highCurrentAmp/INV-2">
+      <node ref="U4" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="U4" pin="6"/>
+    </net>
+    <net code="53" name="/highCurrentAmp/INV-3">
+      <node ref="R24" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="54" name="/reference_1_0/TRIM5">
+      <node ref="U7" pin="5"/>
+      <node ref="C40" pin="1"/>
+    </net>
+    <net code="55" name="Net-(U7-Pad3)">
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="56" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="57" name="/reference_1_0/TRIM4">
+      <node ref="C39" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="58" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="59" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="60" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="61" name="Net-(U7-Pad8)">
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="62" name="Net-(U7-Pad7)">
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="63" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="64" name="/powerSupply_1_0/FB-6">
+      <node ref="C61" pin="2"/>
+      <node ref="U13" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="65" name="/powerSupply_1_0/NR-6">
+      <node ref="U13" pin="6"/>
+      <node ref="C59" pin="1"/>
+    </net>
+    <net code="66" name="/powerSupply_1_0/FBREF">
+      <node ref="U10" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="C51" pin="2"/>
+    </net>
+    <net code="67" name="/powerSupply_1_0/NRREF">
+      <node ref="U10" pin="6"/>
+      <node ref="C48" pin="1"/>
+    </net>
+    <net code="68" name="/powerSupply_1_0/FBVSS">
+      <node ref="R20" pin="1"/>
+      <node ref="C60" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="69" name="/powerSupply_1_0/NRVSS">
+      <node ref="U12" pin="6"/>
+      <node ref="C58" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C57-Pad1)">
+      <node ref="C57" pin="1"/>
+      <node ref="U11" pin="3"/>
+    </net>
+    <net code="71" name="Net-(U13-Pad7)">
+      <node ref="U13" pin="7"/>
+    </net>
+    <net code="72" name="Net-(U13-Pad3)">
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="73" name="Net-(U12-Pad7)">
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="74" name="Net-(U12-Pad3)">
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="75" name="/powerSupply_1_0/EN_REF">
+      <node ref="U11" pin="4"/>
+      <node ref="U10" pin="5"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="76" name="/powerSupply_1_0/EN_VSS">
+      <node ref="U12" pin="5"/>
+      <node ref="U11" pin="5"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="77" name="/powerSupply_1_0/EN_VDD">
+      <node ref="U8" pin="5"/>
+      <node ref="U11" pin="6"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="78" name="Net-(U10-Pad7)">
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="79" name="Net-(U10-Pad3)">
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="80" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="81" name="/powerSupply_1_0/NRVDD">
+      <node ref="U8" pin="6"/>
+      <node ref="C46" pin="1"/>
+    </net>
+    <net code="82" name="Net-(U8-Pad3)">
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="83" name="Net-(U9-Pad7)">
+      <node ref="U9" pin="7"/>
+    </net>
+    <net code="84" name="/powerSupply_1_0/NR+6">
+      <node ref="U9" pin="6"/>
+      <node ref="C47" pin="1"/>
+    </net>
+    <net code="85" name="Net-(U9-Pad3)">
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="86" name="/powerSupply_1_0/FBVDD">
+      <node ref="R13" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="87" name="/powerSupply_1_0/FB+6">
+      <node ref="R15" pin="1"/>
+      <node ref="U9" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="88" name="+6V">
+      <node ref="C31" pin="1"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C50" pin="1"/>
+      <node ref="U5" pin="7"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C27" pin="2"/>
+    </net>
+    <net code="89" name="-6V">
+      <node ref="C31" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C63" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="C61" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C30" pin="2"/>
+    </net>
+    <net code="90" name="Net-(U14-Pad4)">
+      <node ref="U14" pin="4"/>
+      <node ref="U15" pin="7"/>
+    </net>
+  </nets>
+</export>
