@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MicroFLiC_DAC_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -63,6 +64,8 @@ $Comp
 L C C39
 U 1 1 5573B996
 P 4900 2700
+AR Path="/5573B996" Ref="C39"  Part="1" 
+AR Path="/5573B13F/5573B996" Ref="C39"  Part="1" 
 F 0 "C39" H 4950 2800 50  0000 L CNN
 F 1 "1u" H 4950 2600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4938 2550 30  0001 C CNN
@@ -106,7 +109,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 2900 5200 3000
 Wire Wire Line
-	4900 3000 4900 2900
+	4900 3000 4900 2850
 Wire Wire Line
 	2900 3000 2900 2900
 $Comp
@@ -124,7 +127,7 @@ NoConn ~ 4700 2600
 Wire Wire Line
 	4700 2400 4900 2400
 Wire Wire Line
-	4900 2400 4900 2500
+	4900 2400 4900 2550
 Connection ~ 2900 2000
 $Comp
 L REF50XX U7
@@ -144,6 +147,8 @@ $Comp
 L C C40
 U 1 1 5573BE4D
 P 4900 4800
+AR Path="/5573BE4D" Ref="C40"  Part="1" 
+AR Path="/5573B13F/5573BE4D" Ref="C40"  Part="1" 
 F 0 "C40" H 4950 4900 50  0000 L CNN
 F 1 "1u" H 4950 4700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4938 4650 30  0001 C CNN
@@ -187,7 +192,7 @@ Wire Wire Line
 Wire Wire Line
 	5200 5000 5200 5100
 Wire Wire Line
-	4900 5100 4900 5000
+	4900 5100 4900 4950
 Wire Wire Line
 	2900 5100 2900 5000
 $Comp
@@ -205,7 +210,7 @@ NoConn ~ 4700 4700
 Wire Wire Line
 	4700 4500 4900 4500
 Wire Wire Line
-	4900 4500 4900 4600
+	4900 4500 4900 4650
 Connection ~ 2900 4100
 Wire Wire Line
 	2700 2000 2700 4100

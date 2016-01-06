@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MicroFLiC_DAC_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -89,6 +90,8 @@ $Comp
 L C C67
 U 1 1 5574AB6E
 P 8100 3500
+AR Path="/5574AB6E" Ref="C67"  Part="1" 
+AR Path="/5574A638/5574AB6E" Ref="C67"  Part="1" 
 F 0 "C67" H 8150 3600 50  0000 L CNN
 F 1 "100n" H 8150 3400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8138 3350 30  0001 C CNN
@@ -100,7 +103,7 @@ F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 3100 8100 3300
+	8100 3100 8100 3350
 Connection ~ 7800 3200
 $Comp
 L +5VD #PWR083
@@ -119,7 +122,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 3500 7800 3800
 Wire Wire Line
-	8100 3700 8100 3800
+	8100 3650 8100 3800
 $Comp
 L GND #PWR084
 U 1 1 5574AC81
@@ -160,6 +163,8 @@ $Comp
 L C C66
 U 1 1 5574AE37
 P 6000 3500
+AR Path="/5574AE37" Ref="C66"  Part="1" 
+AR Path="/5574A638/5574AE37" Ref="C66"  Part="1" 
 F 0 "C66" H 6050 3600 50  0000 L CNN
 F 1 "100n" H 6050 3400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6038 3350 30  0001 C CNN
@@ -173,9 +178,9 @@ $EndComp
 Wire Wire Line
 	6000 3200 6400 3200
 Wire Wire Line
-	6000 2900 6000 3300
+	6000 2900 6000 3350
 Wire Wire Line
-	6000 3800 6000 3700
+	6000 3800 6000 3650
 Wire Wire Line
 	6400 3500 6300 3500
 Wire Wire Line
@@ -184,6 +189,8 @@ $Comp
 L C C65
 U 1 1 5574AD7F
 P 4300 3500
+AR Path="/5574AD7F" Ref="C65"  Part="1" 
+AR Path="/5574A638/5574AD7F" Ref="C65"  Part="1" 
 F 0 "C65" H 4350 3600 50  0000 L CNN
 F 1 "100n" H 4350 3400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4338 3350 30  0001 C CNN
@@ -214,10 +221,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 2900 5200 3000
 Wire Wire Line
-	4300 2900 4300 3300
+	4300 2900 4300 3350
 Connection ~ 5200 2900
 Wire Wire Line
-	4300 3700 4300 3800
+	4300 3650 4300 3800
 Wire Wire Line
 	6300 3800 3600 3800
 Connection ~ 5200 3800
@@ -232,7 +239,7 @@ Wire Wire Line
 	6400 2350 3600 2350
 Connection ~ 4700 2200
 Wire Wire Line
-	4300 3200 3600 3200
+	3600 3200 4300 3200
 Connection ~ 4300 3200
 Connection ~ 4300 3800
 Text HLabel 3600 2200 0    60   Input ~ 0
@@ -253,6 +260,8 @@ $Comp
 L C C64
 U 1 1 5574B7E4
 P 4000 3500
+AR Path="/5574B7E4" Ref="C64"  Part="1" 
+AR Path="/5574A638/5574B7E4" Ref="C64"  Part="1" 
 F 0 "C64" H 4050 3600 50  0000 L CNN
 F 1 "10u" H 4050 3400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4038 3350 30  0001 C CNN
@@ -264,9 +273,9 @@ F 6 "1828805" H 4000 3500 60  0001 C CNN "Order Code"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 3300 4000 3200
+	4000 3350 4000 3200
 Connection ~ 4000 3200
 Wire Wire Line
-	4000 3700 4000 3800
+	4000 3650 4000 3800
 Connection ~ 4000 3800
 $EndSCHEMATC
