@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MicroFLiC_DAC_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_DAC_1_0-cache
+LIBS:MicroFLiC_DAC-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -56,7 +55,12 @@ F 2 "Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm" H 6100 3250 60  0001 C CNN
 F 3 "" H 6100 3250 60  0000 C CNN
 F 4 "DAC8734SPFB" H 6100 2650 60  0001 C CNN "Part Number"
 F 5 "Texas Instruments" H 6100 2650 60  0001 C CNN "Manufacturer"
-F 6 "2082437" H 6100 2650 60  0001 C CNN "Order Code"
+F 6 "TQFP-48" H 6100 2650 60  0001 C CNN "Package"
+F 7 "Farnell" H 6100 2650 60  0001 C CNN "Supplier"
+F 8 "2082437" H 6100 2650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 6100 2650 60  0001 C CNN "Alt. Supplier"
+F 10 "595-DAC8734SPFB" H 6100 2650 60  0001 C CNN "Alt. Order Code"
+F 11 "Quad 16-bit DAC" H 6100 2650 60  0001 C CNN "Note"
 	1    6100 2650
 	1    0    0    -1  
 $EndComp
@@ -278,7 +282,12 @@ F 2 "Resistors_SMD:R_0805" V 3530 1850 30  0001 C CNN
 F 3 "" H 3600 1850 30  0000 C CNN
 F 4 "MCMR08X1002FTL" V 3600 1650 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 3600 1650 60  0001 C CNN "Manufacturer"
-F 6 "2073607" V 3600 1650 60  0001 C CNN "Order Code"
+F 6 "0805" H 3600 1850 60  0001 C CNN "Package"
+F 7 "Farnell" H 3600 1850 60  0001 C CNN "Supplier"
+F 8 "2073607" V 3600 1650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3600 1850 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-10K-E3" H 3600 1850 60  0001 C CNN "Alt. Order Code"
+F 11 "10kΩ/1% 0805 resistor" H 3600 1850 60  0001 C CNN "Note"
 	1    3600 1850
 	0    1    1    0   
 $EndComp
@@ -292,7 +301,12 @@ F 2 "Resistors_SMD:R_0805" V 3530 1650 30  0001 C CNN
 F 3 "" H 3600 1650 30  0000 C CNN
 F 4 "MCMR08X1002FTL" V 3600 1650 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 3600 1650 60  0001 C CNN "Manufacturer"
-F 6 "2073607" V 3600 1650 60  0001 C CNN "Order Code"
+F 6 "0805" H 3600 1650 60  0001 C CNN "Package"
+F 7 "Farnell" H 3600 1650 60  0001 C CNN "Supplier"
+F 8 "2073607" V 3600 1650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3600 1650 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-10K-E3" H 3600 1650 60  0001 C CNN "Alt. Order Code"
+F 11 "10kΩ/1% 0805 resistor" H 3600 1650 60  0001 C CNN "Note"
 	1    3600 1650
 	0    1    1    0   
 $EndComp
@@ -373,7 +387,12 @@ F 2 "Resistors_SMD:R_0805" V 4480 1250 30  0001 C CNN
 F 3 "" H 4550 1250 30  0000 C CNN
 F 4 "MCMR08X1002FTL" V 3600 1650 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 3600 1650 60  0001 C CNN "Manufacturer"
-F 6 "2073607" V 3600 1650 60  0001 C CNN "Order Code"
+F 6 "0805" H 4550 1250 60  0001 C CNN "Package"
+F 7 "Farnell" H 4550 1250 60  0001 C CNN "Supplier"
+F 8 "2073607" V 3600 1650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4550 1250 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-10K-E3" H 4550 1250 60  0001 C CNN "Alt. Order Code"
+F 11 "10kΩ/1% 0805 resistor" H 4550 1250 60  0001 C CNN "Note"
 	1    4550 1250
 	-1   0    0    1   
 $EndComp
@@ -396,7 +415,12 @@ F 2 "Resistors_SMD:R_0805" V 3530 2050 30  0001 C CNN
 F 3 "" H 3600 2050 30  0000 C CNN
 F 4 "MCMR08X1002FTL" V 3600 1650 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 3600 1650 60  0001 C CNN "Manufacturer"
-F 6 "2073607" V 3600 1650 60  0001 C CNN "Order Code"
+F 6 "0805" H 3600 2050 60  0001 C CNN "Package"
+F 7 "Farnell" H 3600 2050 60  0001 C CNN "Supplier"
+F 8 "2073607" V 3600 1650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3600 2050 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-10K-E3" H 3600 2050 60  0001 C CNN "Alt. Order Code"
+F 11 "10kΩ/1% 0805 resistor" H 3600 2050 60  0001 C CNN "Note"
 	1    3600 2050
 	0    1    1    0   
 $EndComp
@@ -410,7 +434,12 @@ F 2 "Resistors_SMD:R_0805" V 3530 2250 30  0001 C CNN
 F 3 "" H 3600 2250 30  0000 C CNN
 F 4 "MCMR08X1002FTL" V 3600 1650 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 3600 1650 60  0001 C CNN "Manufacturer"
-F 6 "2073607" V 3600 1650 60  0001 C CNN "Order Code"
+F 6 "0805" H 3600 2250 60  0001 C CNN "Package"
+F 7 "Farnell" H 3600 2250 60  0001 C CNN "Supplier"
+F 8 "2073607" V 3600 1650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3600 2250 60  0001 C CNN "Alt. Supplier"
+F 10 "71-CRCW0805-10K-E3" H 3600 2250 60  0001 C CNN "Alt. Order Code"
+F 11 "10kΩ/1% 0805 resistor" H 3600 2250 60  0001 C CNN "Note"
 	1    3600 2250
 	0    1    1    0   
 $EndComp
@@ -432,7 +461,7 @@ $Sheet
 S 8600 1450 1300 800 
 U 5573337B
 F0 "highVoltageAmp" 60
-F1 "highVoltageAmp_1_0.sch" 60
+F1 "highVoltageAmp.sch" 60
 F2 "VOUT-0" I L 8600 1550 60 
 F3 "VOUT-1" I L 8600 2150 60 
 F4 "VOUT-B" O R 9900 2150 60 
@@ -454,7 +483,12 @@ F 2 "jakub:SMA" H 10825 1420 50  0000 C CNN
 F 3 "" H 10650 1250 60  0000 C CNN
 F 4 "73251-2200" H 10650 1250 60  0001 C CNN "Part Number"
 F 5 "Molex" H 10650 1250 60  0001 C CNN "Manufacturer"
-F 6 "2293854" H 10650 1250 60  0001 C CNN "Order Code"
+F 6 "SMA" H 10650 1250 60  0001 C CNN "Package"
+F 7 "Farnell" H 10650 1250 60  0001 C CNN "Supplier"
+F 8 "2293854" H 10650 1250 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 10650 1250 60  0001 C CNN "Alt. Supplier"
+F 10 "538-73251-2200" H 10650 1250 60  0001 C CNN "Alt. Order Code"
+F 11 "R/A SMA jack" H 10650 1250 60  0001 C CNN "Note"
 	1    10650 1250
 	1    0    0    1   
 $EndComp
@@ -468,7 +502,12 @@ F 2 "jakub:SMA" H 10825 2620 50  0000 C CNN
 F 3 "" H 10650 2450 60  0000 C CNN
 F 4 "73251-2200" H 10650 1250 60  0001 C CNN "Part Number"
 F 5 "Molex" H 10650 1250 60  0001 C CNN "Manufacturer"
-F 6 "2293854" H 10650 1250 60  0001 C CNN "Order Code"
+F 6 "SMA" H 10650 2450 60  0001 C CNN "Package"
+F 7 "Farnell" H 10650 2450 60  0001 C CNN "Supplier"
+F 8 "2293854" H 10650 1250 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 10650 2450 60  0001 C CNN "Alt. Supplier"
+F 10 "538-73251-2200" H 10650 2450 60  0001 C CNN "Alt. Order Code"
+F 11 "R/A SMA jack" H 10650 2450 60  0001 C CNN "Note"
 	1    10650 2450
 	1    0    0    -1  
 $EndComp
@@ -516,7 +555,7 @@ $Sheet
 S 8600 2650 1300 800 
 U 55736CC2
 F0 "highCurrentAmp" 60
-F1 "highCurrentAmp_1_0.sch" 60
+F1 "highCurrentAmp.sch" 60
 F2 "VOUT-2" I L 8600 2750 60 
 F3 "VOUT-3" I L 8600 3350 60 
 F4 "VOUT-D" O R 9900 3350 60 
@@ -538,7 +577,12 @@ F 2 "jakub:SMA" H 10825 2620 50  0000 C CNN
 F 3 "" H 10650 2450 60  0000 C CNN
 F 4 "73251-2200" H 10650 1250 60  0001 C CNN "Part Number"
 F 5 "Molex" H 10650 1250 60  0001 C CNN "Manufacturer"
-F 6 "2293854" H 10650 1250 60  0001 C CNN "Order Code"
+F 6 "SMA" H 10650 2450 60  0001 C CNN "Package"
+F 7 "Farnell" H 10650 2450 60  0001 C CNN "Supplier"
+F 8 "2293854" H 10650 1250 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 10650 2450 60  0001 C CNN "Alt. Supplier"
+F 10 "538-73251-2200" H 10650 2450 60  0001 C CNN "Alt. Order Code"
+F 11 "R/A SMA jack" H 10650 2450 60  0001 C CNN "Note"
 	1    10650 2450
 	1    0    0    1   
 $EndComp
@@ -552,7 +596,12 @@ F 2 "jakub:SMA" H 10825 3820 50  0000 C CNN
 F 3 "" H 10650 3650 60  0000 C CNN
 F 4 "73251-2200" H 10650 1250 60  0001 C CNN "Part Number"
 F 5 "Molex" H 10650 1250 60  0001 C CNN "Manufacturer"
-F 6 "2293854" H 10650 1250 60  0001 C CNN "Order Code"
+F 6 "SMA" H 10650 3650 60  0001 C CNN "Package"
+F 7 "Farnell" H 10650 3650 60  0001 C CNN "Supplier"
+F 8 "2293854" H 10650 1250 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 10650 3650 60  0001 C CNN "Alt. Supplier"
+F 10 "538-73251-2200" H 10650 3650 60  0001 C CNN "Alt. Order Code"
+F 11 "R/A SMA jack" H 10650 3650 60  0001 C CNN "Note"
 	1    10650 3650
 	1    0    0    -1  
 $EndComp
@@ -609,8 +658,8 @@ Wire Wire Line
 $Sheet
 S 8600 3950 1300 800 
 U 5573B13F
-F0 "reference_1_0" 60
-F1 "reference_1_0.sch" 60
+F0 "reference" 60
+F1 "reference.sch" 60
 F2 "4.096V" O L 8600 4050 60 
 F3 "5.000V" O L 8600 4350 60 
 F4 "VREF" I R 9900 4350 60 
@@ -659,8 +708,8 @@ $EndComp
 $Sheet
 S 5300 4900 1600 1300
 U 5573DBA6
-F0 "powerSupply_1_0" 60
-F1 "powerSupply_1_0.sch" 60
+F0 "powerSupply" 60
+F1 "powerSupply.sch" 60
 F2 "+19V" I L 5300 5050 60 
 F3 "+17.5V" O R 6900 5150 60 
 F4 "+7.5V" I L 5300 5850 60 
@@ -793,8 +842,8 @@ Text Label 4800 1950 0    60   ~ 0
 $Sheet
 S 1300 4100 1600 1800
 U 5574A638
-F0 "digitalIsolation_1_0" 60
-F1 "digitalIsolation_1_0.sch" 60
+F0 "digitalIsolation" 60
+F1 "digitalIsolation.sch" 60
 F2 "~SS" O R 2900 4300 60 
 F3 "SCLK" O R 2900 4500 60 
 F4 "SDI" O R 2900 4700 60 
@@ -833,12 +882,17 @@ L CONN_02X04 P1
 U 1 1 5575327D
 P 2050 3300
 F 0 "P1" H 2050 3550 50  0000 C CNN
-F 1 "2x4_MicroMaTch" H 2050 3050 50  0000 C CNN
+F 1 "8-way Micro-MaTch" H 2050 3050 50  0000 C CNN
 F 2 "jakub:7-188275-8" H 2050 2100 60  0001 C CNN
 F 3 "" H 2050 2100 60  0000 C CNN
 F 4 "7-188275-8" H 2050 3300 60  0001 C CNN "Part Number"
 F 5 "TE Connectivity" H 2050 3300 60  0001 C CNN "Manufacturer"
-F 6 "3784733" H 2050 3300 60  0001 C CNN "Order Code"
+F 6 "Micro-MaTch SMD" H 2050 3300 60  0001 C CNN "Package"
+F 7 "Farnell" H 2050 3300 60  0001 C CNN "Supplier"
+F 8 "3784733" H 2050 3300 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2050 3300 60  0001 C CNN "Alt. Supplier"
+F 10 "571-7-188275-8" H 2050 3300 60  0001 C CNN "Alt. Order Code"
+F 11 "8-way SMD Micro-MaTch connector" H 2050 3300 60  0001 C CNN "Note"
 	1    2050 3300
 	1    0    0    -1  
 $EndComp
@@ -912,7 +966,12 @@ F 2 "Capacitors_SMD:C_0603" H 2838 6850 30  0001 C CNN
 F 3 "" H 2800 7000 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 2800 7000 60  0001 C CNN "Package"
+F 7 "Farnell" H 2800 7000 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2800 7000 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 2800 7000 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 2800 7000 60  0001 C CNN "Note"
 	1    2800 7000
 	1    0    0    -1  
 $EndComp
@@ -947,7 +1006,12 @@ F 2 "Capacitors_SMD:C_0603" H 3638 6850 30  0001 C CNN
 F 3 "" H 3600 7000 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 3600 7000 60  0001 C CNN "Package"
+F 7 "Farnell" H 3600 7000 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3600 7000 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 3600 7000 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 3600 7000 60  0001 C CNN "Note"
 	1    3600 7000
 	1    0    0    -1  
 $EndComp
@@ -967,7 +1031,12 @@ F 2 "Capacitors_SMD:C_0603" H 4238 6850 30  0001 C CNN
 F 3 "" H 4200 7000 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 4200 7000 60  0001 C CNN "Package"
+F 7 "Farnell" H 4200 7000 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4200 7000 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 4200 7000 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 4200 7000 60  0001 C CNN "Note"
 	1    4200 7000
 	1    0    0    -1  
 $EndComp
@@ -985,7 +1054,12 @@ F 2 "Capacitors_SMD:C_0603" H 2238 6850 30  0001 C CNN
 F 3 "" H 2200 7000 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 2200 7000 60  0001 C CNN "Package"
+F 7 "Farnell" H 2200 7000 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2200 7000 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 2200 7000 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 2200 7000 60  0001 C CNN "Note"
 	1    2200 7000
 	1    0    0    -1  
 $EndComp
@@ -1052,7 +1126,12 @@ F 2 "Capacitors_SMD:C_0603" H 3088 6550 30  0001 C CNN
 F 3 "" H 3050 6700 60  0000 C CNN
 F 4 "MC0603B103K101CT" H 3050 6400 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 3050 6400 60  0001 C CNN "Manufacturer"
-F 6 "2320786" H 3050 6400 60  0001 C CNN "Order Code"
+F 6 "0603" H 3050 6700 60  0001 C CNN "Package"
+F 7 "Farnell" H 3050 6700 60  0001 C CNN "Supplier"
+F 8 "2320786" H 3050 6400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3050 6700 60  0001 C CNN "Alt. Supplier"
+F 10 "77-VJ0603Y103KXACBC" H 3050 6700 60  0001 C CNN "Alt. Order Code"
+F 11 "10nF/100V X7R 0603 ceramic capacitor" H 3050 6700 60  0001 C CNN "Note"
 	1    3050 6700
 	0    -1   -1   0   
 $EndComp
@@ -1068,7 +1147,12 @@ F 2 "Capacitors_SMD:C_0603" H 3088 6250 30  0001 C CNN
 F 3 "" H 3050 6400 60  0000 C CNN
 F 4 "MC0603B103K101CT" H 3050 6400 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 3050 6400 60  0001 C CNN "Manufacturer"
-F 6 "2320786" H 3050 6400 60  0001 C CNN "Order Code"
+F 6 "0603" H 3050 6400 60  0001 C CNN "Package"
+F 7 "Farnell" H 3050 6400 60  0001 C CNN "Supplier"
+F 8 "2320786" H 3050 6400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3050 6400 60  0001 C CNN "Alt. Supplier"
+F 10 "77-VJ0603Y103KXACBC" H 3050 6400 60  0001 C CNN "Alt. Order Code"
+F 11 "10nF/100V X7R 0603 ceramic capacitor" H 3050 6400 60  0001 C CNN "Note"
 	1    3050 6400
 	0    -1   -1   0   
 $EndComp
@@ -1086,7 +1170,12 @@ F 2 "Capacitors_SMD:C_0603" H 5338 6850 30  0001 C CNN
 F 3 "" H 5300 7000 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 5300 7000 60  0001 C CNN "Package"
+F 7 "Farnell" H 5300 7000 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5300 7000 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 5300 7000 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 5300 7000 60  0001 C CNN "Note"
 	1    5300 7000
 	1    0    0    -1  
 $EndComp
@@ -1100,7 +1189,12 @@ F 2 "Capacitors_SMD:C_0603" H 5638 6850 30  0001 C CNN
 F 3 "" H 5600 7000 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 5600 7000 60  0001 C CNN "Package"
+F 7 "Farnell" H 5600 7000 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5600 7000 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 5600 7000 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0603 ceramic capacitor" H 5600 7000 60  0001 C CNN "Note"
 	1    5600 7000
 	1    0    0    -1  
 $EndComp
@@ -1192,7 +1286,12 @@ F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 3338 6850 30  0001
 F 3 "" H 3300 7000 60  0000 C CNN
 F 4 "TR3B475K025C0700" H 3300 7000 60  0001 C CNN "Part Number"
 F 5 "Vishay" H 3300 7000 60  0001 C CNN "Manufacturer"
-F 6 "2353145" H 3300 7000 60  0001 C CNN "Order Code"
+F 6 "case B" H 3300 7000 60  0001 C CNN "Package"
+F 7 "Farnell" H 3300 7000 60  0001 C CNN "Supplier"
+F 8 "2353145" H 3300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3300 7000 60  0001 C CNN "Alt. Supplier"
+F 10 "74-TR3B475K025C0700" H 3300 7000 60  0001 C CNN "Alt. Order Code"
+F 11 "4.7μF/25V/0.7Ω ESR case B tantalum capacitor" H 3300 7000 60  0001 C CNN "Note"
 	1    3300 7000
 	-1   0    0    1   
 $EndComp
@@ -1206,7 +1305,12 @@ F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 3938 6850 30  0001
 F 3 "" H 3900 7000 60  0000 C CNN
 F 4 "TR3B475K025C0700" H 3900 7000 60  0001 C CNN "Part Number"
 F 5 "Vishay" H 3900 7000 60  0001 C CNN "Manufacturer"
-F 6 "2353145" H 3900 7000 60  0001 C CNN "Order Code"
+F 6 "case B" H 3900 7000 60  0001 C CNN "Package"
+F 7 "Farnell" H 3900 7000 60  0001 C CNN "Supplier"
+F 8 "2353145" H 3900 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3900 7000 60  0001 C CNN "Alt. Supplier"
+F 10 "74-TR3B475K025C0700" H 3900 7000 60  0001 C CNN "Alt. Order Code"
+F 11 "4.7μF/25V/0.7Ω ESR case B tantalum capacitor" H 3900 7000 60  0001 C CNN "Note"
 	1    3900 7000
 	-1   0    0    1   
 $EndComp
@@ -1222,7 +1326,12 @@ F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 1938 6850 30  0001
 F 3 "" H 1900 7000 60  0000 C CNN
 F 4 "TR3B475K025C0700" H 1900 7000 60  0001 C CNN "Part Number"
 F 5 "Vishay" H 1900 7000 60  0001 C CNN "Manufacturer"
-F 6 "2353145" H 1900 7000 60  0001 C CNN "Order Code"
+F 6 "case B" H 1900 7000 60  0001 C CNN "Package"
+F 7 "Farnell" H 1900 7000 60  0001 C CNN "Supplier"
+F 8 "2353145" H 1900 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 1900 7000 60  0001 C CNN "Alt. Supplier"
+F 10 "74-TR3B475K025C0700" H 1900 7000 60  0001 C CNN "Alt. Order Code"
+F 11 "4.7μF/25V/0.7Ω ESR case B tantalum capacitor" H 1900 7000 60  0001 C CNN "Note"
 	1    1900 7000
 	1    0    0    -1  
 $EndComp
@@ -1242,7 +1351,12 @@ F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 2538 6850 30  0001
 F 3 "" H 2500 7000 60  0000 C CNN
 F 4 "TR3B475K025C0700" H 2500 7000 60  0001 C CNN "Part Number"
 F 5 "Vishay" H 2500 7000 60  0001 C CNN "Manufacturer"
-F 6 "2353145" H 2500 7000 60  0001 C CNN "Order Code"
+F 6 "case B" H 2500 7000 60  0001 C CNN "Package"
+F 7 "Farnell" H 2500 7000 60  0001 C CNN "Supplier"
+F 8 "2353145" H 2500 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2500 7000 60  0001 C CNN "Alt. Supplier"
+F 10 "74-TR3B475K025C0700" H 2500 7000 60  0001 C CNN "Alt. Order Code"
+F 11 "4.7μF/25V/0.7Ω ESR case B tantalum capacitor" H 2500 7000 60  0001 C CNN "Note"
 	1    2500 7000
 	1    0    0    -1  
 $EndComp
@@ -1254,9 +1368,14 @@ F 0 "P8" H 10700 6000 50  0000 C CNN
 F 1 "1x2_SOCKET" V 10800 5850 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 10700 5850 60  0001 C CNN
 F 3 "" H 10700 5850 60  0000 C CNN
-F 4 "SSA-102-S-G" H 10700 5850 60  0001 C CNN "Part Number"
+F 4 "ESQ-102-33-G-S" H 10700 5850 60  0001 C CNN "Part Number"
 F 5 "Samtec" H 10700 5850 60  0001 C CNN "Manufacturer"
-F 6 "1668221" H 10700 5850 60  0001 C CNN "Order Code"
+F 6 "SIL-2" H 10700 5850 60  0001 C CNN "Package"
+F 7 "Farnell" H 10700 5850 60  0001 C CNN "Supplier"
+F 8 "1668221" H 10700 5850 60  0001 C CNN "Order Code"
+F 9 "Samtec" H 10700 5850 60  0001 C CNN "Alt. Supplier"
+F 10 "ESQ-102-33-G-S" H 10700 5850 60  0001 C CNN "Alt. Order Code"
+F 11 "1x2 ESQ series elevated socket strip" H 10700 5850 60  0001 C CNN "Note"
 	1    10700 5850
 	1    0    0    -1  
 $EndComp
@@ -1270,7 +1389,12 @@ F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 10050 5850 60  0001 C CNN
 F 3 "" H 10050 5850 60  0000 C CNN
 F 4 "M20-9990245" H 10050 5850 60  0001 C CNN "Part Number"
 F 5 "Harwin" H 10050 5850 60  0001 C CNN "Manufacturer"
-F 6 "1022245" H 10050 5850 60  0001 C CNN "Order Code"
+F 6 "SIL-2" H 10050 5850 60  0001 C CNN "Package"
+F 7 "Farnell" H 10050 5850 60  0001 C CNN "Supplier"
+F 8 "1022245" H 10050 5850 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 10050 5850 60  0001 C CNN "Alt. Supplier"
+F 10 "855-M20-9990245" H 10050 5850 60  0001 C CNN "Alt. Order Code"
+F 11 "1x2 header strip" H 10050 5850 60  0001 C CNN "Note"
 	1    10050 5850
 	-1   0    0    -1  
 $EndComp
@@ -1320,7 +1444,12 @@ F 2 "Pin_Headers:Pin_Header_Straight_2x04" H 4600 4350 60  0001 C CNN
 F 3 "" H 4600 4350 60  0000 C CNN
 F 4 "61300421121" H 4600 5550 60  0001 C CNN "Part Number"
 F 5 "Wurth Elektronik" H 4600 5550 60  0001 C CNN "Manufacturer"
-F 6 "2356130" H 4600 5550 60  0001 C CNN "Order Code"
+F 6 "DIL-8" H 4600 5550 60  0001 C CNN "Package"
+F 7 "Farnell" H 4600 5550 60  0001 C CNN "Supplier"
+F 8 "2356130" H 4600 5550 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4600 5550 60  0001 C CNN "Alt. Supplier"
+F 10 "710-61300421121" H 4600 5550 60  0001 C CNN "Alt. Order Code"
+F 11 "2x4 header strip" H 4600 5550 60  0001 C CNN "Note"
 	1    4600 5550
 	0    1    1    0   
 $EndComp
@@ -1360,7 +1489,12 @@ F 2 "jakub:can-MS323-20" H 9250 5950 60  0001 C CNN
 F 3 "" H 9250 5950 60  0000 C CNN
 F 4 "MS323-20" H 9250 5950 60  0001 C CNN "Part Number"
 F 5 "Masach" H 9250 5950 60  0001 C CNN "Manufacturer"
-F 6 "826-6788 (RS Components)" H 9250 5950 60  0001 C CNN "Order Code"
+F 6 "Can" H 9250 5950 60  0001 C CNN "Package"
+F 7 "Farnell" H 9250 5950 60  0001 C CNN "Supplier"
+F 8 "826-6788 (RS Components)" H 9250 5950 60  0001 C CNN "Order Code"
+F 9 "Masach" H 9250 5950 60  0001 C CNN "Alt. Supplier"
+F 10 "MS323-20" H 9250 5950 60  0001 C CNN "Alt. Order Code"
+F 11 "Two-piece EMI shielding can" H 9250 5950 60  0001 C CNN "Note"
 	1    9250 5950
 	1    0    0    -1  
 $EndComp
@@ -1392,7 +1526,12 @@ F 2 "jakub:can-MS323-20" H 9250 5400 60  0001 C CNN
 F 3 "" H 9250 5400 60  0000 C CNN
 F 4 "MS323-20" H 9250 5400 60  0001 C CNN "Part Number"
 F 5 "Masach" H 9250 5400 60  0001 C CNN "Manufacturer"
-F 6 "826-6788 (RS Components)" H 9250 5400 60  0001 C CNN "Order Code"
+F 6 "Can" H 9250 5400 60  0001 C CNN "Package"
+F 7 "RS Components" H 9250 5400 60  0001 C CNN "Supplier"
+F 8 "826-6788" H 9250 5400 60  0001 C CNN "Order Code"
+F 9 "Masach" H 9250 5400 60  0001 C CNN "Alt. Supplier"
+F 10 "MS323-20" H 9250 5400 60  0001 C CNN "Alt. Order Code"
+F 11 "Two-piece EMI shielding can" H 9250 5400 60  0001 C CNN "Note"
 	1    9250 5400
 	1    0    0    -1  
 $EndComp

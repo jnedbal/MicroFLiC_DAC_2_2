@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MicroFLiC_DAC_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_DAC_1_0-cache
+LIBS:MicroFLiC_DAC-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -56,7 +55,12 @@ F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 4050 2300 60  0001 C CNN
 F 3 "" H 4050 2300 60  0000 C CNN
 F 4 "REF5040AIDGKT" H 4100 2300 60  0001 C CNN "Part Number"
 F 5 "Texas Instruments" H 4100 2300 60  0001 C CNN "Manufacturer"
-F 6 "2323788" H 4100 2300 60  0001 C CNN "Order Code"
+F 6 "MSOP-8" H 4100 2300 60  0001 C CNN "Package"
+F 7 "Farnell" H 4100 2300 60  0001 C CNN "Supplier"
+F 8 "2323788" H 4100 2300 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4100 2300 60  0001 C CNN "Alt. Supplier"
+F 10 "595-REF5040AIDGKT" H 4100 2300 60  0001 C CNN "Alt. Order Code"
+F 11 "5.000V low-noise very low drift precision voltage reference" H 4100 2300 60  0001 C CNN "Note"
 	1    4100 2300
 	1    0    0    -1  
 $EndComp
@@ -67,12 +71,17 @@ P 4900 2700
 AR Path="/5573B996" Ref="C39"  Part="1" 
 AR Path="/5573B13F/5573B996" Ref="C39"  Part="1" 
 F 0 "C39" H 4950 2800 50  0000 L CNN
-F 1 "1u" H 4950 2600 50  0000 L CNN
+F 1 "1u/10V" H 4950 2600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4938 2550 30  0001 C CNN
 F 3 "" H 4900 2700 60  0000 C CNN
 F 4 "MC0603X105K100CT" H 4900 2700 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 4900 2700 60  0001 C CNN "Manufacturer"
-F 6 "1759399" H 4900 2700 60  0001 C CNN "Order Code"
+F 6 "0603" H 4900 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 4900 2700 60  0001 C CNN "Supplier"
+F 8 "1759399" H 4900 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4900 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012106010" H 4900 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "1μF/10V X5R 0603 ceramic capacitor" H 4900 2700 60  0001 C CNN "Note"
 	1    4900 2700
 	1    0    0    -1  
 $EndComp
@@ -103,11 +112,11 @@ F 3 "" H 4900 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 2500 5200 2000
+	5300 2500 5300 2000
 Wire Wire Line
 	4700 2000 5700 2000
 Wire Wire Line
-	5200 2900 5200 3000
+	5300 2900 5300 3000
 Wire Wire Line
 	4900 3000 4900 2850
 Wire Wire Line
@@ -115,12 +124,12 @@ Wire Wire Line
 $Comp
 L GNDA #PWR049
 U 1 1 5573B9C2
-P 5200 3000
-F 0 "#PWR049" H 5200 2750 60  0001 C CNN
-F 1 "GNDA" H 5200 2850 60  0000 C CNN
-F 2 "" H 5200 3000 60  0000 C CNN
-F 3 "" H 5200 3000 60  0000 C CNN
-	1    5200 3000
+P 5300 3000
+F 0 "#PWR049" H 5300 2750 60  0001 C CNN
+F 1 "GNDA" H 5300 2850 60  0000 C CNN
+F 2 "" H 5300 3000 60  0000 C CNN
+F 3 "" H 5300 3000 60  0000 C CNN
+	1    5300 3000
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4700 2600
@@ -139,7 +148,12 @@ F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 4050 4400 60  0001 C CNN
 F 3 "" H 4050 4400 60  0000 C CNN
 F 4 "REF5050AIDGKT" H 4100 4400 60  0001 C CNN "Part Number"
 F 5 "Texas Instruments" H 4100 4400 60  0001 C CNN "Manufacturer"
-F 6 "2323802" H 4100 4400 60  0001 C CNN "Order Code"
+F 6 "MSOP-8" H 4100 4400 60  0001 C CNN "Package"
+F 7 "Farnell" H 4100 4400 60  0001 C CNN "Supplier"
+F 8 "2323802" H 4100 4400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4100 4400 60  0001 C CNN "Alt. Supplier"
+F 10 "595-REF5050AIDGKT" H 4100 4400 60  0001 C CNN "Alt. Order Code"
+F 11 "4.096V low-noise very low drift precision voltage reference" H 4100 4400 60  0001 C CNN "Note"
 	1    4100 4400
 	1    0    0    -1  
 $EndComp
@@ -150,12 +164,17 @@ P 4900 4800
 AR Path="/5573BE4D" Ref="C40"  Part="1" 
 AR Path="/5573B13F/5573BE4D" Ref="C40"  Part="1" 
 F 0 "C40" H 4950 4900 50  0000 L CNN
-F 1 "1u" H 4950 4700 50  0000 L CNN
+F 1 "1u/10V" H 4950 4700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4938 4650 30  0001 C CNN
 F 3 "" H 4900 4800 60  0000 C CNN
 F 4 "MC0603X105K100CT" H 4900 4800 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 4900 4800 60  0001 C CNN "Manufacturer"
-F 6 "1759399" H 4900 4800 60  0001 C CNN "Order Code"
+F 6 "0603" H 4900 4800 60  0001 C CNN "Package"
+F 7 "Farnell" H 4900 4800 60  0001 C CNN "Supplier"
+F 8 "1759399" H 4900 4800 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4900 4800 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012106010" H 4900 4800 60  0001 C CNN "Alt. Order Code"
+F 11 "1μF/10V X5R 0603 ceramic capacitor" H 4900 4800 60  0001 C CNN "Note"
 	1    4900 4800
 	1    0    0    -1  
 $EndComp
@@ -186,11 +205,11 @@ F 3 "" H 4900 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 4600 5200 4100
+	5300 4600 5300 4100
 Wire Wire Line
 	4700 4100 5700 4100
 Wire Wire Line
-	5200 5000 5200 5100
+	5300 5000 5300 5100
 Wire Wire Line
 	4900 5100 4900 4950
 Wire Wire Line
@@ -198,12 +217,12 @@ Wire Wire Line
 $Comp
 L GNDA #PWR052
 U 1 1 5573BE72
-P 5200 5100
-F 0 "#PWR052" H 5200 4850 60  0001 C CNN
-F 1 "GNDA" H 5200 4950 60  0000 C CNN
-F 2 "" H 5200 5100 60  0000 C CNN
-F 3 "" H 5200 5100 60  0000 C CNN
-	1    5200 5100
+P 5300 5100
+F 0 "#PWR052" H 5300 4850 60  0001 C CNN
+F 1 "GNDA" H 5300 4950 60  0000 C CNN
+F 2 "" H 5300 5100 60  0000 C CNN
+F 3 "" H 5300 5100 60  0000 C CNN
+	1    5300 5100
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4700 4700
@@ -215,8 +234,8 @@ Connection ~ 2900 4100
 Wire Wire Line
 	2700 2000 2700 4100
 Connection ~ 2700 2000
-Connection ~ 5200 2000
-Connection ~ 5200 4100
+Connection ~ 5300 2000
+Connection ~ 5300 4100
 Text HLabel 5700 2000 2    60   Output ~ 0
 4.096V
 Text HLabel 5700 4100 2    60   Output ~ 0
@@ -283,7 +302,12 @@ F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 2938 2550 30  0001
 F 3 "" H 2900 2700 60  0000 C CNN
 F 4 "TR3B475K025C0700" H 2900 2700 60  0001 C CNN "Part Number"
 F 5 "Vishay" H 2900 2700 60  0001 C CNN "Manufacturer"
-F 6 "2353145" H 2900 2700 60  0001 C CNN "Order Code"
+F 6 "case B" H 2900 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 2900 2700 60  0001 C CNN "Supplier"
+F 8 "2353145" H 2900 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2900 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "74-TR3B475K025C0700" H 2900 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "4.7μ/25V/0.7Ω ESR case B tantalum capacitor" H 2900 2700 60  0001 C CNN "Note"
 	1    2900 2700
 	1    0    0    -1  
 $EndComp
@@ -297,36 +321,51 @@ F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 2938 4650 30  0001
 F 3 "" H 2900 4800 60  0000 C CNN
 F 4 "TR3B475K025C0700" H 2900 4800 60  0001 C CNN "Part Number"
 F 5 "Vishay" H 2900 4800 60  0001 C CNN "Manufacturer"
-F 6 "2353145" H 2900 4800 60  0001 C CNN "Order Code"
+F 6 "case B" H 2900 4800 60  0001 C CNN "Package"
+F 7 "Farnell" H 2900 4800 60  0001 C CNN "Supplier"
+F 8 "2353145" H 2900 4800 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2900 4800 60  0001 C CNN "Alt. Supplier"
+F 10 "74-TR3B475K025C0700" H 2900 4800 60  0001 C CNN "Alt. Order Code"
+F 11 "4.7μ/25V/0.7Ω ESR case B tantalum capacitor" H 2900 4800 60  0001 C CNN "Note"
 	1    2900 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L CP2 C42
 U 1 1 5574D196
-P 5200 4800
-F 0 "C42" H 5250 4900 50  0000 L CNN
-F 1 "4u7/25V" H 5250 4700 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 5238 4650 30  0001 C CNN
-F 3 "" H 5200 4800 60  0000 C CNN
-F 4 "TR3B475K025C0700" H 5200 4800 60  0001 C CNN "Part Number"
-F 5 "Vishay" H 5200 4800 60  0001 C CNN "Manufacturer"
-F 6 "2353145" H 5200 4800 60  0001 C CNN "Order Code"
-	1    5200 4800
+P 5300 4800
+F 0 "C42" H 5350 4900 50  0000 L CNN
+F 1 "4u7/25V" H 5350 4700 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 5338 4650 30  0001 C CNN
+F 3 "" H 5300 4800 60  0000 C CNN
+F 4 "TR3B475K025C0700" H 5300 4800 60  0001 C CNN "Part Number"
+F 5 "Vishay" H 5300 4800 60  0001 C CNN "Manufacturer"
+F 6 "case B" H 5300 4800 60  0001 C CNN "Package"
+F 7 "Farnell" H 5300 4800 60  0001 C CNN "Supplier"
+F 8 "2353145" H 5300 4800 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5300 4800 60  0001 C CNN "Alt. Supplier"
+F 10 "74-TR3B475K025C0700" H 5300 4800 60  0001 C CNN "Alt. Order Code"
+F 11 "4.7μ/25V/0.7Ω ESR case B tantalum capacitor" H 5300 4800 60  0001 C CNN "Note"
+	1    5300 4800
 	1    0    0    -1  
 $EndComp
 $Comp
 L CP2 C41
 U 1 1 5574D236
-P 5200 2700
-F 0 "C41" H 5250 2800 50  0000 L CNN
-F 1 "4u7/25V" H 5250 2600 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 5238 2550 30  0001 C CNN
-F 3 "" H 5200 2700 60  0000 C CNN
-F 4 "TR3B475K025C0700" H 5200 2700 60  0001 C CNN "Part Number"
-F 5 "Vishay" H 5200 2700 60  0001 C CNN "Manufacturer"
-F 6 "2353145" H 5200 2700 60  0001 C CNN "Order Code"
-	1    5200 2700
+P 5300 2700
+F 0 "C41" H 5350 2800 50  0000 L CNN
+F 1 "4u7/25V" H 5350 2600 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow" H 5338 2550 30  0001 C CNN
+F 3 "" H 5300 2700 60  0000 C CNN
+F 4 "TR3B475K025C0700" H 5300 2700 60  0001 C CNN "Part Number"
+F 5 "Vishay" H 5300 2700 60  0001 C CNN "Manufacturer"
+F 6 "case B" H 5300 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 5300 2700 60  0001 C CNN "Supplier"
+F 8 "2353145" H 5300 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5300 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "74-TR3B475K025C0700" H 5300 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "4.7μ/25V/0.7Ω ESR case B tantalum capacitor" H 5300 2700 60  0001 C CNN "Note"
+	1    5300 2700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

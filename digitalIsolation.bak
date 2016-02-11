@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MicroFLiC_DAC_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_DAC_1_0-cache
+LIBS:MicroFLiC_DAC-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -66,7 +65,12 @@ F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 7050 3050 60  0001 C CNN
 F 3 "" H 7050 3050 60  0000 C CNN
 F 4 "SI8651EC-B-IS1" H 7050 2850 60  0001 C CNN "Part Number"
 F 5 "Silicon Labs" H 7050 2850 60  0001 C CNN "Manufacturer"
-F 6 "2423323" H 7050 2850 60  0001 C CNN "Order Code"
+F 6 "SOIC-16" H 7050 2850 60  0001 C CNN "Package"
+F 7 "Farnell" H 7050 2850 60  0001 C CNN "Supplier"
+F 8 "2423323" H 7050 2850 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 7050 2850 60  0001 C CNN "Alt. Supplier"
+F 10 "634-SI8651EC-B-IS1" H 7050 2850 60  0001 C CNN "Alt. Order Code"
+F 11 "Digital isolators 5 channel 3.75kV 8ns 4/1" H 7050 2850 60  0001 C CNN "Note"
 	1    7050 2850
 	1    0    0    -1  
 $EndComp
@@ -98,7 +102,12 @@ F 2 "Capacitors_SMD:C_0603" H 8138 3350 30  0001 C CNN
 F 3 "" H 8100 3500 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 8100 3500 60  0001 C CNN "Package"
+F 7 "Farnell" H 8100 3500 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 8100 3500 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 8100 3500 60  0001 C CNN "Alt. Order Code"
+F 11 "100n/50V X7R 0603 ceramic capacitor" H 8100 3500 60  0001 C CNN "Note"
 	1    8100 3500
 	1    0    0    -1  
 $EndComp
@@ -155,7 +164,12 @@ F 2 "Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5" H 5345 3065 30  0001 C CNN
 F 3 "" H 5395 3315 60  0000 C CNN
 F 4 "SN74AHC1G14DCKR" H 5250 3200 60  0001 C CNN "Part Number"
 F 5 "Texas Instruments" H 5250 3200 60  0001 C CNN "Manufacturer"
-F 6 "1287468" H 5250 3200 60  0001 C CNN "Order Code"
+F 6 "SC-70-5" H 5250 3200 60  0001 C CNN "Package"
+F 7 "Farnell" H 5250 3200 60  0001 C CNN "Supplier"
+F 8 "1287468" H 5250 3200 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5250 3200 60  0001 C CNN "Alt. Supplier"
+F 10 "595-SN74AHC1G14DCKR" H 5250 3200 60  0001 C CNN "Alt. Order Code"
+F 11 "Single Schmitt trigger inverter" H 5250 3200 60  0001 C CNN "Note"
 	1    5250 3200
 	1    0    0    -1  
 $EndComp
@@ -171,7 +185,12 @@ F 2 "Capacitors_SMD:C_0603" H 6038 3350 30  0001 C CNN
 F 3 "" H 6000 3500 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 6000 3500 60  0001 C CNN "Package"
+F 7 "Farnell" H 6000 3500 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 6000 3500 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 6000 3500 60  0001 C CNN "Alt. Order Code"
+F 11 "100n/50V X7R 0603 ceramic capacitor" H 6000 3500 60  0001 C CNN "Note"
 	1    6000 3500
 	1    0    0    -1  
 $EndComp
@@ -188,17 +207,22 @@ Wire Wire Line
 $Comp
 L C C65
 U 1 1 5574AD7F
-P 4300 3500
+P 4400 3500
 AR Path="/5574AD7F" Ref="C65"  Part="1" 
 AR Path="/5574A638/5574AD7F" Ref="C65"  Part="1" 
-F 0 "C65" H 4350 3600 50  0000 L CNN
-F 1 "100n" H 4350 3400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4338 3350 30  0001 C CNN
-F 3 "" H 4300 3500 60  0000 C CNN
-F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
-F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
-	1    4300 3500
+F 0 "C65" H 4450 3600 50  0000 L CNN
+F 1 "100n" H 4450 3400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4438 3350 30  0001 C CNN
+F 3 "" H 4400 3500 60  0000 C CNN
+F 4 "MC0603B104K500CT" H 5400 7000 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 5400 7000 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 4400 3500 60  0001 C CNN "Package"
+F 7 "Farnell" H 4400 3500 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5400 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4400 3500 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 4400 3500 60  0001 C CNN "Alt. Order Code"
+F 11 "100n/50V X7R 0603 ceramic capacitor" H 4400 3500 60  0001 C CNN "Note"
+	1    4400 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -217,14 +241,14 @@ Wire Wire Line
 Wire Wire Line
 	5800 3200 5700 3200
 Wire Wire Line
-	4300 2900 6000 2900
+	4400 2900 6000 2900
 Wire Wire Line
 	5200 2900 5200 3000
 Wire Wire Line
-	4300 2900 4300 3350
+	4400 2900 4400 3350
 Connection ~ 5200 2900
 Wire Wire Line
-	4300 3650 4300 3800
+	4400 3650 4400 3800
 Wire Wire Line
 	6300 3800 3600 3800
 Connection ~ 5200 3800
@@ -239,9 +263,9 @@ Wire Wire Line
 	6400 2350 3600 2350
 Connection ~ 4700 2200
 Wire Wire Line
-	3600 3200 4300 3200
-Connection ~ 4300 3200
-Connection ~ 4300 3800
+	3600 3200 4400 3200
+Connection ~ 4400 3200
+Connection ~ 4400 3800
 Text HLabel 3600 2200 0    60   Input ~ 0
 A_~SS
 Text HLabel 3600 2350 0    60   Input ~ 0
@@ -259,23 +283,28 @@ A_GND
 $Comp
 L C C64
 U 1 1 5574B7E4
-P 4000 3500
+P 3900 3500
 AR Path="/5574B7E4" Ref="C64"  Part="1" 
 AR Path="/5574A638/5574B7E4" Ref="C64"  Part="1" 
-F 0 "C64" H 4050 3600 50  0000 L CNN
-F 1 "10u" H 4050 3400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 4038 3350 30  0001 C CNN
-F 3 "" H 4000 3500 60  0000 C CNN
-F 4 "GRM21BR61A106KE19L" H 4000 3500 60  0001 C CNN "Part Number"
-F 5 "Murata" H 4000 3500 60  0001 C CNN "Manufacturer"
-F 6 "1828805" H 4000 3500 60  0001 C CNN "Order Code"
-	1    4000 3500
+F 0 "C64" H 3950 3600 50  0000 L CNN
+F 1 "10u/10V" H 3950 3400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3938 3350 30  0001 C CNN
+F 3 "" H 3900 3500 60  0000 C CNN
+F 4 "GRM21BR61A106KE19L" H 3900 3500 60  0001 C CNN "Part Number"
+F 5 "Murata" H 3900 3500 60  0001 C CNN "Manufacturer"
+F 6 "0805" H 3900 3500 60  0001 C CNN "Package"
+F 7 "Farnell" H 3900 3500 60  0001 C CNN "Supplier"
+F 8 "1828805" H 3900 3500 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3900 3500 60  0001 C CNN "Alt. Supplier"
+F 10 "81-GRM21BR61A106KE19" H 3900 3500 60  0001 C CNN "Alt. Order Code"
+F 11 "10μ/10V X5R 0805 ceramic capacitor" H 3900 3500 60  0001 C CNN "Note"
+	1    3900 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4000 3350 4000 3200
-Connection ~ 4000 3200
+	3900 3350 3900 3200
+Connection ~ 3900 3200
 Wire Wire Line
-	4000 3650 4000 3800
-Connection ~ 4000 3800
+	3900 3650 3900 3800
+Connection ~ 3900 3800
 $EndSCHEMATC

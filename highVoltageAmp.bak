@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MicroFLiC_DAC_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_DAC_1_0-cache
+LIBS:MicroFLiC_DAC-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -56,7 +55,12 @@ F 2 "Resistors_SMD:R_0805" V 3230 4000 30  0001 C CNN
 F 3 "" H 3300 4000 30  0000 C CNN
 F 4 "MCTF0805TTX1001" V 3300 4000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 3300 4000 60  0001 C CNN "Manufacturer"
-F 6 "2112790" V 3300 4000 60  0001 C CNN "Order Code"
+F 6 "0805" H 3300 4000 60  0001 C CNN "Package"
+F 7 "Farnell" H 3300 4000 60  0001 C CNN "Supplier"
+F 8 "2112790" V 3300 4000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3300 4000 60  0001 C CNN "Alt. Supplier"
+F 10 "71-PLTT0805Z1001QGT5" H 3300 4000 60  0001 C CNN "Alt. Order Code"
+F 11 "1kΩ/0.01% 0805 resistor" H 3300 4000 60  0001 C CNN "Note"
 	1    3300 4000
 	0    1    1    0   
 $EndComp
@@ -70,7 +74,12 @@ F 2 "Resistors_SMD:R_0805" V 2730 4400 30  0001 C CNN
 F 3 "" H 2800 4400 30  0000 C CNN
 F 4 "MCTF0805TTX1001" V 2800 4400 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 2800 4400 60  0001 C CNN "Manufacturer"
-F 6 "2112790" V 2800 4400 60  0001 C CNN "Order Code"
+F 6 "0805" H 2800 4400 60  0001 C CNN "Package"
+F 7 "Farnell" H 2800 4400 60  0001 C CNN "Supplier"
+F 8 "2112790" V 2800 4400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2800 4400 60  0001 C CNN "Alt. Supplier"
+F 10 "71-PLTT0805Z1001QGT5" H 2800 4400 60  0001 C CNN "Alt. Order Code"
+F 11 "1kΩ/0.01% 0805 resistor" H 2800 4400 60  0001 C CNN "Note"
 	1    2800 4400
 	-1   0    0    1   
 $EndComp
@@ -107,9 +116,17 @@ P 3300 4300
 AR Path="/55733A0C" Ref="C14"  Part="1" 
 AR Path="/5573337B/55733A0C" Ref="C14"  Part="1" 
 F 0 "C14" H 3350 4400 50  0000 L CNN
-F 1 "(10p)" H 3350 4200 50  0000 L CNN
+F 1 "10p" H 3350 4200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3338 4150 30  0001 C CNN
 F 3 "" H 3300 4300 60  0000 C CNN
+F 4 "MC0603N100J500CT" H 3300 4300 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 3300 4300 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 3300 4300 60  0001 C CNN "Package"
+F 7 "Farnell" H 3300 4300 60  0001 C CNN "Supplier"
+F 8 "2320799" H 3300 4300 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3300 4300 60  0001 C CNN "Alt. Supplier"
+F 10 "77-VJ0603A100JXACBC" H 3300 4300 60  0001 C CNN "Alt. Order Code"
+F 11 "10pF/50V C0G(NP0) 0603 ceramic capacitor" H 3300 4300 60  0001 C CNN "Note"
 	1    3300 4300
 	0    1    1    0   
 $EndComp
@@ -135,7 +152,12 @@ F 2 "Capacitors_SMD:C_0603" H 3688 2050 30  0001 C CNN
 F 3 "" H 3650 2200 60  0000 C CNN
 F 4 "MC0603N471J500CT" H 3650 2200 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 3650 2200 60  0001 C CNN "Manufacturer"
-F 6 "1759080" H 3650 2200 60  0001 C CNN "Order Code"
+F 6 "0603" H 3650 2200 60  0001 C CNN "Package"
+F 7 "Farnell" H 3650 2200 60  0001 C CNN "Supplier"
+F 8 "1759080" H 3650 2200 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3650 2200 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206081" H 3650 2200 60  0001 C CNN "Alt. Order Code"
+F 11 "470pF/50V C0G(NP0) 0603 ceramic capacitor" H 3650 2200 60  0001 C CNN "Note"
 	1    3650 2200
 	0    1    1    0   
 $EndComp
@@ -151,7 +173,11 @@ F 2 "Capacitors_SMD:C_0603" H 3688 1750 30  0001 C CNN
 F 3 "" H 3650 1900 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 3650 1900 60  0001 C CNN "Package"
+F 7 "Farnell" H 3650 1900 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3650 1900 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 3650 1900 60  0001 C CNN "Alt. Order Code"
 	1    3650 1900
 	0    1    1    0   
 $EndComp
@@ -189,7 +215,12 @@ F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 3400 2700 60  0001 C CNN
 F 3 "" H 3400 2700 60  0000 C CNN
 F 4 "OPA211AIDGKT" H 3400 2700 60  0001 C CNN "Part Number"
 F 5 "Texas Instruments" H 3400 2700 60  0001 C CNN "Manufacturer"
-F 6 "2323341" H 3400 2700 60  0001 C CNN "Order Code"
+F 6 "MSOP-8" H 3400 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 3400 2700 60  0001 C CNN "Supplier"
+F 8 "2323341" H 3400 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3400 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "595-OPA211AIDGKT" H 3400 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "1.1-nV/√Hz noise low power precision operational amplifier" H 3400 2700 60  0001 C CNN "Note"
 	1    3400 2700
 	1    0    0    -1  
 $EndComp
@@ -227,7 +258,12 @@ F 2 "Capacitors_SMD:C_0603" H 3738 3050 30  0001 C CNN
 F 3 "" H 3700 3200 60  0000 C CNN
 F 4 "MC0603N471J500CT" H 3700 3200 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 3700 3200 60  0001 C CNN "Manufacturer"
-F 6 "1759080" H 3700 3200 60  0001 C CNN "Order Code"
+F 6 "0603" H 3700 3200 60  0001 C CNN "Package"
+F 7 "Farnell" H 3700 3200 60  0001 C CNN "Supplier"
+F 8 "1759080" H 3700 3200 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3700 3200 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206081" H 3700 3200 60  0001 C CNN "Alt. Order Code"
+F 11 "470pF/50V C0G(NP0) 0603 ceramic capacitor" H 3700 3200 60  0001 C CNN "Note"
 	1    3700 3200
 	0    1    1    0   
 $EndComp
@@ -243,7 +279,11 @@ F 2 "Capacitors_SMD:C_0603" H 3738 3350 30  0001 C CNN
 F 3 "" H 3700 3500 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 3700 3500 60  0001 C CNN "Package"
+F 7 "Farnell" H 3700 3500 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 3700 3500 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 3700 3500 60  0001 C CNN "Alt. Order Code"
 	1    3700 3500
 	0    1    1    0   
 $EndComp
@@ -295,7 +335,12 @@ F 2 "Capacitors_SMD:C_0603" H 2938 2050 30  0001 C CNN
 F 3 "" H 2900 2200 60  0000 C CNN
 F 4 "MC0603B103K101CT" H 2900 2200 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 2900 2200 60  0001 C CNN "Manufacturer"
-F 6 "2320786" H 2900 2200 60  0001 C CNN "Order Code"
+F 6 "0603" H 2900 2200 60  0001 C CNN "Package"
+F 7 "Farnell" H 2900 2200 60  0001 C CNN "Supplier"
+F 8 "2320786" H 2900 2200 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2900 2200 60  0001 C CNN "Alt. Supplier"
+F 10 "77-VJ0603Y103KXACBC" H 2900 2200 60  0001 C CNN "Alt. Order Code"
+F 11 "10nF/100V X7R 0603 ceramic capacitor" H 2900 2200 60  0001 C CNN "Note"
 	1    2900 2200
 	0    1    1    0   
 $EndComp
@@ -321,7 +366,12 @@ F 2 "Resistors_SMD:R_0805" V 7330 4000 30  0001 C CNN
 F 3 "" H 7400 4000 30  0000 C CNN
 F 4 "MCTF0805TTX1001" V 7400 4000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 7400 4000 60  0001 C CNN "Manufacturer"
-F 6 "2112790" V 7400 4000 60  0001 C CNN "Order Code"
+F 6 "0805" H 7400 4000 60  0001 C CNN "Package"
+F 7 "Farnell" H 7400 4000 60  0001 C CNN "Supplier"
+F 8 "2112790" V 7400 4000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 7400 4000 60  0001 C CNN "Alt. Supplier"
+F 10 "71-PLTT0805Z1001QGT5" H 7400 4000 60  0001 C CNN "Alt. Order Code"
+F 11 "1kΩ/0.01% 0805 resistor" H 7400 4000 60  0001 C CNN "Note"
 	1    7400 4000
 	0    1    1    0   
 $EndComp
@@ -335,7 +385,12 @@ F 2 "Resistors_SMD:R_0805" V 6830 4400 30  0001 C CNN
 F 3 "" H 6900 4400 30  0000 C CNN
 F 4 "MCTF0805TTX1001" V 6900 4400 60  0001 C CNN "Part Number"
 F 5 "Multicomp" V 6900 4400 60  0001 C CNN "Manufacturer"
-F 6 "2112790" V 6900 4400 60  0001 C CNN "Order Code"
+F 6 "0805" H 6900 4400 60  0001 C CNN "Package"
+F 7 "Farnell" H 6900 4400 60  0001 C CNN "Supplier"
+F 8 "2112790" V 6900 4400 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 6900 4400 60  0001 C CNN "Alt. Supplier"
+F 10 "71-PLTT0805Z1001QGT5" H 6900 4400 60  0001 C CNN "Alt. Order Code"
+F 11 "1kΩ/0.01% 0805 resistor" H 6900 4400 60  0001 C CNN "Note"
 	1    6900 4400
 	-1   0    0    1   
 $EndComp
@@ -372,9 +427,17 @@ P 7400 4300
 AR Path="/55734252" Ref="C20"  Part="1" 
 AR Path="/5573337B/55734252" Ref="C20"  Part="1" 
 F 0 "C20" H 7450 4400 50  0000 L CNN
-F 1 "(10p)" H 7450 4200 50  0000 L CNN
+F 1 "10p" H 7450 4200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7438 4150 30  0001 C CNN
 F 3 "" H 7400 4300 60  0000 C CNN
+F 4 "MC0603N100J500CT" H 7400 4300 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 7400 4300 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 7400 4300 60  0001 C CNN "Package"
+F 7 "Farnell" H 7400 4300 60  0001 C CNN "Supplier"
+F 8 "2320799" H 7400 4300 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 7400 4300 60  0001 C CNN "Alt. Supplier"
+F 10 "77-VJ0603A100JXACBC" H 7400 4300 60  0001 C CNN "Alt. Order Code"
+F 11 "10pF/50V C0G(NP0) 0603 ceramic capacitor" H 7400 4300 60  0001 C CNN "Note"
 	1    7400 4300
 	0    1    1    0   
 $EndComp
@@ -400,7 +463,12 @@ F 2 "Capacitors_SMD:C_0603" H 7788 2050 30  0001 C CNN
 F 3 "" H 7750 2200 60  0000 C CNN
 F 4 "MC0603N471J500CT" H 7750 2200 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 7750 2200 60  0001 C CNN "Manufacturer"
-F 6 "1759080" H 7750 2200 60  0001 C CNN "Order Code"
+F 6 "0603" H 7750 2200 60  0001 C CNN "Package"
+F 7 "Farnell" H 7750 2200 60  0001 C CNN "Supplier"
+F 8 "1759080" H 7750 2200 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 7750 2200 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206081" H 7750 2200 60  0001 C CNN "Alt. Order Code"
+F 11 "470pF/50V C0G(NP0) 0603 ceramic capacitor" H 7750 2200 60  0001 C CNN "Note"
 	1    7750 2200
 	0    1    1    0   
 $EndComp
@@ -416,7 +484,11 @@ F 2 "Capacitors_SMD:C_0603" H 7788 1750 30  0001 C CNN
 F 3 "" H 7750 1900 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 7750 1900 60  0001 C CNN "Package"
+F 7 "Farnell" H 7750 1900 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 7750 1900 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 7750 1900 60  0001 C CNN "Alt. Order Code"
 	1    7750 1900
 	0    1    1    0   
 $EndComp
@@ -454,7 +526,12 @@ F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 7500 2700 60  0001 C CNN
 F 3 "" H 7500 2700 60  0000 C CNN
 F 4 "OPA211AIDGKT" H 7500 2700 60  0001 C CNN "Part Number"
 F 5 "Texas Instruments" H 7500 2700 60  0001 C CNN "Manufacturer"
-F 6 "2323341" H 7500 2700 60  0001 C CNN "Order Code"
+F 6 "MSOP-8" H 7500 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 7500 2700 60  0001 C CNN "Supplier"
+F 8 "2323341" H 7500 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 7500 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "595-OPA211AIDGKT" H 7500 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "1.1-nV/√Hz noise low power precision operational amplifier" H 7500 2700 60  0001 C CNN "Note"
 	1    7500 2700
 	1    0    0    -1  
 $EndComp
@@ -492,7 +569,12 @@ F 2 "Capacitors_SMD:C_0603" H 7838 3050 30  0001 C CNN
 F 3 "" H 7800 3200 60  0000 C CNN
 F 4 "MC0603N471J500CT" H 7800 3200 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 7800 3200 60  0001 C CNN "Manufacturer"
-F 6 "1759080" H 7800 3200 60  0001 C CNN "Order Code"
+F 6 "0603" H 7800 3200 60  0001 C CNN "Package"
+F 7 "Farnell" H 7800 3200 60  0001 C CNN "Supplier"
+F 8 "1759080" H 7800 3200 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 7800 3200 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206081" H 7800 3200 60  0001 C CNN "Alt. Order Code"
+F 11 "470pF/50V C0G(NP0) 0603 ceramic capacitor" H 7800 3200 60  0001 C CNN "Note"
 	1    7800 3200
 	0    1    1    0   
 $EndComp
@@ -508,7 +590,11 @@ F 2 "Capacitors_SMD:C_0603" H 7838 3350 30  0001 C CNN
 F 3 "" H 7800 3500 60  0000 C CNN
 F 4 "MC0603B104K500CT" H 5300 7000 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5300 7000 60  0001 C CNN "Manufacturer"
-F 6 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 6 "0603" H 7800 3500 60  0001 C CNN "Package"
+F 7 "Farnell" H 7800 3500 60  0001 C CNN "Supplier"
+F 8 "1759122" H 5300 7000 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 7800 3500 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012206095" H 7800 3500 60  0001 C CNN "Alt. Order Code"
 	1    7800 3500
 	0    1    1    0   
 $EndComp
@@ -560,7 +646,12 @@ F 2 "Capacitors_SMD:C_0603" H 7038 2050 30  0001 C CNN
 F 3 "" H 7000 2200 60  0000 C CNN
 F 4 "MC0603B103K101CT" H 7000 2200 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 7000 2200 60  0001 C CNN "Manufacturer"
-F 6 "2320786" H 7000 2200 60  0001 C CNN "Order Code"
+F 6 "0603" H 7000 2200 60  0001 C CNN "Package"
+F 7 "Farnell" H 7000 2200 60  0001 C CNN "Supplier"
+F 8 "2320786" H 7000 2200 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 7000 2200 60  0001 C CNN "Alt. Supplier"
+F 10 "77-VJ0603Y103KXACBC" H 7000 2200 60  0001 C CNN "Alt. Order Code"
+F 11 "10nF/100V X7R 0603 ceramic capacitor" H 7000 2200 60  0001 C CNN "Note"
 	1    7000 2200
 	0    1    1    0   
 $EndComp

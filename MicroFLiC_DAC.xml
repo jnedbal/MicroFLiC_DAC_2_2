@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/jakub/KiCAD/MicroFLiC_DAC_1_0/MicroFLiC_DAC_1_0.sch</source>
-    <date>Thu 04 Feb 2016 10:51:29 GMT</date>
-    <tool>Eeschema 4.0.1-3.201512221402+6198~38~ubuntu14.04.1-stable</tool>
+    <source>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC.sch</source>
+    <date>Thu 11 Feb 2016 22:39:22 GMT</date>
+    <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>MicroFLiC_DAC_1_0.sch</source>
+        <source>MicroFLiC_DAC.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -23,7 +23,7 @@
         <company/>
         <rev/>
         <date/>
-        <source>highVoltageAmp_1_0.sch</source>
+        <source>highVoltageAmp.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -36,46 +36,46 @@
         <company/>
         <rev/>
         <date/>
-        <source>highCurrentAmp_1_0.sch</source>
+        <source>highCurrentAmp.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="4" name="/reference_1_0/" tstamps="/5573B13F/">
+    <sheet number="4" name="/reference/" tstamps="/5573B13F/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>reference_1_0.sch</source>
+        <source>reference.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="5" name="/powerSupply_1_0/" tstamps="/5573DBA6/">
+    <sheet number="5" name="/powerSupply/" tstamps="/5573DBA6/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>powerSupply_1_0.sch</source>
+        <source>powerSupply.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/digitalIsolation_1_0/" tstamps="/5574A638/">
+    <sheet number="6" name="/digitalIsolation/" tstamps="/5574A638/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
-        <source>digitalIsolation_1_0.sch</source>
+        <source>digitalIsolation.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -90,7 +90,12 @@
       <fields>
         <field name="Part Number">DAC8734SPFB</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">TQFP-48</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2082437</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-DAC8734SPFB</field>
+        <field name="Note">Quad 16-bit DAC</field>
       </fields>
       <libsource lib="jakub" part="DAC8734"/>
       <sheetpath names="/" tstamps="/"/>
@@ -130,7 +135,12 @@
       <fields>
         <field name="Part Number">MCMR08X1002FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2073607</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">71-CRCW0805-10K-E3</field>
+        <field name="Note">10kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -142,7 +152,12 @@
       <fields>
         <field name="Part Number">MCMR08X1002FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2073607</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">71-CRCW0805-10K-E3</field>
+        <field name="Note">10kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -168,7 +183,12 @@
       <fields>
         <field name="Part Number">MCMR08X1002FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2073607</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">71-CRCW0805-10K-E3</field>
+        <field name="Note">10kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -180,7 +200,12 @@
       <fields>
         <field name="Part Number">MCMR08X1002FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2073607</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">71-CRCW0805-10K-E3</field>
+        <field name="Note">10kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -192,7 +217,12 @@
       <fields>
         <field name="Part Number">MCMR08X1002FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2073607</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">71-CRCW0805-10K-E3</field>
+        <field name="Note">10kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -204,7 +234,12 @@
       <fields>
         <field name="Part Number">73251-2200</field>
         <field name="Manufacturer">Molex</field>
+        <field name="Package">SMA</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2293854</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">538-73251-2200</field>
+        <field name="Note">R/A SMA jack</field>
       </fields>
       <libsource lib="jakub" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
@@ -216,7 +251,12 @@
       <fields>
         <field name="Part Number">73251-2200</field>
         <field name="Manufacturer">Molex</field>
+        <field name="Package">SMA</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2293854</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">538-73251-2200</field>
+        <field name="Note">R/A SMA jack</field>
       </fields>
       <libsource lib="jakub" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
@@ -228,7 +268,12 @@
       <fields>
         <field name="Part Number">73251-2200</field>
         <field name="Manufacturer">Molex</field>
+        <field name="Package">SMA</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2293854</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">538-73251-2200</field>
+        <field name="Note">R/A SMA jack</field>
       </fields>
       <libsource lib="jakub" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
@@ -240,19 +285,29 @@
       <fields>
         <field name="Part Number">73251-2200</field>
         <field name="Manufacturer">Molex</field>
+        <field name="Package">SMA</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2293854</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">538-73251-2200</field>
+        <field name="Note">R/A SMA jack</field>
       </fields>
       <libsource lib="jakub" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55737135</tstamp>
     </comp>
     <comp ref="P1">
-      <value>2x4_MicroMaTch</value>
+      <value>8-way Micro-MaTch</value>
       <footprint>jakub:7-188275-8</footprint>
       <fields>
         <field name="Part Number">7-188275-8</field>
         <field name="Manufacturer">TE Connectivity</field>
+        <field name="Package">Micro-MaTch SMD</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">3784733</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">571-7-188275-8</field>
+        <field name="Note">8-way SMD Micro-MaTch connector</field>
       </fields>
       <libsource lib="conn" part="CONN_02X04"/>
       <sheetpath names="/" tstamps="/"/>
@@ -264,7 +319,12 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -276,7 +336,12 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -288,7 +353,12 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -300,7 +370,12 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -312,7 +387,12 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -324,7 +404,12 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -336,7 +421,12 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -348,7 +438,12 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -360,9 +455,14 @@
       <fields>
         <field name="Part Number">TR3B475K025C0700</field>
         <field name="Manufacturer">Vishay</field>
+        <field name="Package">case B</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2353145</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
+        <field name="Note">4.7μF/25V/0.7Ω ESR case B tantalum capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC_1_0-cache" part="CP2"/>
+      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>557456E7</tstamp>
     </comp>
@@ -372,9 +472,14 @@
       <fields>
         <field name="Part Number">TR3B475K025C0700</field>
         <field name="Manufacturer">Vishay</field>
+        <field name="Package">case B</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2353145</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
+        <field name="Note">4.7μF/25V/0.7Ω ESR case B tantalum capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC_1_0-cache" part="CP2"/>
+      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55746A90</tstamp>
     </comp>
@@ -384,9 +489,14 @@
       <fields>
         <field name="Part Number">TR3B475K025C0700</field>
         <field name="Manufacturer">Vishay</field>
+        <field name="Package">case B</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2353145</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
+        <field name="Note">4.7μF/25V/0.7Ω ESR case B tantalum capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC_1_0-cache" part="CP2"/>
+      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5574747A</tstamp>
     </comp>
@@ -396,9 +506,14 @@
       <fields>
         <field name="Part Number">TR3B475K025C0700</field>
         <field name="Manufacturer">Vishay</field>
+        <field name="Package">case B</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2353145</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
+        <field name="Note">4.7μF/25V/0.7Ω ESR case B tantalum capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC_1_0-cache" part="CP2"/>
+      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5574C471</tstamp>
     </comp>
@@ -406,9 +521,14 @@
       <value>1x2_SOCKET</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
       <fields>
-        <field name="Part Number">SSA-102-S-G</field>
+        <field name="Part Number">ESQ-102-33-G-S</field>
         <field name="Manufacturer">Samtec</field>
+        <field name="Package">SIL-2</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1668221</field>
+        <field name="Alt. Supplier">Samtec</field>
+        <field name="Alt. Order Code">ESQ-102-33-G-S</field>
+        <field name="Note">1x2 ESQ series elevated socket strip</field>
       </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
@@ -420,7 +540,12 @@
       <fields>
         <field name="Part Number">M20-9990245</field>
         <field name="Manufacturer">Harwin</field>
+        <field name="Package">SIL-2</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1022245</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">855-M20-9990245</field>
+        <field name="Note">1x2 header strip</field>
       </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
@@ -432,7 +557,12 @@
       <fields>
         <field name="Part Number">61300421121</field>
         <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Package">DIL-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2356130</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-61300421121</field>
+        <field name="Note">2x4 header strip</field>
       </fields>
       <libsource lib="conn" part="CONN_02X04"/>
       <sheetpath names="/" tstamps="/"/>
@@ -444,7 +574,12 @@
       <fields>
         <field name="Part Number">MS323-20</field>
         <field name="Manufacturer">Masach</field>
-        <field name="Order Code">826-6788 (RS Components)</field>
+        <field name="Package">Can</field>
+        <field name="Supplier">RS Components</field>
+        <field name="Order Code">826-6788</field>
+        <field name="Alt. Supplier">Masach</field>
+        <field name="Alt. Order Code">MS323-20</field>
+        <field name="Note">Two-piece EMI shielding can</field>
       </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
@@ -456,7 +591,12 @@
       <fields>
         <field name="Part Number">MS323-20</field>
         <field name="Manufacturer">Masach</field>
-        <field name="Order Code">826-6788 (RS Components)</field>
+        <field name="Package">Can</field>
+        <field name="Supplier">RS Components</field>
+        <field name="Order Code">826-6788</field>
+        <field name="Alt. Supplier">Masach</field>
+        <field name="Alt. Order Code">MS323-20</field>
+        <field name="Note">Two-piece EMI shielding can</field>
       </fields>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
@@ -475,7 +615,12 @@
       <fields>
         <field name="Part Number">MCTF0805TTX1001</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2112790</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">71-PLTT0805Z1001QGT5</field>
+        <field name="Note">1kΩ/0.01% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -487,15 +632,30 @@
       <fields>
         <field name="Part Number">MCTF0805TTX1001</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2112790</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">71-PLTT0805Z1001QGT5</field>
+        <field name="Note">1kΩ/0.01% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>557339F4</tstamp>
     </comp>
     <comp ref="C14">
-      <value>(10p)</value>
+      <value>10p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N100J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2320799</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603A100JXACBC</field>
+        <field name="Note">10pF/50V C0G(NP0) 0603 ceramic capacitor</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55733A0C</tstamp>
@@ -506,7 +666,12 @@
       <fields>
         <field name="Part Number">MC0603N471J500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759080</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206081</field>
+        <field name="Note">470pF/50V C0G(NP0) 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -518,7 +683,11 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -530,7 +699,12 @@
       <fields>
         <field name="Part Number">OPA211AIDGKT</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">MSOP-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2323341</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-OPA211AIDGKT</field>
+        <field name="Note">1.1-nV/√Hz noise low power precision operational amplifier</field>
       </fields>
       <libsource lib="linear" part="TL071"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -542,7 +716,12 @@
       <fields>
         <field name="Part Number">MC0603N471J500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759080</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206081</field>
+        <field name="Note">470pF/50V C0G(NP0) 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -554,7 +733,11 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -566,7 +749,12 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -578,7 +766,12 @@
       <fields>
         <field name="Part Number">MCTF0805TTX1001</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2112790</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">71-PLTT0805Z1001QGT5</field>
+        <field name="Note">1kΩ/0.01% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -590,15 +783,30 @@
       <fields>
         <field name="Part Number">MCTF0805TTX1001</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2112790</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">71-PLTT0805Z1001QGT5</field>
+        <field name="Note">1kΩ/0.01% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>5573423B</tstamp>
     </comp>
     <comp ref="C20">
-      <value>(10p)</value>
+      <value>10p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N100J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2320799</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603A100JXACBC</field>
+        <field name="Note">10pF/50V C0G(NP0) 0603 ceramic capacitor</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55734252</tstamp>
@@ -609,7 +817,12 @@
       <fields>
         <field name="Part Number">MC0603N471J500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759080</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206081</field>
+        <field name="Note">470pF/50V C0G(NP0) 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -621,7 +834,11 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -633,7 +850,12 @@
       <fields>
         <field name="Part Number">OPA211AIDGKT</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">MSOP-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2323341</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-OPA211AIDGKT</field>
+        <field name="Note">1.1-nV/√Hz noise low power precision operational amplifier</field>
       </fields>
       <libsource lib="linear" part="TL071"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -645,7 +867,12 @@
       <fields>
         <field name="Part Number">MC0603N471J500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759080</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206081</field>
+        <field name="Note">470pF/50V C0G(NP0) 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -657,7 +884,11 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -669,7 +900,12 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
@@ -681,7 +917,12 @@
       <fields>
         <field name="Part Number">MC0603N471J500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759080</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206081</field>
+        <field name="Note">470pF/50V C0G(NP0) 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -693,7 +934,12 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -705,7 +951,12 @@
       <fields>
         <field name="Part Number">MC0603N471J500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759080</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206081</field>
+        <field name="Note">470pF/50V C0G(NP0) 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -717,7 +968,12 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -729,7 +985,12 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -741,7 +1002,12 @@
       <fields>
         <field name="Part Number">MC0603N471J500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759080</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206081</field>
+        <field name="Note">470pF/50V C0G(NP0) 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -753,7 +1019,12 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -765,7 +1036,12 @@
       <fields>
         <field name="Part Number">MC0603N471J500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759080</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206081</field>
+        <field name="Note">470pF/50V C0G(NP0) 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -777,7 +1053,12 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -789,7 +1070,12 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -801,7 +1087,12 @@
       <fields>
         <field name="Part Number">AD8021ARZ</field>
         <field name="Manufacturer">Analog Devices</field>
+        <field name="Package">SO-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">9426000</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">584-AD8021ARZ</field>
+        <field name="Note">Low noise high speed amplifier for 16-bit systems</field>
       </fields>
       <libsource lib="jakub" part="AD8021"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -810,6 +1101,16 @@
     <comp ref="C28">
       <value>10p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N100J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2320799</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603A100JXACBC</field>
+        <field name="Note">10pF/50V C0G(NP0) 0603 ceramic capacitor</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55738309</tstamp>
@@ -820,7 +1121,12 @@
       <fields>
         <field name="Part Number">AD8021ARZ</field>
         <field name="Manufacturer">Analog Devices</field>
+        <field name="Package">SO-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">9426000</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">584-AD8021ARZ</field>
+        <field name="Note">Low noise high speed amplifier for 16-bit systems</field>
       </fields>
       <libsource lib="jakub" part="AD8021"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -829,6 +1135,16 @@
     <comp ref="C34">
       <value>10p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Part Number">MC0603N100J500CT</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2320799</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603A100JXACBC</field>
+        <field name="Note">10pF/50V C0G(NP0) 0603 ceramic capacitor</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>557386CA</tstamp>
@@ -839,7 +1155,12 @@
       <fields>
         <field name="Part Number">RP73PF2A49R9BTDF</field>
         <field name="Manufacturer">TE Connectivity</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2117023</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">279-RP73PF2A49R9BTDF</field>
+        <field name="Note">49.9Ω/0.1%/250mW 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -851,7 +1172,12 @@
       <fields>
         <field name="Part Number">RP73PF2A49R9BTDF</field>
         <field name="Manufacturer">TE Connectivity</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2117023</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">279-RP73PF2A49R9BTDF</field>
+        <field name="Note">49.9Ω/0.1%/250mW 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
@@ -863,22 +1189,32 @@
       <fields>
         <field name="Part Number">REF5040AIDGKT</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">MSOP-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2323788</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-REF5040AIDGKT</field>
+        <field name="Note">5.000V low-noise very low drift precision voltage reference</field>
       </fields>
       <libsource lib="jakub" part="REF50XX"/>
-      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5573B98F</tstamp>
     </comp>
     <comp ref="C39">
-      <value>1u</value>
+      <value>1u/10V</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
         <field name="Part Number">MC0603X105K100CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759399</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012106010</field>
+        <field name="Note">1μF/10V X5R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5573B996</tstamp>
     </comp>
     <comp ref="U7">
@@ -887,22 +1223,32 @@
       <fields>
         <field name="Part Number">REF5050AIDGKT</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">MSOP-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2323802</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-REF5050AIDGKT</field>
+        <field name="Note">4.096V low-noise very low drift precision voltage reference</field>
       </fields>
       <libsource lib="jakub" part="REF50XX"/>
-      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5573BE47</tstamp>
     </comp>
     <comp ref="C40">
-      <value>1u</value>
+      <value>1u/10V</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
         <field name="Part Number">MC0603X105K100CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759399</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012106010</field>
+        <field name="Note">1μF/10V X5R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5573BE4D</tstamp>
     </comp>
     <comp ref="C37">
@@ -911,10 +1257,15 @@
       <fields>
         <field name="Part Number">TR3B475K025C0700</field>
         <field name="Manufacturer">Vishay</field>
+        <field name="Package">case B</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2353145</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
+        <field name="Note">4.7μ/25V/0.7Ω ESR case B tantalum capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC_1_0-cache" part="CP2"/>
-      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
+      <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5574CCB3</tstamp>
     </comp>
     <comp ref="C38">
@@ -923,10 +1274,15 @@
       <fields>
         <field name="Part Number">TR3B475K025C0700</field>
         <field name="Manufacturer">Vishay</field>
+        <field name="Package">case B</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2353145</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
+        <field name="Note">4.7μ/25V/0.7Ω ESR case B tantalum capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC_1_0-cache" part="CP2"/>
-      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
+      <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5574D13E</tstamp>
     </comp>
     <comp ref="C42">
@@ -935,10 +1291,15 @@
       <fields>
         <field name="Part Number">TR3B475K025C0700</field>
         <field name="Manufacturer">Vishay</field>
+        <field name="Package">case B</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2353145</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
+        <field name="Note">4.7μ/25V/0.7Ω ESR case B tantalum capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC_1_0-cache" part="CP2"/>
-      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
+      <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5574D196</tstamp>
     </comp>
     <comp ref="C41">
@@ -947,10 +1308,15 @@
       <fields>
         <field name="Part Number">TR3B475K025C0700</field>
         <field name="Manufacturer">Vishay</field>
+        <field name="Package">case B</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2353145</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
+        <field name="Note">4.7μ/25V/0.7Ω ESR case B tantalum capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC_1_0-cache" part="CP2"/>
-      <sheetpath names="/reference_1_0/" tstamps="/5573B13F/"/>
+      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
+      <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5574D236</tstamp>
     </comp>
     <comp ref="U8">
@@ -959,22 +1325,32 @@
       <fields>
         <field name="Part Number">TPS7A4901DGNT</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">MSOP-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1841881</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-TPS7A4901DGNT</field>
+        <field name="Note">Ultralow-noise positive linear regulator</field>
       </fields>
       <libsource lib="jakub" part="TPS7A4901"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DC3D</tstamp>
     </comp>
     <comp ref="C43">
-      <value>4u7</value>
+      <value>4u7/25V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
-        <field name="Part Number">GRM21BR61E475KA12L</field>
+        <field name="Part Number">GRM21BR61E475MA12L</field>
         <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1735529</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61E475MA2L</field>
+        <field name="Note">4.7μF/25V X5R 0805 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DCAC</tstamp>
     </comp>
     <comp ref="C46">
@@ -983,10 +1359,15 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DD41</tstamp>
     </comp>
     <comp ref="C49">
@@ -995,10 +1376,15 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10 nF X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DE25</tstamp>
     </comp>
     <comp ref="R12">
@@ -1007,10 +1393,15 @@
       <fields>
         <field name="Part Number">MCMR08X1653FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2073657</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF1653V</field>
+        <field name="Note">165kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DEB9</tstamp>
     </comp>
     <comp ref="R13">
@@ -1019,10 +1410,15 @@
       <fields>
         <field name="Part Number">MCWR08X1202FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2447563</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF1202V</field>
+        <field name="Note">12kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DFE3</tstamp>
     </comp>
     <comp ref="U9">
@@ -1031,22 +1427,32 @@
       <fields>
         <field name="Part Number">TPS7A4901DGNT</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">MSOP-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1841881</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-TPS7A4901DGNT</field>
+        <field name="Note">Ultralow-noise positive linear regulator</field>
       </fields>
       <libsource lib="jakub" part="TPS7A4901"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EA66</tstamp>
     </comp>
     <comp ref="C44">
-      <value>10u</value>
+      <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Part Number">GRM21BR61A106KE19L</field>
         <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1828805</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61A106KE19</field>
+        <field name="Note">10μF/10V X5R 0805 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EA6C</tstamp>
     </comp>
     <comp ref="C47">
@@ -1055,10 +1461,15 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EA72</tstamp>
     </comp>
     <comp ref="C50">
@@ -1067,10 +1478,15 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10 nF X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EA8B</tstamp>
     </comp>
     <comp ref="R14">
@@ -1079,10 +1495,15 @@
       <fields>
         <field name="Part Number">MC01W0805148K7</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2141883</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF4872V</field>
+        <field name="Note">48.7kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EA97</tstamp>
     </comp>
     <comp ref="R15">
@@ -1091,10 +1512,15 @@
       <fields>
         <field name="Part Number">MCWR08X1202FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2447563</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF1202V</field>
+        <field name="Note">12kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EAA1</tstamp>
     </comp>
     <comp ref="U10">
@@ -1103,22 +1529,32 @@
       <fields>
         <field name="Part Number">TPS7A4901DGNT</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">MSOP-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1841881</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-TPS7A4901DGNT</field>
+        <field name="Note">Ultralow-noise positive linear regulator</field>
       </fields>
       <libsource lib="jakub" part="TPS7A4901"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE38</tstamp>
     </comp>
     <comp ref="C45">
-      <value>10u</value>
+      <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Part Number">GRM21BR61A106KE19L</field>
         <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1828805</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61A106KE19</field>
+        <field name="Note">10μF/10V X5R 0805 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE3E</tstamp>
     </comp>
     <comp ref="C48">
@@ -1127,10 +1563,15 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE44</tstamp>
     </comp>
     <comp ref="C51">
@@ -1139,22 +1580,32 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10 nF X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE5D</tstamp>
     </comp>
     <comp ref="R16">
-      <value>48.7k</value>
+      <value>48k7</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Part Number">MC01W0805148K7</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2141883</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF4872V</field>
+        <field name="Note">48.7kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE69</tstamp>
     </comp>
     <comp ref="R17">
@@ -1163,23 +1614,16 @@
       <fields>
         <field name="Part Number">MCWR08X1202FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2447563</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF1202V</field>
+        <field name="Note">12kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE73</tstamp>
-    </comp>
-    <comp ref="C55">
-      <value>4u7</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="Part Number">GRM21BR61E475KA12L</field>
-        <field name="Manufacturer">Murata</field>
-        <field name="Order Code">1735529</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
-      <tstamp>5573F5F6</tstamp>
     </comp>
     <comp ref="C58">
       <value>10n</value>
@@ -1187,10 +1631,15 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F5FC</tstamp>
     </comp>
     <comp ref="C60">
@@ -1199,10 +1648,15 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10 nF X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F615</tstamp>
     </comp>
     <comp ref="R19">
@@ -1211,10 +1665,15 @@
       <fields>
         <field name="Part Number">MCMR08X1653FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2073657</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF1653V</field>
+        <field name="Note">165kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F621</tstamp>
     </comp>
     <comp ref="R20">
@@ -1223,22 +1682,32 @@
       <fields>
         <field name="Part Number">MCWR08X1202FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2447563</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF1202V</field>
+        <field name="Note">12kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F62B</tstamp>
     </comp>
     <comp ref="C56">
-      <value>10u</value>
+      <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Part Number">GRM21BR61A106KE19L</field>
         <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1828805</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61A106KE19</field>
+        <field name="Note">10μF/10V X5R 0805 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F651</tstamp>
     </comp>
     <comp ref="C59">
@@ -1247,10 +1716,15 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10nF/100V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F657</tstamp>
     </comp>
     <comp ref="C61">
@@ -1259,10 +1733,15 @@
       <fields>
         <field name="Part Number">MC0603B103K101CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2320786</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">77-VJ0603Y103KXACBC</field>
+        <field name="Note">10 nF X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F670</tstamp>
     </comp>
     <comp ref="R21">
@@ -1271,10 +1750,15 @@
       <fields>
         <field name="Part Number">MC01W0805148K7</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2141883</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF4872V</field>
+        <field name="Note">48.7kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F67C</tstamp>
     </comp>
     <comp ref="R22">
@@ -1283,10 +1767,15 @@
       <fields>
         <field name="Part Number">MCWR08X1202FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2447563</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF1202V</field>
+        <field name="Note">12kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F686</tstamp>
     </comp>
     <comp ref="R18">
@@ -1295,10 +1784,15 @@
       <fields>
         <field name="Part Number">MCWR08X1202FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2447563</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF1202V</field>
+        <field name="Note">12kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5574013B</tstamp>
     </comp>
     <comp ref="R10">
@@ -1306,11 +1800,16 @@
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
         <field name="Part Number">MCWR08X1202FTL</field>
-        <field name="Order Code">2447563</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2447563</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF1202V</field>
+        <field name="Note">12kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55740E12</tstamp>
     </comp>
     <comp ref="R11">
@@ -1319,70 +1818,66 @@
       <fields>
         <field name="Part Number">MCWR08X1202FTL</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2447563</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">667-ERJ-6ENF1202V</field>
+        <field name="Note">12kΩ/1% 0805 resistor</field>
       </fields>
       <libsource lib="device" part="R"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55742790</tstamp>
     </comp>
-    <comp ref="C52">
-      <value>4u7</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="Part Number">GRM21BR61E475KA12L</field>
-        <field name="Manufacturer">Murata</field>
-        <field name="Order Code">1735529</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
-      <tstamp>55743C63</tstamp>
-    </comp>
-    <comp ref="C62">
-      <value>4u7</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="Part Number">GRM21BR61E475KA12L</field>
-        <field name="Manufacturer">Murata</field>
-        <field name="Order Code">1735529</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
-      <tstamp>557440E0</tstamp>
-    </comp>
     <comp ref="C63">
-      <value>10u</value>
+      <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Part Number">GRM21BR61A106KE19L</field>
-        <field name="Order Code">1828805</field>
         <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1828805</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61A106KE19</field>
+        <field name="Note">10μF/10V X5R 0805 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5574418A</tstamp>
     </comp>
     <comp ref="C53">
-      <value>10u</value>
+      <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Part Number">GRM21BR61A106KE19L</field>
         <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1828805</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61A106KE19</field>
+        <field name="Note">10μF/10V X5R 0805 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55744228</tstamp>
     </comp>
     <comp ref="C54">
-      <value>10u</value>
+      <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Part Number">GRM21BR61A106KE19L</field>
         <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1828805</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61A106KE19</field>
+        <field name="Note">10μF/10V X5R 0805 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>557442DC</tstamp>
     </comp>
     <comp ref="U11">
@@ -1391,22 +1886,32 @@
       <fields>
         <field name="Part Number">LM3880MF-1AB</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">SOT-23-6</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1271399</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">926-LM3880MF1ABNOPB</field>
+        <field name="Note">3-output power sequencer</field>
       </fields>
       <libsource lib="jakub" part="LM3880"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55744A3B</tstamp>
     </comp>
     <comp ref="C57">
-      <value>1u</value>
+      <value>1u/10V</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
         <field name="Part Number">MC0603X105K100CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759399</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012106010</field>
+        <field name="Note">1μF/10V X5R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55744E44</tstamp>
     </comp>
     <comp ref="U12">
@@ -1414,11 +1919,16 @@
       <footprint>jakub:SSOP8_powerPAD</footprint>
       <fields>
         <field name="Part Number">TPS7A3001DGNT</field>
-        <field name="Order Code">1855138</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">MSOP-8</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1855138</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-TPS7A3001DGNT</field>
+        <field name="Note">Ultralow-noise negative linear regulator</field>
       </fields>
       <libsource lib="jakub" part="TPS7A3001"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55767C84</tstamp>
     </comp>
     <comp ref="U13">
@@ -1427,11 +1937,67 @@
       <fields>
         <field name="Part Number">TPS7A3001DGNT</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">MSOP-8</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1855138</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-TPS7A3001DGNT</field>
+        <field name="Note">Ultralow-noise negative linear regulator</field>
       </fields>
       <libsource lib="jakub" part="TPS7A3001"/>
-      <sheetpath names="/powerSupply_1_0/" tstamps="/5573DBA6/"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55767CFB</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61E475MA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735529</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61E475MA2L</field>
+        <field name="Note">4.7μF/25V X5R 0805 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
+      <tstamp>56B393CF</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61E475MA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735529</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61E475MA2L</field>
+        <field name="Note">4.7μF/25V X5R 0805 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
+      <tstamp>56B39BE8</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>4u7/25V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Part Number">GRM21BR61E475MA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735529</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61E475MA2L</field>
+        <field name="Note">4.7μF/25V X5R 0805 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
+      <tstamp>56B39F4C</tstamp>
     </comp>
     <comp ref="U15">
       <value>Si8651</value>
@@ -1439,10 +2005,15 @@
       <fields>
         <field name="Part Number">SI8651EC-B-IS1</field>
         <field name="Manufacturer">Silicon Labs</field>
+        <field name="Package">SOIC-16</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">2423323</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">634-SI8651EC-B-IS1</field>
+        <field name="Note">Digital isolators 5 channel 3.75kV 8ns 4/1</field>
       </fields>
       <libsource lib="jakub" part="Si8651"/>
-      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574AB03</tstamp>
     </comp>
     <comp ref="C67">
@@ -1451,10 +2022,15 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100n/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574AB6E</tstamp>
     </comp>
     <comp ref="U14">
@@ -1463,10 +2039,15 @@
       <fields>
         <field name="Part Number">SN74AHC1G14DCKR</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Package">SC-70-5</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1287468</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">595-SN74AHC1G14DCKR</field>
+        <field name="Note">Single Schmitt trigger inverter</field>
       </fields>
       <libsource lib="74xx" part="74AHC1G14"/>
-      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574ACE6</tstamp>
     </comp>
     <comp ref="C66">
@@ -1475,10 +2056,15 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100n/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574AE37</tstamp>
     </comp>
     <comp ref="C65">
@@ -1487,22 +2073,32 @@
       <fields>
         <field name="Part Number">MC0603B104K500CT</field>
         <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1759122</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">710-885012206095</field>
+        <field name="Note">100n/50V X7R 0603 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574AD7F</tstamp>
     </comp>
     <comp ref="C64">
-      <value>10u</value>
+      <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Part Number">GRM21BR61A106KE19L</field>
         <field name="Manufacturer">Murata</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
         <field name="Order Code">1828805</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM21BR61A106KE19</field>
+        <field name="Note">10μ/10V X5R 0805 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
-      <sheetpath names="/digitalIsolation_1_0/" tstamps="/5574A638/"/>
+      <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574B7E4</tstamp>
     </comp>
   </components>
@@ -1595,7 +2191,7 @@
         <pin num="8" name="P8" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MicroFLiC_DAC_1_0-cache" part="CP2">
+    <libpart lib="MicroFLiC_DAC-cache" part="CP2">
       <footprints>
         <fp>SM*</fp>
         <fp>C?</fp>
@@ -1819,27 +2415,27 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="MicroFLiC_DAC_1_0-cache">
-      <uri>/home/jakub/KiCAD/MicroFLiC_DAC_1_0/MicroFLiC_DAC_1_0-cache.lib</uri>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="74xx">
+      <uri>/usr/local/share/kicad/library/74xx.lib</uri>
     </library>
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
-    <library logical="linear">
-      <uri>/usr/share/kicad/library/linear.lib</uri>
-    </library>
-    <library logical="74xx">
-      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    <library logical="MicroFLiC_DAC-cache">
+      <uri>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC-cache.lib</uri>
     </library>
     <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="linear">
+      <uri>/usr/local/share/kicad/library/linear.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/digitalIsolation_1_0/A_GND">
+    <net code="1" name="/digitalIsolation/A_GND">
       <node ref="C64" pin="2"/>
       <node ref="U15" pin="8"/>
       <node ref="C65" pin="2"/>
@@ -1848,7 +2444,7 @@
       <node ref="C66" pin="2"/>
       <node ref="P1" pin="8"/>
     </net>
-    <net code="2" name="/digitalIsolation_1_0/A_IOREF">
+    <net code="2" name="/digitalIsolation/A_IOREF">
       <node ref="U14" pin="5"/>
       <node ref="C66" pin="1"/>
       <node ref="P1" pin="7"/>
@@ -1856,171 +2452,171 @@
       <node ref="C65" pin="1"/>
       <node ref="U15" pin="1"/>
     </net>
-    <net code="3" name="/digitalIsolation_1_0/A_SDO">
+    <net code="3" name="/digitalIsolation/A_SDO">
       <node ref="P1" pin="5"/>
       <node ref="U15" pin="6"/>
     </net>
-    <net code="4" name="/digitalIsolation_1_0/A_SCLK">
+    <net code="4" name="/digitalIsolation/A_SCLK">
       <node ref="U15" pin="3"/>
       <node ref="P1" pin="3"/>
     </net>
-    <net code="5" name="/digitalIsolation_1_0/A_~LDAC">
+    <net code="5" name="/digitalIsolation/A_~LDAC">
       <node ref="U15" pin="5"/>
       <node ref="P1" pin="6"/>
     </net>
-    <net code="6" name="/digitalIsolation_1_0/A_SDI">
+    <net code="6" name="/digitalIsolation/A_SDI">
       <node ref="U15" pin="4"/>
       <node ref="P1" pin="4"/>
     </net>
-    <net code="7" name="/digitalIsolation_1_0/A_~SS">
+    <net code="7" name="/digitalIsolation/A_~SS">
       <node ref="U14" pin="2"/>
       <node ref="P1" pin="2"/>
       <node ref="U15" pin="2"/>
     </net>
-    <net code="8" name="/digitalIsolation_1_0/~LDAC">
+    <net code="8" name="/digitalIsolation/~LDAC">
       <node ref="U1" pin="6"/>
       <node ref="U15" pin="12"/>
     </net>
-    <net code="9" name="/digitalIsolation_1_0/SDO">
+    <net code="9" name="/digitalIsolation/SDO">
       <node ref="U1" pin="5"/>
       <node ref="U15" pin="11"/>
     </net>
-    <net code="10" name="/digitalIsolation_1_0/SDI">
+    <net code="10" name="/digitalIsolation/SDI">
       <node ref="U1" pin="4"/>
       <node ref="U15" pin="13"/>
     </net>
-    <net code="11" name="/digitalIsolation_1_0/SCLK">
+    <net code="11" name="/digitalIsolation/SCLK">
       <node ref="U15" pin="14"/>
       <node ref="U1" pin="3"/>
     </net>
     <net code="12" name="GND">
-      <node ref="R1" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C12" pin="2"/>
       <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C12" pin="2"/>
       <node ref="U1" pin="11"/>
       <node ref="A1" pin="1"/>
       <node ref="U15" pin="9"/>
-      <node ref="C67" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="R4" pin="2"/>
+      <node ref="C11" pin="2"/>
       <node ref="P2" pin="2"/>
+      <node ref="C67" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
     </net>
     <net code="13" name="VDD">
-      <node ref="C49" pin="1"/>
-      <node ref="U3" pin="7"/>
       <node ref="C52" pin="1"/>
-      <node ref="C19" pin="1"/>
-      <node ref="C16" pin="2"/>
-      <node ref="C15" pin="2"/>
       <node ref="U2" pin="7"/>
-      <node ref="C13" pin="1"/>
-      <node ref="U1" pin="35"/>
-      <node ref="U1" pin="26"/>
       <node ref="C21" pin="2"/>
       <node ref="C22" pin="2"/>
+      <node ref="C15" pin="2"/>
       <node ref="R12" pin="1"/>
+      <node ref="C49" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U1" pin="35"/>
       <node ref="U8" pin="1"/>
-      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="26"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="1"/>
       <node ref="C1" pin="1"/>
       <node ref="C6" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="7"/>
     </net>
     <net code="14" name="VCC">
+      <node ref="C37" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U7" pin="2"/>
       <node ref="C51" pin="1"/>
+      <node ref="R16" pin="1"/>
       <node ref="C54" pin="1"/>
       <node ref="U10" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="U6" pin="2"/>
-      <node ref="C37" pin="1"/>
       <node ref="C38" pin="1"/>
-      <node ref="U7" pin="2"/>
     </net>
     <net code="15" name="VSS">
-      <node ref="U3" pin="4"/>
-      <node ref="U12" pin="1"/>
       <node ref="C10" pin="1"/>
-      <node ref="C13" pin="2"/>
       <node ref="U1" pin="33"/>
-      <node ref="C7" pin="2"/>
+      <node ref="U12" pin="1"/>
       <node ref="C62" pin="1"/>
-      <node ref="U2" pin="4"/>
-      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
       <node ref="U1" pin="28"/>
+      <node ref="C13" pin="2"/>
       <node ref="C17" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C23" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U2" pin="4"/>
       <node ref="C9" pin="2"/>
       <node ref="C24" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C60" pin="1"/>
-      <node ref="R19" pin="1"/>
+      <node ref="C23" pin="2"/>
       <node ref="C8" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C60" pin="1"/>
+      <node ref="C7" pin="2"/>
     </net>
     <net code="16" name="+5VD">
+      <node ref="U15" pin="16"/>
       <node ref="P2" pin="1"/>
-      <node ref="R5" pin="2"/>
       <node ref="C67" pin="1"/>
-      <node ref="U15" pin="10"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="14"/>
       <node ref="U11" pin="1"/>
+      <node ref="U15" pin="10"/>
+      <node ref="U1" pin="13"/>
       <node ref="C12" pin="1"/>
       <node ref="C11" pin="1"/>
       <node ref="JP1" pin="2"/>
-      <node ref="U1" pin="14"/>
       <node ref="JP2" pin="2"/>
-      <node ref="U1" pin="13"/>
-      <node ref="U15" pin="16"/>
     </net>
-    <net code="17" name="/digitalIsolation_1_0/~SS">
-      <node ref="U1" pin="2"/>
+    <net code="17" name="/digitalIsolation/~SS">
       <node ref="U15" pin="15"/>
+      <node ref="U1" pin="2"/>
     </net>
     <net code="18" name="Net-(U1-Pad34)">
       <node ref="U1" pin="34"/>
     </net>
     <net code="19" name="/PGND">
-      <node ref="P7" pin="2"/>
       <node ref="P8" pin="2"/>
+      <node ref="P7" pin="2"/>
     </net>
-    <net code="20" name="/powerSupply_1_0/+19V">
+    <net code="20" name="/powerSupply/+19V">
       <node ref="R10" pin="1"/>
+      <node ref="U8" pin="8"/>
       <node ref="C43" pin="1"/>
       <node ref="P2" pin="7"/>
-      <node ref="U8" pin="8"/>
     </net>
-    <net code="21" name="/powerSupply_1_0/-7.5V">
-      <node ref="U13" pin="8"/>
-      <node ref="U13" pin="5"/>
-      <node ref="C56" pin="1"/>
+    <net code="21" name="/powerSupply/-7.5V">
       <node ref="P2" pin="4"/>
+      <node ref="C56" pin="1"/>
+      <node ref="U13" pin="5"/>
+      <node ref="U13" pin="8"/>
     </net>
-    <net code="22" name="/powerSupply_1_0/-19V">
-      <node ref="U12" pin="8"/>
-      <node ref="P2" pin="3"/>
+    <net code="22" name="/powerSupply/-19V">
       <node ref="C55" pin="1"/>
+      <node ref="U12" pin="8"/>
       <node ref="R18" pin="1"/>
+      <node ref="P2" pin="3"/>
     </net>
     <net code="23" name="/P12V">
-      <node ref="P7" pin="1"/>
       <node ref="P8" pin="1"/>
+      <node ref="P7" pin="1"/>
     </net>
-    <net code="24" name="/powerSupply_1_0/+7.5V">
-      <node ref="C45" pin="1"/>
+    <net code="24" name="/powerSupply/+7.5V">
       <node ref="C44" pin="1"/>
       <node ref="U9" pin="8"/>
       <node ref="U9" pin="5"/>
       <node ref="R11" pin="1"/>
-      <node ref="U10" pin="8"/>
+      <node ref="C45" pin="1"/>
       <node ref="P2" pin="8"/>
+      <node ref="U10" pin="8"/>
     </net>
     <net code="25" name="/highCurrentAmp/VOUT-3">
-      <node ref="JP6" pin="2"/>
       <node ref="U1" pin="40"/>
-      <node ref="U1" pin="38"/>
       <node ref="U5" pin="3"/>
+      <node ref="U1" pin="38"/>
+      <node ref="JP6" pin="2"/>
     </net>
     <net code="26" name="Net-(JP4-Pad1)">
       <node ref="U1" pin="22"/>
@@ -2028,160 +2624,160 @@
     </net>
     <net code="27" name="/highVoltageAmp/VOUT-1">
       <node ref="JP4" pin="2"/>
-      <node ref="U3" pin="3"/>
       <node ref="U1" pin="21"/>
       <node ref="U1" pin="23"/>
+      <node ref="U3" pin="3"/>
     </net>
     <net code="28" name="Net-(JP5-Pad1)">
       <node ref="U1" pin="45"/>
       <node ref="JP5" pin="1"/>
     </net>
     <net code="29" name="/highCurrentAmp/VOUT-2">
-      <node ref="U1" pin="46"/>
+      <node ref="U4" pin="3"/>
       <node ref="U1" pin="44"/>
       <node ref="JP5" pin="2"/>
-      <node ref="U4" pin="3"/>
+      <node ref="U1" pin="46"/>
     </net>
     <net code="30" name="Net-(JP6-Pad1)">
       <node ref="JP6" pin="1"/>
       <node ref="U1" pin="39"/>
     </net>
     <net code="31" name="Net-(JP3-Pad1)">
-      <node ref="U1" pin="16"/>
       <node ref="JP3" pin="1"/>
+      <node ref="U1" pin="16"/>
     </net>
     <net code="32" name="Net-(JP2-Pad1)">
-      <node ref="U1" pin="48"/>
-      <node ref="JP2" pin="1"/>
       <node ref="R2" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="U1" pin="48"/>
     </net>
     <net code="33" name="Net-(JP1-Pad1)">
-      <node ref="JP1" pin="1"/>
       <node ref="U1" pin="10"/>
+      <node ref="JP1" pin="1"/>
       <node ref="R1" pin="1"/>
     </net>
     <net code="34" name="/highVoltageAmp/VOUT-0">
-      <node ref="JP3" pin="2"/>
-      <node ref="U1" pin="15"/>
-      <node ref="U1" pin="17"/>
       <node ref="U2" pin="3"/>
+      <node ref="U1" pin="15"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="U1" pin="17"/>
     </net>
-    <net code="35" name="/reference_1_0/5.000V">
-      <node ref="C42" pin="1"/>
+    <net code="35" name="/reference/5.000V">
       <node ref="U1" pin="31"/>
+      <node ref="C42" pin="1"/>
       <node ref="U7" pin="6"/>
     </net>
     <net code="36" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1"/>
       <node ref="U1" pin="8"/>
+      <node ref="R3" pin="1"/>
     </net>
     <net code="37" name="Net-(R5-Pad1)">
-      <node ref="R5" pin="1"/>
       <node ref="U1" pin="7"/>
+      <node ref="R5" pin="1"/>
     </net>
     <net code="38" name="GNDA">
       <node ref="U13" pin="9"/>
-      <node ref="P2" pin="5"/>
-      <node ref="U13" pin="4"/>
-      <node ref="U1" pin="47"/>
-      <node ref="U12" pin="4"/>
-      <node ref="C62" pin="2"/>
       <node ref="U1" pin="43"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C63" pin="2"/>
       <node ref="U12" pin="9"/>
+      <node ref="U13" pin="4"/>
       <node ref="U7" pin="4"/>
       <node ref="C40" pin="2"/>
       <node ref="C39" pin="2"/>
       <node ref="U6" pin="4"/>
+      <node ref="U12" pin="4"/>
+      <node ref="C62" pin="2"/>
+      <node ref="U1" pin="47"/>
       <node ref="U1" pin="41"/>
       <node ref="C57" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C48" pin="2"/>
       <node ref="U1" pin="20"/>
-      <node ref="U11" pin="2"/>
-      <node ref="C2" pin="2"/>
       <node ref="C4" pin="2"/>
       <node ref="C7" pin="1"/>
+      <node ref="C2" pin="2"/>
       <node ref="C8" pin="2"/>
-      <node ref="C58" pin="2"/>
-      <node ref="C56" pin="2"/>
-      <node ref="R22" pin="2"/>
       <node ref="C59" pin="2"/>
+      <node ref="R22" pin="2"/>
       <node ref="P2" pin="6"/>
-      <node ref="S1" pin="2"/>
-      <node ref="A1" pin="2"/>
-      <node ref="S1" pin="1"/>
       <node ref="C9" pin="1"/>
+      <node ref="A1" pin="2"/>
+      <node ref="S1" pin="2"/>
       <node ref="C1" pin="2"/>
       <node ref="C3" pin="2"/>
+      <node ref="P2" pin="5"/>
       <node ref="S2" pin="1"/>
       <node ref="S2" pin="2"/>
       <node ref="C10" pin="2"/>
+      <node ref="S1" pin="1"/>
       <node ref="R15" pin="2"/>
       <node ref="R17" pin="2"/>
-      <node ref="C48" pin="2"/>
       <node ref="C45" pin="2"/>
-      <node ref="C53" pin="2"/>
-      <node ref="U1" pin="32"/>
-      <node ref="C54" pin="2"/>
       <node ref="U10" pin="9"/>
-      <node ref="C63" pin="2"/>
-      <node ref="U10" pin="4"/>
-      <node ref="C52" pin="2"/>
-      <node ref="C55" pin="2"/>
-      <node ref="U9" pin="9"/>
-      <node ref="R20" pin="2"/>
-      <node ref="C43" pin="2"/>
       <node ref="R13" pin="2"/>
-      <node ref="C46" pin="2"/>
-      <node ref="U1" pin="27"/>
-      <node ref="U8" pin="9"/>
+      <node ref="U1" pin="32"/>
+      <node ref="U11" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="U10" pin="4"/>
+      <node ref="C58" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C56" pin="2"/>
       <node ref="U8" pin="4"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="U8" pin="9"/>
+      <node ref="U1" pin="27"/>
       <node ref="U9" pin="4"/>
       <node ref="C47" pin="2"/>
       <node ref="C44" pin="2"/>
-      <node ref="U1" pin="18"/>
-      <node ref="C26" pin="1"/>
-      <node ref="C27" pin="1"/>
+      <node ref="U9" pin="9"/>
+      <node ref="C24" pin="1"/>
       <node ref="C16" pin="1"/>
       <node ref="C15" pin="1"/>
-      <node ref="C18" pin="1"/>
       <node ref="P5" pin="2"/>
       <node ref="P5" pin="3"/>
-      <node ref="P5" pin="4"/>
-      <node ref="P5" pin="5"/>
       <node ref="C21" pin="1"/>
       <node ref="C36" pin="1"/>
       <node ref="C35" pin="1"/>
-      <node ref="C17" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="P5" pin="4"/>
+      <node ref="C26" pin="1"/>
       <node ref="C23" pin="1"/>
-      <node ref="C24" pin="1"/>
-      <node ref="C30" pin="1"/>
-      <node ref="C29" pin="1"/>
+      <node ref="C27" pin="1"/>
       <node ref="R8" pin="1"/>
       <node ref="P6" pin="5"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="P5" pin="5"/>
       <node ref="P6" pin="2"/>
       <node ref="P6" pin="3"/>
       <node ref="P6" pin="4"/>
       <node ref="R6" pin="1"/>
-      <node ref="P3" pin="5"/>
-      <node ref="P3" pin="4"/>
+      <node ref="C30" pin="1"/>
       <node ref="C37" pin="2"/>
-      <node ref="C38" pin="2"/>
-      <node ref="C42" pin="2"/>
-      <node ref="C41" pin="2"/>
-      <node ref="P3" pin="2"/>
-      <node ref="U1" pin="29"/>
-      <node ref="P3" pin="3"/>
-      <node ref="C32" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="P4" pin="2"/>
+      <node ref="C29" pin="1"/>
       <node ref="P4" pin="3"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="P4" pin="2"/>
       <node ref="P4" pin="4"/>
       <node ref="P4" pin="5"/>
-      <node ref="C33" pin="1"/>
+      <node ref="P3" pin="3"/>
+      <node ref="P3" pin="5"/>
+      <node ref="P3" pin="4"/>
+      <node ref="P3" pin="2"/>
+      <node ref="U1" pin="29"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C41" pin="2"/>
     </net>
-    <net code="39" name="/reference_1_0/4.096V">
+    <net code="39" name="/reference/4.096V">
       <node ref="U6" pin="6"/>
-      <node ref="U1" pin="30"/>
       <node ref="C41" pin="1"/>
+      <node ref="U1" pin="30"/>
     </net>
     <net code="40" name="/highCurrentAmp/VOUT-D">
       <node ref="R24" pin="1"/>
@@ -2193,31 +2789,31 @@
     </net>
     <net code="42" name="/highVoltageAmp/VOUT-A">
       <node ref="U2" pin="6"/>
-      <node ref="R7" pin="1"/>
       <node ref="C14" pin="1"/>
       <node ref="P3" pin="1"/>
+      <node ref="R7" pin="1"/>
     </net>
     <net code="43" name="Net-(R4-Pad1)">
-      <node ref="U1" pin="9"/>
       <node ref="R4" pin="1"/>
+      <node ref="U1" pin="9"/>
     </net>
     <net code="44" name="/highVoltageAmp/VOUT-B">
       <node ref="C20" pin="1"/>
-      <node ref="P4" pin="1"/>
       <node ref="R9" pin="1"/>
+      <node ref="P4" pin="1"/>
       <node ref="U3" pin="6"/>
     </net>
     <net code="45" name="/highVoltageAmp/INV-0">
-      <node ref="U2" pin="2"/>
       <node ref="C14" pin="2"/>
-      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="2"/>
       <node ref="R7" pin="2"/>
+      <node ref="R6" pin="2"/>
     </net>
     <net code="46" name="/highVoltageAmp/INV-1">
-      <node ref="R9" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="U3" pin="2"/>
       <node ref="C20" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R9" pin="2"/>
     </net>
     <net code="47" name="Net-(U4-Pad8)">
       <node ref="U4" pin="8"/>
@@ -2240,25 +2836,25 @@
       <node ref="U5" pin="1"/>
     </net>
     <net code="53" name="/highCurrentAmp/INV-2">
-      <node ref="U4" pin="6"/>
       <node ref="R23" pin="2"/>
+      <node ref="U4" pin="6"/>
       <node ref="U4" pin="2"/>
     </net>
     <net code="54" name="/highCurrentAmp/INV-3">
+      <node ref="U5" pin="6"/>
       <node ref="R24" pin="2"/>
       <node ref="U5" pin="2"/>
-      <node ref="U5" pin="6"/>
     </net>
-    <net code="55" name="/reference_1_0/TRIM5">
+    <net code="55" name="/reference/TRIM5">
       <node ref="U7" pin="5"/>
       <node ref="C40" pin="1"/>
     </net>
     <net code="56" name="Net-(U7-Pad3)">
       <node ref="U7" pin="3"/>
     </net>
-    <net code="57" name="/reference_1_0/TRIM4">
-      <node ref="C39" pin="1"/>
+    <net code="57" name="/reference/TRIM4">
       <node ref="U6" pin="5"/>
+      <node ref="C39" pin="1"/>
     </net>
     <net code="58" name="Net-(U6-Pad8)">
       <node ref="U6" pin="8"/>
@@ -2281,54 +2877,54 @@
     <net code="64" name="Net-(U7-Pad7)">
       <node ref="U7" pin="7"/>
     </net>
-    <net code="65" name="/powerSupply_1_0/FB-6">
-      <node ref="U13" pin="2"/>
-      <node ref="C61" pin="2"/>
+    <net code="65" name="/powerSupply/FB-6">
       <node ref="R22" pin="1"/>
+      <node ref="C61" pin="2"/>
       <node ref="R21" pin="2"/>
+      <node ref="U13" pin="2"/>
     </net>
-    <net code="66" name="/powerSupply_1_0/FBREF">
+    <net code="66" name="/powerSupply/FBREF">
       <node ref="U10" pin="2"/>
       <node ref="C51" pin="2"/>
-      <node ref="R16" pin="2"/>
       <node ref="R17" pin="1"/>
+      <node ref="R16" pin="2"/>
     </net>
-    <net code="67" name="/powerSupply_1_0/FBVSS">
-      <node ref="R19" pin="2"/>
+    <net code="67" name="/powerSupply/FBVSS">
       <node ref="U12" pin="2"/>
-      <node ref="R20" pin="1"/>
       <node ref="C60" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R19" pin="2"/>
     </net>
-    <net code="68" name="/powerSupply_1_0/EN_REF">
+    <net code="68" name="Net-(U12-Pad3)">
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="69" name="/powerSupply/EN_REF">
+      <node ref="R11" pin="2"/>
       <node ref="U10" pin="5"/>
       <node ref="U11" pin="4"/>
-      <node ref="R11" pin="2"/>
     </net>
-    <net code="69" name="/powerSupply_1_0/EN_VSS">
-      <node ref="R18" pin="2"/>
+    <net code="70" name="/powerSupply/EN_VSS">
       <node ref="U11" pin="5"/>
       <node ref="U12" pin="5"/>
+      <node ref="R18" pin="2"/>
     </net>
-    <net code="70" name="/powerSupply_1_0/EN_VDD">
+    <net code="71" name="/powerSupply/EN_VDD">
       <node ref="R10" pin="2"/>
-      <node ref="U8" pin="5"/>
       <node ref="U11" pin="6"/>
+      <node ref="U8" pin="5"/>
     </net>
-    <net code="71" name="Net-(C57-Pad1)">
-      <node ref="C57" pin="1"/>
-      <node ref="U11" pin="3"/>
-    </net>
-    <net code="72" name="Net-(U13-Pad7)">
-      <node ref="U13" pin="7"/>
-    </net>
-    <net code="73" name="Net-(U13-Pad3)">
-      <node ref="U13" pin="3"/>
-    </net>
-    <net code="74" name="Net-(U12-Pad7)">
+    <net code="72" name="Net-(U12-Pad7)">
       <node ref="U12" pin="7"/>
     </net>
-    <net code="75" name="Net-(U12-Pad3)">
-      <node ref="U12" pin="3"/>
+    <net code="73" name="Net-(C57-Pad1)">
+      <node ref="U11" pin="3"/>
+      <node ref="C57" pin="1"/>
+    </net>
+    <net code="74" name="Net-(U13-Pad7)">
+      <node ref="U13" pin="7"/>
+    </net>
+    <net code="75" name="Net-(U13-Pad3)">
+      <node ref="U13" pin="3"/>
     </net>
     <net code="76" name="Net-(U10-Pad7)">
       <node ref="U10" pin="7"/>
@@ -2336,14 +2932,14 @@
     <net code="77" name="Net-(U10-Pad3)">
       <node ref="U10" pin="3"/>
     </net>
-    <net code="78" name="/powerSupply_1_0/NRREF">
+    <net code="78" name="/powerSupply/NRREF">
       <node ref="U10" pin="6"/>
       <node ref="C48" pin="1"/>
     </net>
     <net code="79" name="Net-(U8-Pad7)">
       <node ref="U8" pin="7"/>
     </net>
-    <net code="80" name="/powerSupply_1_0/NRVDD">
+    <net code="80" name="/powerSupply/NRVDD">
       <node ref="U8" pin="6"/>
       <node ref="C46" pin="1"/>
     </net>
@@ -2353,62 +2949,62 @@
     <net code="82" name="Net-(U9-Pad7)">
       <node ref="U9" pin="7"/>
     </net>
-    <net code="83" name="/powerSupply_1_0/NR+6">
+    <net code="83" name="/powerSupply/NR+6">
       <node ref="U9" pin="6"/>
       <node ref="C47" pin="1"/>
     </net>
-    <net code="84" name="/powerSupply_1_0/FB+6">
-      <node ref="C50" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="R15" pin="1"/>
-      <node ref="U9" pin="2"/>
-    </net>
-    <net code="85" name="Net-(U9-Pad3)">
+    <net code="84" name="Net-(U9-Pad3)">
       <node ref="U9" pin="3"/>
     </net>
-    <net code="86" name="/powerSupply_1_0/FBVDD">
-      <node ref="U8" pin="2"/>
+    <net code="85" name="/powerSupply/FBVDD">
       <node ref="R13" pin="1"/>
       <node ref="R12" pin="2"/>
       <node ref="C49" pin="2"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="86" name="/powerSupply/FB+6">
+      <node ref="R14" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C50" pin="2"/>
+      <node ref="U9" pin="2"/>
     </net>
     <net code="87" name="+6V">
+      <node ref="U5" pin="7"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C33" pin="2"/>
       <node ref="U4" pin="7"/>
       <node ref="C31" pin="1"/>
-      <node ref="R14" pin="1"/>
-      <node ref="C50" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C27" pin="2"/>
       <node ref="C25" pin="1"/>
       <node ref="C53" pin="1"/>
-      <node ref="C33" pin="2"/>
-      <node ref="C32" pin="2"/>
-      <node ref="U9" pin="1"/>
-      <node ref="U5" pin="7"/>
-      <node ref="C27" pin="2"/>
-      <node ref="C26" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C50" pin="1"/>
     </net>
-    <net code="88" name="/powerSupply_1_0/NRVSS">
-      <node ref="C58" pin="1"/>
+    <net code="88" name="/powerSupply/NRVSS">
       <node ref="U12" pin="6"/>
+      <node ref="C58" pin="1"/>
     </net>
     <net code="89" name="-6V">
-      <node ref="U13" pin="1"/>
-      <node ref="U5" pin="4"/>
-      <node ref="C31" pin="2"/>
-      <node ref="C29" pin="2"/>
-      <node ref="C34" pin="2"/>
-      <node ref="C35" pin="2"/>
-      <node ref="R21" pin="1"/>
-      <node ref="C61" pin="1"/>
-      <node ref="U4" pin="4"/>
       <node ref="C63" pin="1"/>
-      <node ref="C36" pin="2"/>
-      <node ref="C25" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="C29" pin="2"/>
       <node ref="C30" pin="2"/>
+      <node ref="U5" pin="4"/>
       <node ref="C28" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="U13" pin="1"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C61" pin="1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C35" pin="2"/>
     </net>
-    <net code="90" name="/powerSupply_1_0/NR-6">
-      <node ref="C59" pin="1"/>
+    <net code="90" name="/powerSupply/NR-6">
       <node ref="U13" pin="6"/>
+      <node ref="C59" pin="1"/>
     </net>
     <net code="91" name="Net-(U14-Pad4)">
       <node ref="U14" pin="4"/>
