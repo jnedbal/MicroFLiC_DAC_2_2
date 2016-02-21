@@ -437,7 +437,7 @@ F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3300 2700 60  0001 C CNN
 F 3 "" H 3300 2700 60  0000 C CNN
 F 4 "AD8021ARZ" H 3300 2700 60  0001 C CNN "Part Number"
 F 5 "Analog Devices" H 3300 2700 60  0001 C CNN "Manufacturer"
-F 6 "SO-8" H 3300 2700 60  0001 C CNN "Package"
+F 6 "SOIC-8" H 3300 2700 60  0001 C CNN "Package"
 F 7 "Farnell" H 3300 2700 60  0001 C CNN "Supplier"
 F 8 "9426000" H 3300 2700 60  0001 C CNN "Order Code"
 F 9 "Mouser" H 3300 2700 60  0001 C CNN "Alt. Supplier"
@@ -499,7 +499,7 @@ F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7900 2700 60  0001 C CNN
 F 3 "" H 7900 2700 60  0000 C CNN
 F 4 "AD8021ARZ" H 7900 2700 60  0001 C CNN "Part Number"
 F 5 "Analog Devices" H 7900 2700 60  0001 C CNN "Manufacturer"
-F 6 "SO-8" H 7900 2700 60  0001 C CNN "Package"
+F 6 "SOIC-8" H 7900 2700 60  0001 C CNN "Package"
 F 7 "Farnell" H 7900 2700 60  0001 C CNN "Supplier"
 F 8 "9426000" H 7900 2700 60  0001 C CNN "Order Code"
 F 9 "Mouser" H 7900 2700 60  0001 C CNN "Alt. Supplier"

@@ -1442,13 +1442,13 @@ F 0 "P2" H 4600 5800 50  0000 C CNN
 F 1 "2x4_HEADER" H 4600 5300 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x04" H 4600 4350 60  0001 C CNN
 F 3 "" H 4600 4350 60  0000 C CNN
-F 4 "61300421121" H 4600 5550 60  0001 C CNN "Part Number"
-F 5 "Wurth Elektronik" H 4600 5550 60  0001 C CNN "Manufacturer"
+F 4 "M20-9980446" H 4600 5550 60  0001 C CNN "Part Number"
+F 5 "Harwin" H 4600 5550 60  0001 C CNN "Manufacturer"
 F 6 "DIL-8" H 4600 5550 60  0001 C CNN "Package"
 F 7 "Farnell" H 4600 5550 60  0001 C CNN "Supplier"
-F 8 "2356130" H 4600 5550 60  0001 C CNN "Order Code"
+F 8 "1022233" H 4600 5550 60  0001 C CNN "Order Code"
 F 9 "Mouser" H 4600 5550 60  0001 C CNN "Alt. Supplier"
-F 10 "710-61300421121" H 4600 5550 60  0001 C CNN "Alt. Order Code"
+F 10 "855-M20-9980446" H 4600 5550 60  0001 C CNN "Alt. Order Code"
 F 11 "2x4 header strip" H 4600 5550 60  0001 C CNN "Note"
 	1    4600 5550
 	0    1    1    0   

@@ -15,10 +15,10 @@ JP4 ,1,x2_1,jakub:solder_jumper,
 JP5 ,1,x2_2,jakub:solder_jumper,
 JP6 ,1,x2_3,jakub:solder_jumper,
 P1 ,1,8-way Micro-MaTch,jakub:7-188275-8,,7-188275-8,TE Connectivity,Micro-MaTch SMD,Farnell,3784733,Mouser,571-7-188275-8,8-way SMD Micro-MaTch connector
-P2 ,1,2x4_HEADER,Pin_Headers:Pin_Header_Straight_2x04,,61300421121,Wurth Elektronik,DIL-8,Farnell,2356130,Mouser,710-61300421121,2x4 header strip
+P2 ,1,2x4_HEADER,Pin_Headers:Pin_Header_Straight_2x04,,M20-9980446,Harwin,DIL-8,Farnell,1022233,Mouser,855-M20-9980446,2x4 header strip
 P3 P4 P5 P6 ,4,SMA,jakub:SMA,,73251-2200,Molex,SMA,Farnell,2293854,Mouser,538-73251-2200,R/A SMA jack
 P7 ,1,1x2_HEADER,Pin_Headers:Pin_Header_Straight_1x02,,M20-9990245,Harwin,SIL-2,Farnell,1022245,Mouser,855-M20-9990245,1x2 header strip
-P8 ,1,1x2_SOCKET,Socket_Strips:Socket_Strip_Straight_1x02,,ESQ-102-33-G-S,Samtec,SIL-2,Farnell,1668221,Samtec,ESQ-102-33-G-S,1x2 ESQ series elevated socket strip
+P8 ,1,1x2_SOCKET,Socket_Strips:Socket_Strip_Straight_1x02,,ESQ-102-33-G-S,Samtec,SIL-2,Farnell,1927389,Samtec,ESQ-102-33-G-S,1x2 ESQ series elevated socket strip
 R12 R19 ,2,165k,Resistors_SMD:R_0805,,MCMR08X1653FTL,Multicomp,0805,Farnell,2073657,Mouser,667-ERJ-6ENF1653V,165kΩ/1% 0805 resistor
 R10 R11 R13 R15 R17 R18 R20 R22 ,8,12k,Resistors_SMD:R_0805,,MCWR08X1202FTL,Multicomp,0805,Farnell,2447563,Mouser,667-ERJ-6ENF1202V,12kΩ/1% 0805 resistor
 R14 R16 R21 ,3,48k7,Resistors_SMD:R_0805,,MC01W0805148K7,Multicomp,0805,Farnell,2141883,Mouser,667-ERJ-6ENF4872V,48.7kΩ/1% 0805 resistor
@@ -32,7 +32,7 @@ U12 U13 ,2,TPS7A3001,jakub:SSOP8_powerPAD,,TPS7A3001DGNT,Texas Instruments,MSOP-
 U14 ,1,74AHC1G14,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5,,SN74AHC1G14DCKR,Texas Instruments,SC-70-5,Farnell,1287468,Mouser,595-SN74AHC1G14DCKR,Single Schmitt trigger inverter
 U15 ,1,Si8651,Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,,SI8651EC-B-IS1,Silicon Labs,SOIC-16,Farnell,2423323,Mouser,634-SI8651EC-B-IS1,Digital isolators 5 channel 3.75kV 8ns 4/1
 U2 U3 ,2,OPA211,Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm,,OPA211AIDGKT,Texas Instruments,MSOP-8,Farnell,2323341,Mouser,595-OPA211AIDGKT,1.1-nV/√Hz noise low power precision operational amplifier
-U4 U5 ,2,AD8021,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,AD8021ARZ,Analog Devices,SO-8,Farnell,9426000,Mouser,584-AD8021ARZ,Low noise high speed amplifier for 16-bit systems
+U4 U5 ,2,AD8021,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,AD8021ARZ,Analog Devices,SOIC-8,Farnell,9426000,Mouser,584-AD8021ARZ,Low noise high speed amplifier for 16-bit systems
 U6 ,1,REF5040,Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm,,REF5040AIDGKT,Texas Instruments,MSOP-8,Farnell,2323788,Mouser,595-REF5040AIDGKT,5.000V low-noise very low drift precision voltage reference
 U7 ,1,REF5050,Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm,,REF5050AIDGKT,Texas Instruments,MSOP-8,Farnell,2323802,Mouser,595-REF5050AIDGKT,4.096V low-noise very low drift precision voltage reference
 U10 U8 U9 ,3,TPS7A4901,jakub:SSOP8_powerPAD,,TPS7A4901DGNT,Texas Instruments,MSOP-8,Farnell,1841881,Mouser,595-TPS7A4901DGNT,Ultralow-noise positive linear regulator

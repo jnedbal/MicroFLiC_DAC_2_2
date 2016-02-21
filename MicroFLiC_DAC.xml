@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC.sch</source>
-    <date>Thu 11 Feb 2016 22:39:22 GMT</date>
+    <date>Sun 21 Feb 2016 23:20:11 GMT</date>
     <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -525,7 +525,7 @@
         <field name="Manufacturer">Samtec</field>
         <field name="Package">SIL-2</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">1668221</field>
+        <field name="Order Code">1927389</field>
         <field name="Alt. Supplier">Samtec</field>
         <field name="Alt. Order Code">ESQ-102-33-G-S</field>
         <field name="Note">1x2 ESQ series elevated socket strip</field>
@@ -555,13 +555,13 @@
       <value>2x4_HEADER</value>
       <footprint>Pin_Headers:Pin_Header_Straight_2x04</footprint>
       <fields>
-        <field name="Part Number">61300421121</field>
-        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Part Number">M20-9980446</field>
+        <field name="Manufacturer">Harwin</field>
         <field name="Package">DIL-8</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">2356130</field>
+        <field name="Order Code">1022233</field>
         <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">710-61300421121</field>
+        <field name="Alt. Order Code">855-M20-9980446</field>
         <field name="Note">2x4 header strip</field>
       </fields>
       <libsource lib="conn" part="CONN_02X04"/>
@@ -1087,7 +1087,7 @@
       <fields>
         <field name="Part Number">AD8021ARZ</field>
         <field name="Manufacturer">Analog Devices</field>
-        <field name="Package">SO-8</field>
+        <field name="Package">SOIC-8</field>
         <field name="Supplier">Farnell</field>
         <field name="Order Code">9426000</field>
         <field name="Alt. Supplier">Mouser</field>
@@ -1121,7 +1121,7 @@
       <fields>
         <field name="Part Number">AD8021ARZ</field>
         <field name="Manufacturer">Analog Devices</field>
-        <field name="Package">SO-8</field>
+        <field name="Package">SOIC-8</field>
         <field name="Supplier">Farnell</field>
         <field name="Order Code">9426000</field>
         <field name="Alt. Supplier">Mouser</field>
@@ -2418,6 +2418,12 @@
     <library logical="device">
       <uri>/usr/local/share/kicad/library/device.lib</uri>
     </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>/usr/local/share/kicad/library/linear.lib</uri>
+    </library>
     <library logical="74xx">
       <uri>/usr/local/share/kicad/library/74xx.lib</uri>
     </library>
@@ -2426,12 +2432,6 @@
     </library>
     <library logical="MicroFLiC_DAC-cache">
       <uri>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC-cache.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/local/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="linear">
-      <uri>/usr/local/share/kicad/library/linear.lib</uri>
     </library>
   </libraries>
   <nets>
