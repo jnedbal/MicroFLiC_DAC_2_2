@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC.sch</source>
-    <date>Sun 21 Feb 2016 23:20:11 GMT</date>
+    <date>Fri 26 Feb 2016 22:51:03 GMT</date>
     <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -518,7 +518,7 @@
       <tstamp>5574C471</tstamp>
     </comp>
     <comp ref="P8">
-      <value>1x2_SOCKET</value>
+      <value>1x2 socket strip</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
       <fields>
         <field name="Part Number">ESQ-102-33-G-S</field>
@@ -535,7 +535,7 @@
       <tstamp>557EB2F8</tstamp>
     </comp>
     <comp ref="P7">
-      <value>1x2_HEADER</value>
+      <value>1x2 header strip</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <fields>
         <field name="Part Number">M20-9990245</field>
@@ -552,7 +552,7 @@
       <tstamp>557EB578</tstamp>
     </comp>
     <comp ref="P2">
-      <value>2x4_HEADER</value>
+      <value>2x4 header strip</value>
       <footprint>Pin_Headers:Pin_Header_Straight_2x04</footprint>
       <fields>
         <field name="Part Number">M20-9980446</field>

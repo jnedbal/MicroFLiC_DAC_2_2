@@ -15,10 +15,10 @@ JP4 ,1,x2_1,jakub:solder_jumper,
 JP5 ,1,x2_2,jakub:solder_jumper,
 JP6 ,1,x2_3,jakub:solder_jumper,
 P1 ,1,8-way Micro-MaTch,jakub:7-188275-8,,7-188275-8,TE Connectivity,Micro-MaTch SMD,Farnell,3784733,Mouser,571-7-188275-8,8-way SMD Micro-MaTch connector
-P2 ,1,2x4_HEADER,Pin_Headers:Pin_Header_Straight_2x04,,M20-9980446,Harwin,DIL-8,Farnell,1022233,Mouser,855-M20-9980446,2x4 header strip
+P2 ,1,2x4 header strip,Pin_Headers:Pin_Header_Straight_2x04,,M20-9980446,Harwin,DIL-8,Farnell,1022233,Mouser,855-M20-9980446,2x4 header strip
 P3 P4 P5 P6 ,4,SMA,jakub:SMA,,73251-2200,Molex,SMA,Farnell,2293854,Mouser,538-73251-2200,R/A SMA jack
-P7 ,1,1x2_HEADER,Pin_Headers:Pin_Header_Straight_1x02,,M20-9990245,Harwin,SIL-2,Farnell,1022245,Mouser,855-M20-9990245,1x2 header strip
-P8 ,1,1x2_SOCKET,Socket_Strips:Socket_Strip_Straight_1x02,,ESQ-102-33-G-S,Samtec,SIL-2,Farnell,1927389,Samtec,ESQ-102-33-G-S,1x2 ESQ series elevated socket strip
+P7 ,1,1x2 header strip,Pin_Headers:Pin_Header_Straight_1x02,,M20-9990245,Harwin,SIL-2,Farnell,1022245,Mouser,855-M20-9990245,1x2 header strip
+P8 ,1,1x2 socket strip,Socket_Strips:Socket_Strip_Straight_1x02,,ESQ-102-33-G-S,Samtec,SIL-2,Farnell,1927389,Samtec,ESQ-102-33-G-S,1x2 ESQ series elevated socket strip
 R12 R19 ,2,165k,Resistors_SMD:R_0805,,MCMR08X1653FTL,Multicomp,0805,Farnell,2073657,Mouser,667-ERJ-6ENF1653V,165kΩ/1% 0805 resistor
 R10 R11 R13 R15 R17 R18 R20 R22 ,8,12k,Resistors_SMD:R_0805,,MCWR08X1202FTL,Multicomp,0805,Farnell,2447563,Mouser,667-ERJ-6ENF1202V,12kΩ/1% 0805 resistor
 R14 R16 R21 ,3,48k7,Resistors_SMD:R_0805,,MC01W0805148K7,Multicomp,0805,Farnell,2141883,Mouser,667-ERJ-6ENF4872V,48.7kΩ/1% 0805 resistor
