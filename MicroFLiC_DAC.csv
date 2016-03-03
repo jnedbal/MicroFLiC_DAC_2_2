@@ -29,7 +29,7 @@ S1 S2 ,2,shield_can,jakub:can-MS323-20,,MS323-20,Masach,Can,RS Components,826-67
 U1 ,1,DAC8734,Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm,,DAC8734SPFB,Texas Instruments,TQFP-48,Farnell,2082437,Mouser,595-DAC8734SPFB,Quad 16-bit DAC
 U11 ,1,LM3880,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-6,,LM3880MF-1AB,Texas Instruments,SOT-23-6,Farnell,1271399,Mouser,926-LM3880MF1ABNOPB,3-output power sequencer
 U12 U13 ,2,TPS7A3001,jakub:SSOP8_powerPAD,,TPS7A3001DGNT,Texas Instruments,MSOP-8,Farnell,1855138,Mouser,595-TPS7A3001DGNT,Ultralow-noise negative linear regulator
-U14 ,1,74AHC1G14,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5,,SN74AHC1G14DCKR,Texas Instruments,SC-70-5,Farnell,1287468,Mouser,595-SN74AHC1G14DCKR,Single Schmitt trigger inverter
+U14 ,1,74AHC1G14,Housings_SOT-23_SOT-143_TSOT-6:SOT-23-5,,SN74AHC1G14DBVR,Texas Instruments,SOT-23-5,Farnell,1105919,Mouser,595-SN74AHC1G14DBVR,Single Schmitt trigger inverter
 U15 ,1,Si8651,Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,,SI8651EC-B-IS1,Silicon Labs,SOIC-16,Farnell,2423323,Mouser,634-SI8651EC-B-IS1,Digital isolators 5 channel 3.75kV 8ns 4/1
 U2 U3 ,2,OPA211,Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm,,OPA211AIDGKT,Texas Instruments,MSOP-8,Farnell,2323341,Mouser,595-OPA211AIDGKT,1.1-nV/√Hz noise low power precision operational amplifier
 U4 U5 ,2,AD8021,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,AD8021ARZ,Analog Devices,SOIC-8,Farnell,9426000,Mouser,584-AD8021ARZ,Low noise high speed amplifier for 16-bit systems
