@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC.sch</source>
-    <date>Thu 03 Mar 2016 15:41:48 GMT</date>
+    <date>Thu 10 Mar 2016 14:08:45 GMT</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -177,7 +177,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5570B6EB</tstamp>
     </comp>
-    <comp ref="R5">
+    <comp ref="R3">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -194,41 +194,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5570BA5B</tstamp>
     </comp>
-    <comp ref="R3">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0805</footprint>
-      <fields>
-        <field name="Part Number">MCMR08X1002FTL</field>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Package">0805</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">2073607</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">71-CRCW0805-10K-E3</field>
-        <field name="Note">10kΩ/1% 0805 resistor</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5570BF0A</tstamp>
-    </comp>
-    <comp ref="R4">
-      <value>10k</value>
-      <footprint>Resistors_SMD:R_0805</footprint>
-      <fields>
-        <field name="Part Number">MCMR08X1002FTL</field>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Package">0805</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">2073607</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">71-CRCW0805-10K-E3</field>
-        <field name="Note">10kΩ/1% 0805 resistor</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5570BF46</tstamp>
-    </comp>
-    <comp ref="P3">
+    <comp ref="P5">
       <value>SMA</value>
       <footprint>jakub:SMA</footprint>
       <fields>
@@ -245,7 +211,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>557355CB</tstamp>
     </comp>
-    <comp ref="P4">
+    <comp ref="P6">
       <value>SMA</value>
       <footprint>jakub:SMA</footprint>
       <fields>
@@ -262,7 +228,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5573563A</tstamp>
     </comp>
-    <comp ref="P5">
+    <comp ref="P7">
       <value>SMA</value>
       <footprint>jakub:SMA</footprint>
       <fields>
@@ -279,7 +245,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5573712F</tstamp>
     </comp>
-    <comp ref="P6">
+    <comp ref="P8">
       <value>SMA</value>
       <footprint>jakub:SMA</footprint>
       <fields>
@@ -432,23 +398,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55760166</tstamp>
     </comp>
-    <comp ref="C12">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0603</footprint>
-      <fields>
-        <field name="Part Number">MC0603B104K500CT</field>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Package">0603</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">1759122</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">710-885012206095</field>
-        <field name="Note">100nF/50V X7R 0603 ceramic capacitor</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5576016C</tstamp>
-    </comp>
     <comp ref="C7">
       <value>4u7/25V</value>
       <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
@@ -517,7 +466,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5574C471</tstamp>
     </comp>
-    <comp ref="P8">
+    <comp ref="P4">
       <value>1x2 socket strip</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
       <fields>
@@ -534,7 +483,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>557EB2F8</tstamp>
     </comp>
-    <comp ref="P7">
+    <comp ref="P3">
       <value>1x2 header strip</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <fields>
@@ -609,7 +558,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>566887AB</tstamp>
     </comp>
-    <comp ref="R7">
+    <comp ref="C12">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735539</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56E0A1FE</tstamp>
+    </comp>
+    <comp ref="R5">
       <value>1k/0.01%/100mW</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -626,7 +592,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>557339ED</tstamp>
     </comp>
-    <comp ref="R6">
+    <comp ref="R4">
       <value>1k/0.01%/100mW</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -660,7 +626,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55733A0C</tstamp>
     </comp>
-    <comp ref="C16">
+    <comp ref="C17">
       <value>470p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -677,7 +643,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55733A19</tstamp>
     </comp>
-    <comp ref="C15">
+    <comp ref="C16">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -710,7 +676,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55733A36</tstamp>
     </comp>
-    <comp ref="C17">
+    <comp ref="C18">
       <value>470p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -727,7 +693,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55742E4C</tstamp>
     </comp>
-    <comp ref="C18">
+    <comp ref="C19">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -760,7 +726,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55733A6C</tstamp>
     </comp>
-    <comp ref="R9">
+    <comp ref="R7">
       <value>1k/0.01%/100mW</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -777,7 +743,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55734235</tstamp>
     </comp>
-    <comp ref="R8">
+    <comp ref="R6">
       <value>1k/0.01%/100mW</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -794,7 +760,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>5573423B</tstamp>
     </comp>
-    <comp ref="C20">
+    <comp ref="C22">
       <value>10p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -811,7 +777,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55734252</tstamp>
     </comp>
-    <comp ref="C22">
+    <comp ref="C25">
       <value>470p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -828,7 +794,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>5573425E</tstamp>
     </comp>
-    <comp ref="C21">
+    <comp ref="C24">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -861,7 +827,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55734279</tstamp>
     </comp>
-    <comp ref="C23">
+    <comp ref="C26">
       <value>470p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -878,7 +844,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>5573428A</tstamp>
     </comp>
-    <comp ref="C24">
+    <comp ref="C27">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -894,7 +860,7 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>55734290</tstamp>
     </comp>
-    <comp ref="C19">
+    <comp ref="C21">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -911,7 +877,75 @@
       <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
       <tstamp>557342AC</tstamp>
     </comp>
-    <comp ref="C27">
+    <comp ref="C15">
+      <value>10u/35V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER6YA106KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1845763</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER6YA106KA2L</field>
+        <field name="Note">10μF/35V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>56DFB79F</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10u/35V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER6YA106KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1845763</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER6YA106KA2L</field>
+        <field name="Note">10μF/35V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>56DFBEA0</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10u/35V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER6YA106KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1845763</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER6YA106KA2L</field>
+        <field name="Note">10μF/35V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>56DFC61D</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10u/35V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER6YA106KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1845763</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER6YA106KA2L</field>
+        <field name="Note">10μF/35V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highVoltageAmp/" tstamps="/5573337B/"/>
+      <tstamp>56DFC7B0</tstamp>
+    </comp>
+    <comp ref="C32">
       <value>470p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -928,7 +962,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55742E4A</tstamp>
     </comp>
-    <comp ref="C26">
+    <comp ref="C31">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -945,7 +979,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55733A20</tstamp>
     </comp>
-    <comp ref="C29">
+    <comp ref="C34">
       <value>470p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -962,7 +996,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55733A48</tstamp>
     </comp>
-    <comp ref="C30">
+    <comp ref="C35">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -979,7 +1013,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55742E4D</tstamp>
     </comp>
-    <comp ref="C25">
+    <comp ref="C29">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -996,7 +1030,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55742E50</tstamp>
     </comp>
-    <comp ref="C33">
+    <comp ref="C40">
       <value>470p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1013,7 +1047,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55742E51</tstamp>
     </comp>
-    <comp ref="C32">
+    <comp ref="C39">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1030,7 +1064,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55742E52</tstamp>
     </comp>
-    <comp ref="C35">
+    <comp ref="C42">
       <value>470p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1047,7 +1081,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55742E53</tstamp>
     </comp>
-    <comp ref="C36">
+    <comp ref="C43">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1064,7 +1098,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55742E54</tstamp>
     </comp>
-    <comp ref="C31">
+    <comp ref="C37">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1098,7 +1132,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55737E8D</tstamp>
     </comp>
-    <comp ref="C28">
+    <comp ref="C33">
       <value>10p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1132,7 +1166,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>5573857A</tstamp>
     </comp>
-    <comp ref="C34">
+    <comp ref="C41">
       <value>10p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1149,7 +1183,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>557386CA</tstamp>
     </comp>
-    <comp ref="R23">
+    <comp ref="R8">
       <value>49R9/0.1%/250mW</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1166,7 +1200,7 @@
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55AAE3D7</tstamp>
     </comp>
-    <comp ref="R24">
+    <comp ref="R9">
       <value>49R9/0.1%/250mW</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1182,6 +1216,74 @@
       <libsource lib="device" part="R"/>
       <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
       <tstamp>55AAFD74</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735539</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>56E00173</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735539</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>56E00D88</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735539</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>56E0124F</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735539</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/highCurrentAmp/" tstamps="/55736CC2/"/>
+      <tstamp>56E015EA</tstamp>
     </comp>
     <comp ref="U6">
       <value>REF5040</value>
@@ -1200,7 +1302,7 @@
       <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5573B98F</tstamp>
     </comp>
-    <comp ref="C39">
+    <comp ref="C47">
       <value>1u/10V</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1234,7 +1336,7 @@
       <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5573BE47</tstamp>
     </comp>
-    <comp ref="C40">
+    <comp ref="C48">
       <value>1u/10V</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1251,73 +1353,87 @@
       <sheetpath names="/reference/" tstamps="/5573B13F/"/>
       <tstamp>5573BE4D</tstamp>
     </comp>
-    <comp ref="C37">
-      <value>4u7/25V</value>
-      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+    <comp ref="C45">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
       <fields>
-        <field name="Part Number">TR3B475K025C0700</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Package">case B</field>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">2353145</field>
+        <field name="Order Code">1735539</field>
         <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
-        <field name="Note">4.7μ/25V/0.7Ω ESR case B tantalum capacitor</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/reference/" tstamps="/5573B13F/"/>
-      <tstamp>5574CCB3</tstamp>
+      <tstamp>56E01DBE</tstamp>
     </comp>
-    <comp ref="C38">
-      <value>4u7/25V</value>
-      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+    <comp ref="C46">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
       <fields>
-        <field name="Part Number">TR3B475K025C0700</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Package">case B</field>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">2353145</field>
+        <field name="Order Code">1735539</field>
         <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
-        <field name="Note">4.7μ/25V/0.7Ω ESR case B tantalum capacitor</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/reference/" tstamps="/5573B13F/"/>
-      <tstamp>5574D13E</tstamp>
+      <tstamp>56E01F62</tstamp>
     </comp>
-    <comp ref="C42">
-      <value>4u7/25V</value>
-      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+    <comp ref="C49">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
       <fields>
-        <field name="Part Number">TR3B475K025C0700</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Package">case B</field>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">2353145</field>
+        <field name="Order Code">1735539</field>
         <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
-        <field name="Note">4.7μ/25V/0.7Ω ESR case B tantalum capacitor</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/reference/" tstamps="/5573B13F/"/>
-      <tstamp>5574D196</tstamp>
+      <tstamp>56E020B8</tstamp>
     </comp>
-    <comp ref="C41">
-      <value>4u7/25V</value>
-      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_Reflow</footprint>
+    <comp ref="C50">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
       <fields>
-        <field name="Part Number">TR3B475K025C0700</field>
-        <field name="Manufacturer">Vishay</field>
-        <field name="Package">case B</field>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">2353145</field>
+        <field name="Order Code">1735539</field>
         <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">74-TR3B475K025C0700</field>
-        <field name="Note">4.7μ/25V/0.7Ω ESR case B tantalum capacitor</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
       </fields>
-      <libsource lib="MicroFLiC_DAC-cache" part="CP2"/>
+      <libsource lib="device" part="C"/>
       <sheetpath names="/reference/" tstamps="/5573B13F/"/>
-      <tstamp>5574D236</tstamp>
+      <tstamp>56E0213B</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/reference/" tstamps="/5573B13F/"/>
+      <tstamp>56E021C3</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/reference/" tstamps="/5573B13F/"/>
+      <tstamp>56E02322</tstamp>
     </comp>
     <comp ref="U8">
       <value>TPS7A4901</value>
@@ -1336,7 +1452,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DC3D</tstamp>
     </comp>
-    <comp ref="C43">
+    <comp ref="C51">
       <value>4u7/25V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -1353,7 +1469,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DCAC</tstamp>
     </comp>
-    <comp ref="C46">
+    <comp ref="C54">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1370,7 +1486,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DD41</tstamp>
     </comp>
-    <comp ref="C49">
+    <comp ref="C57">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1387,7 +1503,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DE25</tstamp>
     </comp>
-    <comp ref="R12">
+    <comp ref="R14">
       <value>165k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1404,7 +1520,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573DEB9</tstamp>
     </comp>
-    <comp ref="R13">
+    <comp ref="R15">
       <value>12k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1438,7 +1554,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EA66</tstamp>
     </comp>
-    <comp ref="C44">
+    <comp ref="C52">
       <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -1455,7 +1571,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EA6C</tstamp>
     </comp>
-    <comp ref="C47">
+    <comp ref="C55">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1472,7 +1588,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EA72</tstamp>
     </comp>
-    <comp ref="C50">
+    <comp ref="C58">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1489,7 +1605,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EA8B</tstamp>
     </comp>
-    <comp ref="R14">
+    <comp ref="R16">
       <value>48k7</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1506,7 +1622,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EA97</tstamp>
     </comp>
-    <comp ref="R15">
+    <comp ref="R17">
       <value>12k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1540,7 +1656,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE38</tstamp>
     </comp>
-    <comp ref="C45">
+    <comp ref="C53">
       <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -1557,7 +1673,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE3E</tstamp>
     </comp>
-    <comp ref="C48">
+    <comp ref="C56">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1574,7 +1690,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE44</tstamp>
     </comp>
-    <comp ref="C51">
+    <comp ref="C59">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1591,7 +1707,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE5D</tstamp>
     </comp>
-    <comp ref="R16">
+    <comp ref="R18">
       <value>48k7</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1608,7 +1724,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE69</tstamp>
     </comp>
-    <comp ref="R17">
+    <comp ref="R19">
       <value>12k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1625,7 +1741,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573EE73</tstamp>
     </comp>
-    <comp ref="C58">
+    <comp ref="C66">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1642,7 +1758,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F5FC</tstamp>
     </comp>
-    <comp ref="C60">
+    <comp ref="C68">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1659,7 +1775,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F615</tstamp>
     </comp>
-    <comp ref="R19">
+    <comp ref="R21">
       <value>165k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1676,7 +1792,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F621</tstamp>
     </comp>
-    <comp ref="R20">
+    <comp ref="R22">
       <value>12k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1693,7 +1809,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F62B</tstamp>
     </comp>
-    <comp ref="C56">
+    <comp ref="C64">
       <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -1710,7 +1826,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F651</tstamp>
     </comp>
-    <comp ref="C59">
+    <comp ref="C67">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1727,7 +1843,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F657</tstamp>
     </comp>
-    <comp ref="C61">
+    <comp ref="C69">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1744,7 +1860,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F670</tstamp>
     </comp>
-    <comp ref="R21">
+    <comp ref="R23">
       <value>48k7</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1761,7 +1877,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F67C</tstamp>
     </comp>
-    <comp ref="R22">
+    <comp ref="R24">
       <value>12k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1778,7 +1894,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5573F686</tstamp>
     </comp>
-    <comp ref="R18">
+    <comp ref="R20">
       <value>12k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1795,7 +1911,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>5574013B</tstamp>
     </comp>
-    <comp ref="R10">
+    <comp ref="R12">
       <value>12k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1812,7 +1928,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55740E12</tstamp>
     </comp>
-    <comp ref="R11">
+    <comp ref="R13">
       <value>12k</value>
       <footprint>Resistors_SMD:R_0805</footprint>
       <fields>
@@ -1829,56 +1945,22 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55742790</tstamp>
     </comp>
-    <comp ref="C63">
-      <value>10u/10V</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
+    <comp ref="C61">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
       <fields>
-        <field name="Part Number">GRM21BR61A106KE19L</field>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Package">0805</field>
+        <field name="Package">1210</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">1828805</field>
+        <field name="Order Code">1735539</field>
         <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">81-GRM21BR61A106KE19</field>
-        <field name="Note">10μF/10V X5R 0805 ceramic capacitor</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
-      <tstamp>5574418A</tstamp>
-    </comp>
-    <comp ref="C53">
-      <value>10u/10V</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="Part Number">GRM21BR61A106KE19L</field>
-        <field name="Manufacturer">Murata</field>
-        <field name="Package">0805</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">1828805</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">81-GRM21BR61A106KE19</field>
-        <field name="Note">10μF/10V X5R 0805 ceramic capacitor</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55744228</tstamp>
-    </comp>
-    <comp ref="C54">
-      <value>10u/10V</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="Part Number">GRM21BR61A106KE19L</field>
-        <field name="Manufacturer">Murata</field>
-        <field name="Package">0805</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">1828805</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">81-GRM21BR61A106KE19</field>
-        <field name="Note">10μF/10V X5R 0805 ceramic capacitor</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
-      <tstamp>557442DC</tstamp>
     </comp>
     <comp ref="U11">
       <value>LM3880</value>
@@ -1897,7 +1979,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55744A3B</tstamp>
     </comp>
-    <comp ref="C57">
+    <comp ref="C65">
       <value>1u/10V</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -1948,7 +2030,7 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>55767CFB</tstamp>
     </comp>
-    <comp ref="C55">
+    <comp ref="C63">
       <value>4u7/25V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -1965,39 +2047,73 @@
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>56B393CF</tstamp>
     </comp>
-    <comp ref="C52">
-      <value>4u7/25V</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
+    <comp ref="C70">
+      <value>10u/35V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
       <fields>
-        <field name="Part Number">GRM21BR61E475MA12L</field>
+        <field name="Part Number">GRM32ER6YA106KA12L</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Package">0805</field>
+        <field name="Package">1210</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">1735529</field>
+        <field name="Order Code">1845763</field>
         <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">81-GRM21BR61E475MA2L</field>
-        <field name="Note">4.7μF/25V X5R 0805 ceramic capacitor</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
-      <tstamp>56B39BE8</tstamp>
-    </comp>
-    <comp ref="C62">
-      <value>4u7/25V</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="Part Number">GRM21BR61E475MA12L</field>
-        <field name="Manufacturer">Murata</field>
-        <field name="Package">0805</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">1735529</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">81-GRM21BR61E475MA2L</field>
-        <field name="Note">4.7μF/25V X5R 0805 ceramic capacitor</field>
+        <field name="Alt. Order Code">81-GRM32ER6YA106KA2L</field>
+        <field name="Note">10μF/35V X5R 1210 ceramic capacitor</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
       <tstamp>56B39F4C</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>10u/35V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER6YA106KA12L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1845763</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER6YA106KA2L</field>
+        <field name="Note">10μF/35V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
+      <tstamp>56DF9B25</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735539</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
+      <tstamp>56DFA983</tstamp>
+    </comp>
+    <comp ref="C71">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735539</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/powerSupply/" tstamps="/5573DBA6/"/>
+      <tstamp>56DFAC17</tstamp>
     </comp>
     <comp ref="U15">
       <value>Si8651</value>
@@ -2016,7 +2132,7 @@
       <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574AB03</tstamp>
     </comp>
-    <comp ref="C67">
+    <comp ref="C75">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -2050,7 +2166,7 @@
       <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574ACE6</tstamp>
     </comp>
-    <comp ref="C66">
+    <comp ref="C74">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -2067,7 +2183,7 @@
       <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574AE37</tstamp>
     </comp>
-    <comp ref="C65">
+    <comp ref="C73">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
@@ -2084,7 +2200,7 @@
       <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574AD7F</tstamp>
     </comp>
-    <comp ref="C64">
+    <comp ref="C72">
       <value>10u/10V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -2100,6 +2216,57 @@
       <libsource lib="device" part="C"/>
       <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
       <tstamp>5574B7E4</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>150</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="Part Number">MCWR08X1500FTL</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Package">0805</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">2447574</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">71-TNPW0805150RFEEA</field>
+        <field name="Note">150Ω/1% 0805 resistor</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
+      <tstamp>56E0FC32</tstamp>
+    </comp>
+    <comp ref="RP1">
+      <value>4x150</value>
+      <footprint>Resistors_SMD:R_Array_Convex_4x0603</footprint>
+      <fields>
+        <field name="Part Number">YC164-JR-07150RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Package">4×0603</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">9234462</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">603-YC164-JR-07150RL</field>
+        <field name="Note">4×150Ω/5% 0603 resistor array</field>
+      </fields>
+      <libsource lib="device" part="R_PACK4"/>
+      <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
+      <tstamp>56E10B8D</tstamp>
+    </comp>
+    <comp ref="C76">
+      <value>22u/25V</value>
+      <footprint>Capacitors_SMD:C_1210</footprint>
+      <fields>
+        <field name="Part Number">GRM32ER61E226ME15L</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Package">1210</field>
+        <field name="Supplier">Farnell</field>
+        <field name="Order Code">1735539</field>
+        <field name="Alt. Supplier">Mouser</field>
+        <field name="Alt. Order Code">81-GRM32ER61E226ME5L</field>
+        <field name="Note">22μF/25V X5R 1210 ceramic capacitor</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/digitalIsolation/" tstamps="/5574A638/"/>
+      <tstamp>56E16574</tstamp>
     </comp>
   </components>
   <libparts>
@@ -2320,6 +2487,23 @@
         <pin num="8" name="DNC" type="NotConnected"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="R_PACK4">
+      <description>4 resistors Pack</description>
+      <fields>
+        <field name="Reference">RP</field>
+        <field name="Value">R_PACK4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R3" type="passive"/>
+        <pin num="7" name="R2" type="passive"/>
+        <pin num="8" name="R1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="jakub" part="SMA">
       <fields>
         <field name="Reference">J</field>
@@ -2415,14 +2599,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="74xx">
-      <uri>/usr/share/kicad/library/74xx.lib</uri>
+    <library logical="MicroFLiC_DAC-cache">
+      <uri>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC-cache.lib</uri>
     </library>
     <library logical="linear">
       <uri>/usr/share/kicad/library/linear.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="74xx">
+      <uri>/usr/share/kicad/library/74xx.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
@@ -2430,583 +2614,625 @@
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
-    <library logical="MicroFLiC_DAC-cache">
-      <uri>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC-cache.lib</uri>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/digitalIsolation/A_GND">
-      <node ref="C64" pin="2"/>
-      <node ref="U15" pin="8"/>
-      <node ref="C65" pin="2"/>
-      <node ref="U14" pin="3"/>
-      <node ref="P1" pin="1"/>
-      <node ref="C66" pin="2"/>
-      <node ref="P1" pin="8"/>
+    <net code="1" name="/digitalIsolation/A_~SS">
+      <node ref="U14" pin="2"/>
+      <node ref="U15" pin="2"/>
+      <node ref="P1" pin="2"/>
     </net>
-    <net code="2" name="/digitalIsolation/A_IOREF">
-      <node ref="U14" pin="5"/>
-      <node ref="C66" pin="1"/>
-      <node ref="P1" pin="7"/>
-      <node ref="C64" pin="1"/>
-      <node ref="C65" pin="1"/>
-      <node ref="U15" pin="1"/>
-    </net>
-    <net code="3" name="/digitalIsolation/A_SDO">
-      <node ref="P1" pin="5"/>
-      <node ref="U15" pin="6"/>
-    </net>
-    <net code="4" name="/digitalIsolation/A_SCLK">
+    <net code="2" name="/digitalIsolation/A_SCLK">
       <node ref="U15" pin="3"/>
       <node ref="P1" pin="3"/>
+    </net>
+    <net code="3" name="/digitalIsolation/A_SDI">
+      <node ref="U15" pin="4"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="4" name="/digitalIsolation/A_SDO">
+      <node ref="P1" pin="5"/>
+      <node ref="U15" pin="6"/>
     </net>
     <net code="5" name="/digitalIsolation/A_~LDAC">
       <node ref="U15" pin="5"/>
       <node ref="P1" pin="6"/>
     </net>
-    <net code="6" name="/digitalIsolation/A_SDI">
-      <node ref="U15" pin="4"/>
-      <node ref="P1" pin="4"/>
+    <net code="6" name="/digitalIsolation/A_IOREF">
+      <node ref="C72" pin="1"/>
+      <node ref="P1" pin="7"/>
+      <node ref="U15" pin="1"/>
+      <node ref="U14" pin="5"/>
+      <node ref="C74" pin="1"/>
+      <node ref="C73" pin="1"/>
     </net>
-    <net code="7" name="/digitalIsolation/A_~SS">
-      <node ref="U14" pin="2"/>
-      <node ref="P1" pin="2"/>
-      <node ref="U15" pin="2"/>
+    <net code="7" name="/digitalIsolation/A_GND">
+      <node ref="P1" pin="8"/>
+      <node ref="U14" pin="3"/>
+      <node ref="P1" pin="1"/>
+      <node ref="C74" pin="2"/>
+      <node ref="U15" pin="8"/>
+      <node ref="C73" pin="2"/>
+      <node ref="C72" pin="2"/>
     </net>
-    <net code="8" name="/digitalIsolation/~LDAC">
-      <node ref="U1" pin="6"/>
-      <node ref="U15" pin="12"/>
-    </net>
-    <net code="9" name="/digitalIsolation/SDO">
-      <node ref="U1" pin="5"/>
-      <node ref="U15" pin="11"/>
-    </net>
-    <net code="10" name="/digitalIsolation/SDI">
-      <node ref="U1" pin="4"/>
-      <node ref="U15" pin="13"/>
-    </net>
-    <net code="11" name="/digitalIsolation/SCLK">
-      <node ref="U15" pin="14"/>
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="12" name="GND">
-      <node ref="C11" pin="2"/>
-      <node ref="C12" pin="2"/>
-      <node ref="U15" pin="9"/>
-      <node ref="R1" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="U1" pin="11"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C67" pin="2"/>
-      <node ref="A1" pin="1"/>
-      <node ref="P2" pin="2"/>
-    </net>
-    <net code="13" name="VDD">
-      <node ref="U8" pin="1"/>
-      <node ref="U1" pin="26"/>
-      <node ref="U3" pin="7"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C16" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="U2" pin="7"/>
-      <node ref="C13" pin="1"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C19" pin="1"/>
-      <node ref="C21" pin="2"/>
-      <node ref="C52" pin="1"/>
-      <node ref="U1" pin="35"/>
-      <node ref="C2" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="C49" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="C5" pin="1"/>
-    </net>
-    <net code="14" name="VCC">
-      <node ref="U6" pin="2"/>
-      <node ref="C37" pin="1"/>
-      <node ref="C38" pin="1"/>
-      <node ref="U7" pin="2"/>
-      <node ref="C51" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="U10" pin="1"/>
-      <node ref="C54" pin="1"/>
-    </net>
-    <net code="15" name="VSS">
-      <node ref="C13" pin="2"/>
-      <node ref="C10" pin="1"/>
-      <node ref="C7" pin="2"/>
-      <node ref="U2" pin="4"/>
-      <node ref="C9" pin="2"/>
-      <node ref="U12" pin="1"/>
-      <node ref="U1" pin="33"/>
-      <node ref="C62" pin="1"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="C23" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="U1" pin="28"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C60" pin="1"/>
-      <node ref="R19" pin="1"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C8" pin="1"/>
-      <node ref="U3" pin="4"/>
-    </net>
-    <net code="16" name="+5VD">
+    <net code="8" name="+5VD">
       <node ref="P2" pin="1"/>
-      <node ref="R11" pin="1"/>
-      <node ref="R10" pin="1"/>
-      <node ref="R18" pin="1"/>
-      <node ref="U15" pin="10"/>
-      <node ref="U15" pin="16"/>
-      <node ref="U1" pin="13"/>
-      <node ref="U1" pin="14"/>
-      <node ref="C11" pin="1"/>
-      <node ref="R5" pin="2"/>
+      <node ref="C76" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U11" pin="1"/>
       <node ref="JP2" pin="2"/>
       <node ref="JP1" pin="2"/>
-      <node ref="C67" pin="1"/>
-      <node ref="U11" pin="1"/>
-      <node ref="C12" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="13"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U15" pin="10"/>
+      <node ref="C75" pin="1"/>
+      <node ref="U15" pin="16"/>
     </net>
-    <net code="17" name="/digitalIsolation/~SS">
-      <node ref="U15" pin="15"/>
+    <net code="9" name="/digitalIsolation/~LDAC">
+      <node ref="U1" pin="6"/>
+      <node ref="RP1" pin="5"/>
+    </net>
+    <net code="10" name="/digitalIsolation/SDO">
+      <node ref="U1" pin="5"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="11" name="/digitalIsolation/SDI">
+      <node ref="U1" pin="4"/>
+      <node ref="RP1" pin="6"/>
+    </net>
+    <net code="12" name="/digitalIsolation/SCLK">
+      <node ref="RP1" pin="7"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="13" name="/digitalIsolation/~SS">
       <node ref="U1" pin="2"/>
+      <node ref="RP1" pin="8"/>
     </net>
-    <net code="18" name="Net-(U1-Pad34)">
+    <net code="14" name="Net-(U1-Pad34)">
       <node ref="U1" pin="34"/>
     </net>
-    <net code="19" name="/PGND">
-      <node ref="P8" pin="2"/>
-      <node ref="P7" pin="2"/>
+    <net code="15" name="GND">
+      <node ref="R1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U1" pin="11"/>
+      <node ref="R2" pin="2"/>
+      <node ref="A1" pin="1"/>
+      <node ref="C75" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="U15" pin="9"/>
+      <node ref="C76" pin="2"/>
     </net>
-    <net code="20" name="/powerSupply/+19V">
+    <net code="16" name="VCC">
+      <node ref="C62" pin="1"/>
+      <node ref="U6" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="C45" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="C59" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="17" name="/powerSupply/+7.5V">
+      <node ref="P2" pin="8"/>
+      <node ref="C52" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C53" pin="1"/>
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="18" name="/powerSupply/+19V">
       <node ref="P2" pin="7"/>
-      <node ref="C43" pin="1"/>
       <node ref="U8" pin="8"/>
+      <node ref="C51" pin="1"/>
     </net>
-    <net code="21" name="/powerSupply/-7.5V">
+    <net code="19" name="/powerSupply/-7.5V">
+      <node ref="C64" pin="1"/>
       <node ref="U13" pin="5"/>
-      <node ref="U13" pin="8"/>
-      <node ref="C56" pin="1"/>
       <node ref="P2" pin="4"/>
+      <node ref="U13" pin="8"/>
     </net>
-    <net code="22" name="/powerSupply/-19V">
-      <node ref="C55" pin="1"/>
+    <net code="20" name="/powerSupply/-19V">
       <node ref="P2" pin="3"/>
+      <node ref="C63" pin="1"/>
       <node ref="U12" pin="8"/>
     </net>
-    <net code="23" name="/P12V">
-      <node ref="P8" pin="1"/>
-      <node ref="P7" pin="1"/>
+    <net code="21" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
     </net>
-    <net code="24" name="/powerSupply/+7.5V">
-      <node ref="C45" pin="1"/>
-      <node ref="U10" pin="8"/>
-      <node ref="U9" pin="5"/>
-      <node ref="U9" pin="8"/>
-      <node ref="C44" pin="1"/>
-      <node ref="P2" pin="8"/>
+    <net code="22" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
     </net>
-    <net code="25" name="/highCurrentAmp/VOUT-3">
-      <node ref="U5" pin="3"/>
-      <node ref="U1" pin="40"/>
-      <node ref="U1" pin="38"/>
-      <node ref="JP6" pin="2"/>
+    <net code="23" name="VDD">
+      <node ref="C21" pin="1"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C60" pin="1"/>
+      <node ref="C57" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U1" pin="35"/>
+      <node ref="U1" pin="26"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C4" pin="1"/>
     </net>
-    <net code="26" name="Net-(JP4-Pad1)">
+    <net code="24" name="VSS">
+      <node ref="U1" pin="33"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U1" pin="28"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R21" pin="1"/>
+      <node ref="C68" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C70" pin="1"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="25" name="/PGND">
+      <node ref="P3" pin="2"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="26" name="/P12V">
+      <node ref="P3" pin="1"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="27" name="Net-(JP3-Pad1)">
+      <node ref="U1" pin="16"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="28" name="Net-(JP4-Pad1)">
       <node ref="JP4" pin="1"/>
       <node ref="U1" pin="22"/>
     </net>
-    <net code="27" name="/highVoltageAmp/VOUT-1">
-      <node ref="U1" pin="23"/>
-      <node ref="JP4" pin="2"/>
-      <node ref="U3" pin="3"/>
-      <node ref="U1" pin="21"/>
-    </net>
-    <net code="28" name="Net-(JP5-Pad1)">
+    <net code="29" name="Net-(JP5-Pad1)">
       <node ref="JP5" pin="1"/>
       <node ref="U1" pin="45"/>
     </net>
-    <net code="29" name="/highCurrentAmp/VOUT-2">
-      <node ref="U1" pin="46"/>
-      <node ref="JP5" pin="2"/>
+    <net code="30" name="/highCurrentAmp/VOUT-2">
       <node ref="U4" pin="3"/>
+      <node ref="JP5" pin="2"/>
       <node ref="U1" pin="44"/>
+      <node ref="U1" pin="46"/>
     </net>
-    <net code="30" name="Net-(JP6-Pad1)">
-      <node ref="JP6" pin="1"/>
+    <net code="31" name="Net-(JP6-Pad1)">
       <node ref="U1" pin="39"/>
+      <node ref="JP6" pin="1"/>
     </net>
-    <net code="31" name="Net-(JP3-Pad1)">
-      <node ref="JP3" pin="1"/>
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="32" name="Net-(JP2-Pad1)">
-      <node ref="JP2" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="U1" pin="48"/>
-    </net>
-    <net code="33" name="Net-(JP1-Pad1)">
-      <node ref="U1" pin="10"/>
-      <node ref="R1" pin="1"/>
-      <node ref="JP1" pin="1"/>
-    </net>
-    <net code="34" name="/highVoltageAmp/VOUT-0">
+    <net code="32" name="/highVoltageAmp/VOUT-0">
       <node ref="U2" pin="3"/>
       <node ref="JP3" pin="2"/>
-      <node ref="U1" pin="15"/>
       <node ref="U1" pin="17"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="33" name="Net-(JP2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="JP2" pin="1"/>
+      <node ref="U1" pin="48"/>
+    </net>
+    <net code="34" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="10"/>
     </net>
     <net code="35" name="/reference/5.000V">
-      <node ref="U7" pin="6"/>
-      <node ref="C42" pin="1"/>
+      <node ref="R11" pin="1"/>
       <node ref="U1" pin="31"/>
+      <node ref="U7" pin="6"/>
     </net>
     <net code="36" name="Net-(R3-Pad1)">
-      <node ref="U1" pin="8"/>
+      <node ref="U1" pin="7"/>
       <node ref="R3" pin="1"/>
     </net>
-    <net code="37" name="Net-(R5-Pad1)">
-      <node ref="U1" pin="7"/>
-      <node ref="R5" pin="1"/>
+    <net code="37" name="/reference/4.096V">
+      <node ref="U6" pin="6"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U1" pin="30"/>
     </net>
-    <net code="38" name="GNDA">
-      <node ref="C55" pin="2"/>
-      <node ref="C52" pin="2"/>
-      <node ref="P6" pin="5"/>
-      <node ref="C62" pin="2"/>
-      <node ref="U1" pin="43"/>
-      <node ref="C39" pin="2"/>
-      <node ref="U6" pin="4"/>
-      <node ref="U1" pin="18"/>
-      <node ref="U1" pin="47"/>
-      <node ref="U1" pin="41"/>
-      <node ref="C40" pin="2"/>
-      <node ref="U7" pin="4"/>
-      <node ref="C53" pin="2"/>
-      <node ref="P2" pin="5"/>
-      <node ref="C54" pin="2"/>
-      <node ref="U1" pin="29"/>
-      <node ref="U12" pin="4"/>
-      <node ref="U12" pin="9"/>
+    <net code="38" name="/highCurrentAmp/VOUT-D">
+      <node ref="R9" pin="1"/>
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="39" name="/highCurrentAmp/VOUT-C">
+      <node ref="R8" pin="1"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="40" name="/highVoltageAmp/VOUT-B">
+      <node ref="P6" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="C22" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="41" name="/highVoltageAmp/VOUT-A">
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C14" pin="1"/>
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="42" name="GNDA">
+      <node ref="R19" pin="2"/>
+      <node ref="C70" pin="2"/>
+      <node ref="U11" pin="2"/>
+      <node ref="P7" pin="4"/>
+      <node ref="P7" pin="3"/>
+      <node ref="U10" pin="4"/>
       <node ref="U13" pin="4"/>
+      <node ref="P7" pin="2"/>
+      <node ref="C65" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="P8" pin="2"/>
+      <node ref="C61" pin="2"/>
+      <node ref="P7" pin="5"/>
+      <node ref="U1" pin="27"/>
+      <node ref="U1" pin="32"/>
+      <node ref="U1" pin="43"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U1" pin="41"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U7" pin="4"/>
+      <node ref="C48" pin="2"/>
       <node ref="U1" pin="20"/>
+      <node ref="U8" pin="4"/>
       <node ref="U13" pin="9"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C2" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C58" pin="2"/>
-      <node ref="C59" pin="2"/>
-      <node ref="R22" pin="2"/>
+      <node ref="C63" pin="2"/>
+      <node ref="U12" pin="9"/>
+      <node ref="U12" pin="4"/>
+      <node ref="C71" pin="2"/>
+      <node ref="C62" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C60" pin="2"/>
+      <node ref="P2" pin="5"/>
       <node ref="P2" pin="6"/>
-      <node ref="S1" pin="2"/>
-      <node ref="A1" pin="2"/>
-      <node ref="S1" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C3" pin="2"/>
       <node ref="S2" pin="1"/>
       <node ref="S2" pin="2"/>
-      <node ref="R20" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="R17" pin="2"/>
-      <node ref="R15" pin="2"/>
-      <node ref="C48" pin="2"/>
-      <node ref="C45" pin="2"/>
-      <node ref="U10" pin="9"/>
-      <node ref="R13" pin="2"/>
-      <node ref="U1" pin="27"/>
-      <node ref="C57" pin="2"/>
-      <node ref="U1" pin="32"/>
-      <node ref="U11" pin="2"/>
-      <node ref="U10" pin="4"/>
-      <node ref="C56" pin="2"/>
-      <node ref="U9" pin="4"/>
-      <node ref="C46" pin="2"/>
-      <node ref="C43" pin="2"/>
-      <node ref="U8" pin="9"/>
-      <node ref="U8" pin="4"/>
-      <node ref="C63" pin="2"/>
-      <node ref="C47" pin="2"/>
-      <node ref="C44" pin="2"/>
-      <node ref="U9" pin="9"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C26" pin="1"/>
-      <node ref="C27" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C24" pin="1"/>
-      <node ref="C36" pin="1"/>
-      <node ref="C35" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="P6" pin="4"/>
-      <node ref="C30" pin="1"/>
-      <node ref="C29" pin="1"/>
+      <node ref="R24" pin="2"/>
       <node ref="P6" pin="3"/>
-      <node ref="C18" pin="1"/>
-      <node ref="P5" pin="3"/>
+      <node ref="P6" pin="4"/>
+      <node ref="P6" pin="5"/>
+      <node ref="A1" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="P8" pin="5"/>
+      <node ref="P8" pin="4"/>
+      <node ref="P8" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="S1" pin="1"/>
+      <node ref="S1" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="U9" pin="9"/>
+      <node ref="U9" pin="4"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C56" pin="2"/>
+      <node ref="C53" pin="2"/>
+      <node ref="U10" pin="9"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="U8" pin="9"/>
+      <node ref="C67" pin="2"/>
+      <node ref="R22" pin="2"/>
       <node ref="P5" pin="2"/>
+      <node ref="P5" pin="3"/>
       <node ref="P5" pin="4"/>
       <node ref="P5" pin="5"/>
       <node ref="P6" pin="2"/>
-      <node ref="R8" pin="1"/>
-      <node ref="P3" pin="4"/>
-      <node ref="C41" pin="2"/>
-      <node ref="C37" pin="2"/>
-      <node ref="C38" pin="2"/>
-      <node ref="C42" pin="2"/>
-      <node ref="P3" pin="5"/>
-      <node ref="C21" pin="1"/>
-      <node ref="P3" pin="2"/>
-      <node ref="P3" pin="3"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C33" pin="1"/>
+      <node ref="C66" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C64" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C31" pin="1"/>
       <node ref="C32" pin="1"/>
-      <node ref="P4" pin="2"/>
-      <node ref="P4" pin="3"/>
-      <node ref="P4" pin="4"/>
-      <node ref="P4" pin="5"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C43" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U1" pin="47"/>
+      <node ref="U1" pin="29"/>
+      <node ref="U1" pin="18"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="U6" pin="4"/>
     </net>
-    <net code="39" name="/reference/4.096V">
-      <node ref="U6" pin="6"/>
-      <node ref="U1" pin="30"/>
-      <node ref="C41" pin="1"/>
+    <net code="43" name="/highVoltageAmp/VOUT-1">
+      <node ref="U1" pin="21"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U3" pin="3"/>
     </net>
-    <net code="40" name="/highCurrentAmp/VOUT-D">
-      <node ref="R24" pin="1"/>
-      <node ref="P6" pin="1"/>
-    </net>
-    <net code="41" name="/highCurrentAmp/VOUT-C">
-      <node ref="R23" pin="1"/>
-      <node ref="P5" pin="1"/>
-    </net>
-    <net code="42" name="/highVoltageAmp/VOUT-A">
-      <node ref="R7" pin="1"/>
-      <node ref="U2" pin="6"/>
-      <node ref="C14" pin="1"/>
-      <node ref="P3" pin="1"/>
-    </net>
-    <net code="43" name="Net-(R4-Pad1)">
-      <node ref="R4" pin="1"/>
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="44" name="/highVoltageAmp/VOUT-B">
-      <node ref="C20" pin="1"/>
-      <node ref="U3" pin="6"/>
-      <node ref="P4" pin="1"/>
-      <node ref="R9" pin="1"/>
+    <net code="44" name="/highCurrentAmp/VOUT-3">
+      <node ref="JP6" pin="2"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U1" pin="38"/>
+      <node ref="U1" pin="40"/>
     </net>
     <net code="45" name="/highVoltageAmp/INV-0">
+      <node ref="R5" pin="2"/>
       <node ref="C14" pin="2"/>
-      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="1"/>
       <node ref="U2" pin="2"/>
-      <node ref="R7" pin="2"/>
     </net>
     <net code="46" name="/highVoltageAmp/INV-1">
-      <node ref="R9" pin="2"/>
-      <node ref="R8" pin="2"/>
-      <node ref="C20" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R7" pin="2"/>
       <node ref="U3" pin="2"/>
     </net>
-    <net code="47" name="Net-(U4-Pad8)">
-      <node ref="U4" pin="8"/>
+    <net code="47" name="/highCurrentAmp/CMP1">
+      <node ref="C41" pin="1"/>
+      <node ref="U5" pin="5"/>
     </net>
     <net code="48" name="/highCurrentAmp/CMP2">
       <node ref="U4" pin="5"/>
-      <node ref="C28" pin="1"/>
+      <node ref="C33" pin="1"/>
     </net>
-    <net code="49" name="Net-(U4-Pad1)">
+    <net code="49" name="/highCurrentAmp/INV-3">
+      <node ref="U5" pin="6"/>
+      <node ref="U5" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="50" name="Net-(U4-Pad1)">
       <node ref="U4" pin="1"/>
     </net>
-    <net code="50" name="/highCurrentAmp/CMP1">
-      <node ref="U5" pin="5"/>
-      <node ref="C34" pin="1"/>
+    <net code="51" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
     </net>
-    <net code="51" name="Net-(U5-Pad8)">
-      <node ref="U5" pin="8"/>
+    <net code="52" name="/highCurrentAmp/INV-2">
+      <node ref="U4" pin="6"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U4" pin="2"/>
     </net>
-    <net code="52" name="Net-(U5-Pad1)">
+    <net code="53" name="Net-(U5-Pad1)">
       <node ref="U5" pin="1"/>
     </net>
-    <net code="53" name="/highCurrentAmp/INV-2">
-      <node ref="U4" pin="2"/>
-      <node ref="U4" pin="6"/>
-      <node ref="R23" pin="2"/>
-    </net>
-    <net code="54" name="/highCurrentAmp/INV-3">
-      <node ref="U5" pin="6"/>
-      <node ref="R24" pin="2"/>
-      <node ref="U5" pin="2"/>
+    <net code="54" name="Net-(U5-Pad8)">
+      <node ref="U5" pin="8"/>
     </net>
     <net code="55" name="/reference/TRIM5">
-      <node ref="C40" pin="1"/>
+      <node ref="C48" pin="1"/>
       <node ref="U7" pin="5"/>
     </net>
     <net code="56" name="Net-(U7-Pad3)">
       <node ref="U7" pin="3"/>
     </net>
-    <net code="57" name="/reference/TRIM4">
-      <node ref="C39" pin="1"/>
-      <node ref="U6" pin="5"/>
-    </net>
-    <net code="58" name="Net-(U6-Pad8)">
-      <node ref="U6" pin="8"/>
-    </net>
-    <net code="59" name="Net-(U6-Pad7)">
-      <node ref="U6" pin="7"/>
-    </net>
-    <net code="60" name="Net-(U6-Pad3)">
-      <node ref="U6" pin="3"/>
-    </net>
-    <net code="61" name="Net-(U6-Pad1)">
-      <node ref="U6" pin="1"/>
-    </net>
-    <net code="62" name="Net-(U7-Pad8)">
-      <node ref="U7" pin="8"/>
-    </net>
-    <net code="63" name="Net-(U7-Pad1)">
-      <node ref="U7" pin="1"/>
-    </net>
-    <net code="64" name="Net-(U7-Pad7)">
-      <node ref="U7" pin="7"/>
-    </net>
-    <net code="65" name="/powerSupply/FB-6">
-      <node ref="U13" pin="2"/>
-      <node ref="C61" pin="2"/>
-      <node ref="R22" pin="1"/>
-      <node ref="R21" pin="2"/>
-    </net>
-    <net code="66" name="/powerSupply/FBREF">
-      <node ref="R16" pin="2"/>
-      <node ref="C51" pin="2"/>
-      <node ref="R17" pin="1"/>
-      <node ref="U10" pin="2"/>
-    </net>
-    <net code="67" name="/powerSupply/FBVSS">
-      <node ref="R20" pin="1"/>
-      <node ref="R19" pin="2"/>
-      <node ref="C60" pin="2"/>
-      <node ref="U12" pin="2"/>
-    </net>
-    <net code="68" name="Net-(U13-Pad7)">
-      <node ref="U13" pin="7"/>
-    </net>
-    <net code="69" name="Net-(U13-Pad3)">
-      <node ref="U13" pin="3"/>
-    </net>
-    <net code="70" name="Net-(U12-Pad7)">
-      <node ref="U12" pin="7"/>
-    </net>
-    <net code="71" name="Net-(U12-Pad3)">
-      <node ref="U12" pin="3"/>
-    </net>
-    <net code="72" name="/powerSupply/EN_REF">
-      <node ref="U10" pin="5"/>
-      <node ref="U11" pin="4"/>
+    <net code="57" name="Net-(C50-Pad1)">
+      <node ref="C50" pin="1"/>
       <node ref="R11" pin="2"/>
     </net>
-    <net code="73" name="/powerSupply/EN_VSS">
+    <net code="58" name="Net-(C49-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="C49" pin="1"/>
+    </net>
+    <net code="59" name="Net-(U6-Pad8)">
+      <node ref="U6" pin="8"/>
+    </net>
+    <net code="60" name="Net-(U6-Pad7)">
+      <node ref="U6" pin="7"/>
+    </net>
+    <net code="61" name="/reference/TRIM4">
+      <node ref="C47" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="62" name="Net-(U6-Pad3)">
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="63" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="64" name="Net-(U7-Pad8)">
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="65" name="Net-(U7-Pad1)">
+      <node ref="U7" pin="1"/>
+    </net>
+    <net code="66" name="Net-(U7-Pad7)">
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="67" name="/powerSupply/FB-6">
+      <node ref="U13" pin="2"/>
+      <node ref="C69" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="68" name="/powerSupply/FBREF">
       <node ref="R18" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U10" pin="2"/>
+      <node ref="C59" pin="2"/>
+    </net>
+    <net code="69" name="/powerSupply/FBVSS">
+      <node ref="C68" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="U12" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="70" name="Net-(U13-Pad7)">
+      <node ref="U13" pin="7"/>
+    </net>
+    <net code="71" name="Net-(U13-Pad3)">
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="72" name="Net-(U12-Pad7)">
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="73" name="Net-(U12-Pad3)">
+      <node ref="U12" pin="3"/>
+    </net>
+    <net code="74" name="/powerSupply/EN_REF">
+      <node ref="R13" pin="2"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="75" name="/powerSupply/EN_VSS">
+      <node ref="R20" pin="2"/>
       <node ref="U12" pin="5"/>
       <node ref="U11" pin="5"/>
     </net>
-    <net code="74" name="/powerSupply/EN_VDD">
-      <node ref="R10" pin="2"/>
+    <net code="76" name="/powerSupply/EN_VDD">
       <node ref="U8" pin="5"/>
+      <node ref="R12" pin="2"/>
       <node ref="U11" pin="6"/>
     </net>
-    <net code="75" name="Net-(C57-Pad1)">
+    <net code="77" name="Net-(C65-Pad1)">
+      <node ref="C65" pin="1"/>
       <node ref="U11" pin="3"/>
-      <node ref="C57" pin="1"/>
     </net>
-    <net code="76" name="Net-(U10-Pad7)">
+    <net code="78" name="Net-(U10-Pad7)">
       <node ref="U10" pin="7"/>
     </net>
-    <net code="77" name="Net-(U10-Pad3)">
+    <net code="79" name="Net-(U10-Pad3)">
       <node ref="U10" pin="3"/>
     </net>
-    <net code="78" name="/powerSupply/FB+6">
-      <node ref="R14" pin="2"/>
-      <node ref="R15" pin="1"/>
-      <node ref="C50" pin="2"/>
-      <node ref="U9" pin="2"/>
-    </net>
-    <net code="79" name="/powerSupply/NRREF">
+    <net code="80" name="/powerSupply/NRREF">
+      <node ref="C56" pin="1"/>
       <node ref="U10" pin="6"/>
-      <node ref="C48" pin="1"/>
     </net>
-    <net code="80" name="Net-(U8-Pad7)">
+    <net code="81" name="Net-(U8-Pad7)">
       <node ref="U8" pin="7"/>
     </net>
-    <net code="81" name="/powerSupply/NRVDD">
+    <net code="82" name="/powerSupply/NRVDD">
+      <node ref="C54" pin="1"/>
       <node ref="U8" pin="6"/>
-      <node ref="C46" pin="1"/>
     </net>
-    <net code="82" name="Net-(U8-Pad3)">
+    <net code="83" name="Net-(U8-Pad3)">
       <node ref="U8" pin="3"/>
     </net>
-    <net code="83" name="Net-(U9-Pad7)">
+    <net code="84" name="Net-(U9-Pad7)">
       <node ref="U9" pin="7"/>
     </net>
-    <net code="84" name="/powerSupply/NR+6">
+    <net code="85" name="/powerSupply/NR+6">
+      <node ref="C55" pin="1"/>
       <node ref="U9" pin="6"/>
-      <node ref="C47" pin="1"/>
     </net>
-    <net code="85" name="Net-(U9-Pad3)">
+    <net code="86" name="Net-(U9-Pad3)">
       <node ref="U9" pin="3"/>
     </net>
-    <net code="86" name="/powerSupply/FBVDD">
+    <net code="87" name="/powerSupply/FBVDD">
       <node ref="U8" pin="2"/>
-      <node ref="C49" pin="2"/>
-      <node ref="R13" pin="1"/>
-      <node ref="R12" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R15" pin="1"/>
     </net>
-    <net code="87" name="+6V">
-      <node ref="U9" pin="1"/>
-      <node ref="C31" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="U4" pin="7"/>
-      <node ref="C53" pin="1"/>
-      <node ref="C26" pin="2"/>
-      <node ref="C27" pin="2"/>
-      <node ref="R14" pin="1"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C33" pin="2"/>
-      <node ref="C50" pin="1"/>
-      <node ref="U5" pin="7"/>
+    <net code="88" name="/powerSupply/FB+6">
+      <node ref="U9" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C58" pin="2"/>
+      <node ref="R16" pin="2"/>
     </net>
-    <net code="88" name="/powerSupply/NRVSS">
+    <net code="89" name="+6V">
+      <node ref="R16" pin="1"/>
+      <node ref="C30" pin="2"/>
       <node ref="C58" pin="1"/>
+      <node ref="C38" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C61" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U5" pin="7"/>
+      <node ref="C37" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="90" name="/powerSupply/NRVSS">
+      <node ref="C66" pin="1"/>
       <node ref="U12" pin="6"/>
     </net>
-    <net code="89" name="-6V">
-      <node ref="C34" pin="2"/>
-      <node ref="C63" pin="1"/>
-      <node ref="U5" pin="4"/>
-      <node ref="C28" pin="2"/>
+    <net code="91" name="-6V">
       <node ref="C35" pin="2"/>
-      <node ref="C31" pin="2"/>
-      <node ref="C25" pin="2"/>
+      <node ref="C41" pin="2"/>
       <node ref="U13" pin="1"/>
-      <node ref="U4" pin="4"/>
-      <node ref="C30" pin="2"/>
-      <node ref="C29" pin="2"/>
-      <node ref="R21" pin="1"/>
-      <node ref="C61" pin="1"/>
       <node ref="C36" pin="2"/>
+      <node ref="C69" pin="1"/>
+      <node ref="C42" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C71" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="C44" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="C29" pin="2"/>
     </net>
-    <net code="90" name="/powerSupply/NR-6">
+    <net code="92" name="/powerSupply/NR-6">
+      <node ref="C67" pin="1"/>
       <node ref="U13" pin="6"/>
-      <node ref="C59" pin="1"/>
     </net>
-    <net code="91" name="Net-(U14-Pad4)">
+    <net code="93" name="Net-(R25-Pad2)">
+      <node ref="R25" pin="2"/>
+      <node ref="U15" pin="11"/>
+    </net>
+    <net code="94" name="Net-(RP1-Pad4)">
+      <node ref="U15" pin="12"/>
+      <node ref="RP1" pin="4"/>
+    </net>
+    <net code="95" name="Net-(RP1-Pad3)">
+      <node ref="RP1" pin="3"/>
+      <node ref="U15" pin="13"/>
+    </net>
+    <net code="96" name="Net-(RP1-Pad1)">
+      <node ref="RP1" pin="1"/>
+      <node ref="U15" pin="15"/>
+    </net>
+    <net code="97" name="Net-(RP1-Pad2)">
+      <node ref="U15" pin="14"/>
+      <node ref="RP1" pin="2"/>
+    </net>
+    <net code="98" name="Net-(U14-Pad4)">
       <node ref="U14" pin="4"/>
       <node ref="U15" pin="7"/>
     </net>
