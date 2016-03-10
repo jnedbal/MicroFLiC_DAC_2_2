@@ -2,11 +2,11 @@
 
   (general
     (links 323)
-    (no_connects 1)
+    (no_connects 0)
     (area 100.025999 100.025999 149.910001 149.910001)
     (thickness 1.6)
     (drawings 66)
-    (tracks 1750)
+    (tracks 1753)
     (zones 0)
     (modules 134)
     (nets 74)
@@ -14,7 +14,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (1 In1.Cu signal hide)
     (2 In2.Cu signal hide)
     (31 B.Cu signal)
@@ -39,7 +39,7 @@
   )
 
   (setup
-    (last_trace_width 0.3048)
+    (last_trace_width 1.016)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
     (user_trace_width 0.508)
@@ -74,7 +74,7 @@
     (pad_drill 0.7)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 100.076 149.86)
-    (visible_elements FFFD3F7F)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x010f0_80000007)
       (usegerberextensions true)
@@ -4084,7 +4084,7 @@
     (fp_text reference RP1 (at 0.762 -2.54 90) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.11)))
     )
-    (fp_text value R_PACK4 (at 0 2.8 90) (layer F.Fab) hide
+    (fp_text value 4x150 (at 0 2.8 90) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.55 -1.8) (end 1.55 -1.8) (layer F.CrtYd) (width 0.05))
@@ -4444,7 +4444,7 @@
     (fp_text reference R25 (at 0 -1.524 270) (layer F.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.11)))
     )
-    (fp_text value R (at 0 2.1 270) (layer F.Fab) hide
+    (fp_text value 150 (at 0 2.1 270) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.6 -1) (end 1.6 -1) (layer F.CrtYd) (width 0.05))
@@ -5237,6 +5237,9 @@
   (segment (start 138.176 122.047) (end 138.176 123.19) (width 0.508) (layer In2.Cu) (net 2))
   (segment (start 140.269 126.807) (end 138.176 124.714) (width 1.016) (layer B.Cu) (net 2))
   (segment (start 140.269 126.807) (end 140.716 126.807) (width 0.768) (layer B.Cu) (net 2) (tstamp 56DEF779))
+  (segment (start 109.958 112.522) (end 109.958 113.308) (width 1.016) (layer B.Cu) (net 3))
+  (segment (start 109.958 113.308) (end 109.467266 113.798734) (width 1.016) (layer B.Cu) (net 3) (tstamp 56E175C5))
+  (segment (start 109.467266 113.798734) (end 109.474 113.792) (width 1.016) (layer B.Cu) (net 3) (tstamp 56E175C7))
   (segment (start 140.728 121.92) (end 140.97 121.678) (width 0.508) (layer F.Cu) (net 3))
   (segment (start 140.97 121.678) (end 140.97 121.031) (width 0.508) (layer F.Cu) (net 3) (tstamp 56E06383))
   (via (at 146.304 131.802) (size 1) (drill 0.5) (layers F.Cu B.Cu) (net 3))
@@ -8037,8 +8040,8 @@
         (xy 120.945301 115.616327) (xy 121.17869 115.713) (xy 122.26925 115.713) (xy 122.428 115.55425) (xy 122.428 114.705)
         (xy 122.682 114.705) (xy 122.682 115.55425) (xy 122.84075 115.713) (xy 123.93131 115.713) (xy 124.164699 115.616327)
         (xy 124.343327 115.437698) (xy 124.44 115.204309) (xy 124.44 114.86375) (xy 124.28125 114.705) (xy 122.682 114.705)
-        (xy 122.428 114.705) (xy 120.82875 114.705) (xy 120.67 114.86375) (xy 110.892196 114.86375) (xy 110.447886 114.41944)
-        (xy 110.458 114.41944) (xy 110.693317 114.375162) (xy 110.909441 114.23609) (xy 111.054431 114.02389) (xy 111.069051 113.951691)
+        (xy 122.428 114.705) (xy 120.82875 114.705) (xy 120.67 114.86375) (xy 110.892196 114.86375) (xy 110.455446 114.427)
+        (xy 110.464166 114.41828) (xy 110.693317 114.375162) (xy 110.909441 114.23609) (xy 111.054431 114.02389) (xy 111.069051 113.951691)
         (xy 120.67 113.951691) (xy 120.67 114.29225) (xy 120.82875 114.451) (xy 122.428 114.451) (xy 122.428 113.60175)
         (xy 122.682 113.60175) (xy 122.682 114.451) (xy 124.28125 114.451) (xy 124.44 114.29225) (xy 124.44 113.951691)
         (xy 124.343327 113.718302) (xy 124.164699 113.539673) (xy 123.93131 113.443) (xy 122.84075 113.443) (xy 122.682 113.60175)

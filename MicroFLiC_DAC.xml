@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC.sch</source>
-    <date>Thu 10 Mar 2016 14:08:45 GMT</date>
+    <date>Thu 10 Mar 2016 14:20:39 GMT</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -205,7 +205,7 @@
         <field name="Order Code">2293854</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">538-73251-2200</field>
-        <field name="Note">R/A SMA jack</field>
+        <field name="Note">Right-angle SMA jack</field>
       </fields>
       <libsource lib="jakub" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
@@ -222,7 +222,7 @@
         <field name="Order Code">2293854</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">538-73251-2200</field>
-        <field name="Note">R/A SMA jack</field>
+        <field name="Note">Right-angle SMA jack</field>
       </fields>
       <libsource lib="jakub" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
@@ -239,7 +239,7 @@
         <field name="Order Code">2293854</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">538-73251-2200</field>
-        <field name="Note">R/A SMA jack</field>
+        <field name="Note">Right-angle SMA jack</field>
       </fields>
       <libsource lib="jakub" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
@@ -256,7 +256,7 @@
         <field name="Order Code">2293854</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">538-73251-2200</field>
-        <field name="Note">R/A SMA jack</field>
+        <field name="Note">Right-angle SMA jack</field>
       </fields>
       <libsource lib="jakub" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1460,7 +1460,7 @@
         <field name="Manufacturer">Murata</field>
         <field name="Package">0805</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">1735529</field>
+        <field name="Order Code">2362111</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">81-GRM21BR61E475MA2L</field>
         <field name="Note">4.7μF/25V X5R 0805 ceramic capacitor</field>
@@ -2038,7 +2038,7 @@
         <field name="Manufacturer">Murata</field>
         <field name="Package">0805</field>
         <field name="Supplier">Farnell</field>
-        <field name="Order Code">1735529</field>
+        <field name="Order Code">2362111</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">81-GRM21BR61E475MA2L</field>
         <field name="Note">4.7μF/25V X5R 0805 ceramic capacitor</field>
@@ -2599,11 +2599,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="MicroFLiC_DAC-cache">
-      <uri>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC-cache.lib</uri>
-    </library>
-    <library logical="linear">
-      <uri>/usr/share/kicad/library/linear.lib</uri>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="74xx">
       <uri>/usr/share/kicad/library/74xx.lib</uri>
@@ -2611,11 +2608,14 @@
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
+    <library logical="linear">
+      <uri>/usr/share/kicad/library/linear.lib</uri>
+    </library>
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="MicroFLiC_DAC-cache">
+      <uri>/home/jakub/KiCAD/MicroFLiC_DAC_1_1/MicroFLiC_DAC-cache.lib</uri>
     </library>
   </libraries>
   <nets>
