@@ -1416,9 +1416,7 @@ F 11 "Two-piece EMI shielding can" H 9200 5950 60  0001 C CNN "Note"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 5900 8900 5900
-Wire Wire Line
-	8900 5900 8900 6100
+	8900 6000 8900 6100
 Wire Wire Line
 	8900 6000 9000 6000
 Connection ~ 8900 6000
@@ -1456,9 +1454,6 @@ Wire Wire Line
 	9000 5350 8900 5350
 Wire Wire Line
 	8900 5350 8900 5550
-Wire Wire Line
-	8900 5450 9000 5450
-Connection ~ 8900 5450
 $Comp
 L GNDA #PWR030
 U 1 1 55808F90
@@ -1544,4 +1539,6 @@ Connection ~ 5450 6700
 Connection ~ 5450 7300
 NoConn ~ 5100 2050
 NoConn ~ 5100 2150
+NoConn ~ 9000 5900
+NoConn ~ 9000 5450
 $EndSCHEMATC

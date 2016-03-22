@@ -45,15 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 8700 2250 2    60   Output ~ 0
+Text HLabel 8700 2200 2    60   Output ~ 0
 ~SS
-Text HLabel 8700 2350 2    60   Output ~ 0
+Text HLabel 8700 2300 2    60   Output ~ 0
 SCLK
-Text HLabel 8700 2450 2    60   Output ~ 0
+Text HLabel 8700 2400 2    60   Output ~ 0
 SDI
-Text HLabel 8700 2800 2    60   Input ~ 0
+Text HLabel 8700 2500 2    60   Input ~ 0
 SDO
-Text HLabel 8700 2550 2    60   Output ~ 0
+Text HLabel 8700 2700 2    60   Output ~ 0
 ~LDAC
 $Comp
 L Si8651 U15
@@ -74,10 +74,6 @@ F 11 "Digital isolators 5 channel 3.75kV 8ns 4/1" H 7050 2850 60  0001 C CNN "No
 	1    7050 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8000 2350 7700 2350
-Wire Wire Line
-	7700 2800 8050 2800
 Wire Wire Line
 	7700 2950 7800 2950
 Wire Wire Line
@@ -182,7 +178,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 3500 6300 3500
 Wire Wire Line
-	6300 3500 6300 3800
+	6300 3800 6300 3500
 $Comp
 L C C73
 U 1 1 5574AD7F
@@ -227,7 +223,7 @@ Connection ~ 5200 2900
 Wire Wire Line
 	4400 3650 4400 3800
 Wire Wire Line
-	6300 3800 3600 3800
+	3600 3800 6300 3800
 Connection ~ 5200 3800
 Connection ~ 6000 3800
 Wire Wire Line
@@ -285,69 +281,53 @@ Connection ~ 3900 3800
 $Comp
 L R R25
 U 1 1 56E0FC32
-P 8200 2800
-F 0 "R25" V 8280 2800 50  0000 C CNN
-F 1 "150" V 8200 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 8130 2800 50  0001 C CNN
-F 3 "" H 8200 2800 50  0000 C CNN
-F 4 "MCWR08X1500FTL" H 8200 2800 60  0001 C CNN "Part Number"
-F 5 "Multicomp" H 8200 2800 60  0001 C CNN "Manufacturer"
-F 6 "0805" H 8200 2800 60  0001 C CNN "Package"
-F 7 "Farnell" H 8200 2800 60  0001 C CNN "Supplier"
-F 8 "2447574" H 8200 2800 60  0001 C CNN "Order Code"
-F 9 "Mouser" H 8200 2800 60  0001 C CNN "Alt. Supplier"
-F 10 "71-TNPW0805150RFEEA" H 8200 2800 60  0001 C CNN "Alt. Order Code"
-F 11 "150Ω/1% 0805 resistor" H 8200 2800 60  0001 C CNN "Note"
-	1    8200 2800
+P 8200 2700
+F 0 "R25" V 8280 2700 50  0000 C CNN
+F 1 "150" V 8200 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 8130 2700 50  0001 C CNN
+F 3 "" H 8200 2700 50  0000 C CNN
+F 4 "MCWR08X1500FTL" H 8200 2700 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 8200 2700 60  0001 C CNN "Manufacturer"
+F 6 "0805" H 8200 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 8200 2700 60  0001 C CNN "Supplier"
+F 8 "2447574" H 8200 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 8200 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "71-TNPW0805150RFEEA" H 8200 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "150Ω/1% 0805 resistor" H 8200 2700 60  0001 C CNN "Note"
+	1    8200 2700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8400 2250 8700 2250
+	8400 2200 8700 2200
 Wire Wire Line
-	8400 2350 8700 2350
+	8400 2300 8700 2300
 Wire Wire Line
-	8400 2450 8700 2450
+	8400 2400 8700 2400
 Wire Wire Line
-	8400 2550 8700 2550
+	8350 2700 8700 2700
 Wire Wire Line
-	8350 2800 8700 2800
+	8400 2500 8700 2500
 $Comp
 L R_PACK4 RP1
 U 1 1 56E10B8D
-P 8200 2600
-F 0 "RP1" H 8200 3050 50  0000 C CNN
-F 1 "4x150" H 8200 2550 50  0000 C CNN
-F 2 "Resistors_SMD:R_Array_Convex_4x0603" H 8200 2600 50  0001 C CNN
-F 3 "" H 8200 2600 50  0000 C CNN
-F 4 "YC164-JR-07150RL" H 8200 2600 60  0001 C CNN "Part Number"
-F 5 "Yageo" H 8200 2600 60  0001 C CNN "Manufacturer"
-F 6 "4×0603" H 8200 2600 60  0001 C CNN "Package"
-F 7 "Farnell" H 8200 2600 60  0001 C CNN "Supplier"
-F 8 "9234462" H 8200 2600 60  0001 C CNN "Order Code"
-F 9 "Mouser" H 8200 2600 60  0001 C CNN "Alt. Supplier"
-F 10 "603-YC164-JR-07150RL" H 8200 2600 60  0001 C CNN "Alt. Order Code"
-F 11 "4×150Ω/5% 0603 resistor array" H 8200 2600 60  0001 C CNN "Note"
-	1    8200 2600
+P 8200 2550
+F 0 "RP1" H 8200 3000 50  0000 C CNN
+F 1 "4x150" H 8200 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_Array_Convex_4x0603" H 8200 2550 50  0001 C CNN
+F 3 "" H 8200 2550 50  0000 C CNN
+F 4 "YC164-JR-07150RL" H 8200 2550 60  0001 C CNN "Part Number"
+F 5 "Yageo" H 8200 2550 60  0001 C CNN "Manufacturer"
+F 6 "4×0603" H 8200 2550 60  0001 C CNN "Package"
+F 7 "Farnell" H 8200 2550 60  0001 C CNN "Supplier"
+F 8 "9234462" H 8200 2550 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 8200 2550 60  0001 C CNN "Alt. Supplier"
+F 10 "603-YC164-JR-07150RL" H 8200 2550 60  0001 C CNN "Alt. Order Code"
+F 11 "4×150Ω/5% 0603 resistor array" H 8200 2550 60  0001 C CNN "Note"
+	1    8200 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7700 2200 7900 2200
-Wire Wire Line
-	7900 2200 7900 2250
-Wire Wire Line
-	7900 2250 8000 2250
-Wire Wire Line
-	8000 2450 7900 2450
-Wire Wire Line
-	7900 2450 7900 2500
-Wire Wire Line
-	7900 2500 7700 2500
-Wire Wire Line
-	7700 2650 7900 2650
-Wire Wire Line
-	7900 2650 7900 2550
-Wire Wire Line
-	7900 2550 8000 2550
+	7700 2200 8000 2200
 $Comp
 L C C76
 U 1 1 56E16574
@@ -394,4 +374,28 @@ F 3 "" H 8400 3800 60  0000 C CNN
 	1    8400 3800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8000 2300 7800 2300
+Wire Wire Line
+	7800 2300 7800 2350
+Wire Wire Line
+	7800 2350 7700 2350
+Wire Wire Line
+	8000 2400 7850 2400
+Wire Wire Line
+	7850 2400 7850 2500
+Wire Wire Line
+	7850 2500 7700 2500
+Wire Wire Line
+	8000 2500 7900 2500
+Wire Wire Line
+	7900 2500 7900 2800
+Wire Wire Line
+	7900 2800 7700 2800
+Wire Wire Line
+	7700 2650 7800 2650
+Wire Wire Line
+	7800 2650 7800 2700
+Wire Wire Line
+	7800 2700 8050 2700
 $EndSCHEMATC
