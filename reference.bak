@@ -64,25 +64,6 @@ F 11 "5.000V low-noise very low drift precision voltage reference" H 4100 2300 6
 	1    4100 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L C C47
-U 1 1 5573B996
-P 4900 2700
-F 0 "C47" H 4950 2800 50  0000 L CNN
-F 1 "1u/10V" H 4950 2600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4938 2550 30  0001 C CNN
-F 3 "" H 4900 2700 60  0000 C CNN
-F 4 "MC0603X105K100CT" H 4900 2700 60  0001 C CNN "Part Number"
-F 5 "Multicomp" H 4900 2700 60  0001 C CNN "Manufacturer"
-F 6 "0603" H 4900 2700 60  0001 C CNN "Package"
-F 7 "Farnell" H 4900 2700 60  0001 C CNN "Supplier"
-F 8 "1759399" H 4900 2700 60  0001 C CNN "Order Code"
-F 9 "Mouser" H 4900 2700 60  0001 C CNN "Alt. Supplier"
-F 10 "710-885012106010" H 4900 2700 60  0001 C CNN "Alt. Order Code"
-F 11 "1μF/10V X5R 0603 ceramic capacitor" H 4900 2700 60  0001 C CNN "Note"
-	1    4900 2700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 2000 3500 2000
 Wire Wire Line
@@ -153,25 +134,6 @@ F 9 "Mouser" H 4100 4400 60  0001 C CNN "Alt. Supplier"
 F 10 "595-REF5050AIDGKT" H 4100 4400 60  0001 C CNN "Alt. Order Code"
 F 11 "4.096V low-noise very low drift precision voltage reference" H 4100 4400 60  0001 C CNN "Note"
 	1    4100 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C48
-U 1 1 5573BE4D
-P 4900 4800
-F 0 "C48" H 4950 4900 50  0000 L CNN
-F 1 "1u/10V" H 4950 4700 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4938 4650 30  0001 C CNN
-F 3 "" H 4900 4800 60  0000 C CNN
-F 4 "MC0603X105K100CT" H 4900 4800 60  0001 C CNN "Part Number"
-F 5 "Multicomp" H 4900 4800 60  0001 C CNN "Manufacturer"
-F 6 "0603" H 4900 4800 60  0001 C CNN "Package"
-F 7 "Farnell" H 4900 4800 60  0001 C CNN "Supplier"
-F 8 "1759399" H 4900 4800 60  0001 C CNN "Order Code"
-F 9 "Mouser" H 4900 4800 60  0001 C CNN "Alt. Supplier"
-F 10 "710-885012106010" H 4900 4800 60  0001 C CNN "Alt. Order Code"
-F 11 "1μF/10V X5R 0603 ceramic capacitor" H 4900 4800 60  0001 C CNN "Note"
-	1    4900 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -408,4 +370,42 @@ Wire Wire Line
 	5300 4650 5300 4550
 Text Notes 5650 2350 0    60   ~ 0
 1Ω ESR resistor for output stability
+$Comp
+L C C47
+U 1 1 56F2D0D4
+P 4900 2700
+F 0 "C47" H 4950 2800 50  0000 L CNN
+F 1 "1u/25V" H 4950 2600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4938 2550 30  0001 C CNN
+F 3 "" H 4900 2700 60  0000 C CNN
+F 4 "GCM188R71E105KA64D" H 4900 2700 60  0001 C CNN "Part Number"
+F 5 "Murata" H 4900 2700 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 4900 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 4900 2700 60  0001 C CNN "Supplier"
+F 8 "2470425" H 4900 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4900 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "603-CC603KRX7R8BB105" H 4900 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "1μF/25V X7R 0603 ceramic capacitor" H 4900 2700 60  0001 C CNN "Note"
+	1    4900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C48
+U 1 1 56F2D0F5
+P 4900 4800
+F 0 "C48" H 4950 4900 50  0000 L CNN
+F 1 "1u/25V" H 4950 4700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4938 4650 30  0001 C CNN
+F 3 "" H 4900 4800 60  0000 C CNN
+F 4 "GCM188R71E105KA64D" H 4900 4800 60  0001 C CNN "Part Number"
+F 5 "Murata" H 4900 4800 60  0001 C CNN "Manufacturer"
+F 6 "0603" H 4900 4800 60  0001 C CNN "Package"
+F 7 "Farnell" H 4900 4800 60  0001 C CNN "Supplier"
+F 8 "2470425" H 4900 4800 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4900 4800 60  0001 C CNN "Alt. Supplier"
+F 10 "603-CC603KRX7R8BB105" H 4900 4800 60  0001 C CNN "Alt. Order Code"
+F 11 "1μF/25V X7R 0603 ceramic capacitor" H 4900 4800 60  0001 C CNN "Note"
+	1    4900 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
