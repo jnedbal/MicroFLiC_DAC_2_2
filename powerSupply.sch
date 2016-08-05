@@ -899,9 +899,9 @@ Wire Wire Line
 Wire Wire Line
 	9400 5800 10050 5800
 Text Label 9500 5200 0    60   ~ 0
-EN_VDD
-Text Label 9500 5500 0    60   ~ 0
 EN_VSS
+Text Label 9500 5500 0    60   ~ 0
+EN_VDD
 Text Label 9500 5800 0    60   ~ 0
 EN_REF
 $Comp
